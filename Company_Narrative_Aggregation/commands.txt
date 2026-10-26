@@ -1,0 +1,44 @@
+# Company_Narrative_Aggregation - basic commands (PowerShell). More: METHODOLOGY.md.
+# Every run is paid (extract_run.py: Qwen on DeepInfra; explain_run.py: Claude): it shows the estimated cost and asks "Submit? [y/N]" first.
+# The root main.py runs all of this for a company in one command:
+#   python main.py --ticker COST --search-terms Costco "Costco Wholesale" --sector-etf RSPS --start 2024-01 --end 2024-12
+
+# --- Setup ---
+cd <path to>\Expectation_Narratives
+.\.venv\Scripts\Activate.ps1
+cd Company_Narrative_Aggregation
+
+# --- Pull a company's article lists, one CSV per month (free; News_Collection's script, same environment).
+#     They go to News_Collection\pulls\<ticker>\, with its search_terms.csv (the --search-terms, space-separated;
+#     a term with a space in quotes; the ticker only if it's distinctive) ---
+python ..\News_Collection\news_pull.py --ticker COST --search-terms Costco "Costco Wholesale" --start 2024-01 --end 2024-12
+
+# --- Tag a company's articles, one run per month, into runs\<ticker>_<first>_<last>\ (full text where the
+#     site allows it). Qwen3 on DeepInfra by default; --model claude-sonnet-5-5 for Sonnet. Shows the cost per
+#     month and in total, and asks once. Rerunning the same command skips the months already done and finishes
+#     interrupted ones. Text an earlier run fetched for the same URL is reused; --refetch fetches afresh ---
+python extract_run.py --pull-dir ..\News_Collection\pulls\cost --subject "Costco (COST)" --from 2024-01 --to 2024-12
+# --- One list on its own, into its own run folder ---
+python extract_run.py --article-list ..\News_Collection\pulls\cost\news_pull_2024-07-01_2024-07-31.csv --subject "Costco (COST)"
+# --- Finish a single-list run that was interrupted (nothing is paid twice) ---
+python extract_run.py --resume --run-dir runs\<run folder>
+
+# --- Rebuild a run's reports (code_matrix, run_funnel) - free, e.g. after
+#     one was locked by Excel when the run finished ---
+python extract_reports.py runs\<run folder>
+
+# --- Explain PVGO moves from a series of monthly runs. Needs PVGO_Collection's history first:
+#     python ..\PVGO_Collection\pvgo_history.py COST --days <N> --own-beta --erp 4.6 --release-items ---
+# free: the periods, the monthly split and the request preview, no API call
+python explain_run.py --runs runs\cost_2024-01_2024-12 --dry-run
+# paid (shows the cost and asks first): one batch, one call per period and one per release (~$0.21)
+python explain_run.py --runs runs\cost_2024-01_2024-12
+# finish one that was interrupted, or re-render a collected one with the current code (free)
+python explain_run.py --resume runs\cost_2024-01_2024-12\explain_<time>
+# bring an existing run up to date (new parts only; asks first)
+python explain_run.py --update runs\cost_2024-01_2024-12\explain_<time>
+# on the trimmed 2-year EPS instead of the adjusted TTM (a new run)
+python explain_run.py --runs runs\cost_2024-01_2024-12 --basis two_year
+# answer a question about a period (one call, ~$0.02; asks first)
+python explain_run.py --ask 2024-06 2024-08 --explain-dir runs\cost_2024-01_2024-12\explain_<time>
+# the shipped example series is runs\cost_2024-01_2024-12 (its explanation: explain_20261025-2151)

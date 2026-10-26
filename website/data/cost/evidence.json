@@ -1,0 +1,580 @@
+{
+ "source": {
+  "explain_run": "Company_Narrative_Aggregation\\runs\\cost_2024-01_2024-12\\explain_20261025-2151",
+  "built": "2026-10-25"
+ },
+ "items": {
+  "2024-03/A0065": {
+   "kind": "article",
+   "article": "2024-03/A0065"
+  },
+  "2024-03/A0066": {
+   "kind": "article",
+   "article": "2024-03/A0066"
+  },
+  "2024-03/A0073-H": {
+   "kind": "headline",
+   "text": "Costco Is Cutting Prices on Several Items, Executive Says",
+   "verbatim": true,
+   "topics": "Pricing power",
+   "article": "2024-03/A0073"
+  },
+  "2024-03/A0076": {
+   "kind": "article",
+   "article": "2024-03/A0076"
+  },
+  "2024-03/A0077-S01": {
+   "kind": "statement",
+   "text": "(Reuters) -Costco's shares closed down 7.6% on Friday for its worst day since May 2022 after the membership-only retail chain missed second-quarter revenue expectations and signaled a negative impact from lower gasoline prices.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2024-03/A0077"
+  },
+  "2024-03/A0077-S02": {
+   "kind": "statement",
+   "text": "\"Gasoline price deflation negatively impacted total reported comp sales ... the average worldwide selling price per gallon of gas was down approximately 3.5% versus last year,\" Costco's outgoing CFO Richard Gallanti said.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2024-03/A0077"
+  },
+  "2024-03/A0081-S01": {
+   "kind": "statement",
+   "text": "On the earnings front, Costco (COST) shares are under pressure after the retailer reported second quarter revenue that missed expectations.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2024-03/A0081"
+  },
+  "2024-04/A0075": {
+   "kind": "article",
+   "article": "2024-04/A0075"
+  },
+  "2024-05/A0003": {
+   "kind": "article",
+   "article": "2024-05/A0003"
+  },
+  "2024-05/A0009-S01": {
+   "kind": "statement",
+   "text": "Costco's total revenue was $58.52 billion for the quarter ended May 12, compared with analysts' average estimate of $58.07 billion, according to LSEG data.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2024-05/A0009"
+  },
+  "2024-05/A0009-S02": {
+   "kind": "statement",
+   "text": "Costco's total comparable sales rose 6.5% on an adjusted basis in the quarter, compared to a 3.5% rise last year.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2024-05/A0009"
+  },
+  "2024-05/A0009-S03": {
+   "kind": "statement",
+   "text": "The company's ecommerce comparable sales rose 20.7%, led by gold and silver bullion, gift cards and appliances.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2024-05/A0009"
+  },
+  "2024-05/A0010-S01": {
+   "kind": "statement",
+   "text": "On Thursday afternoon, the company reported net sales of $58.52 billion, compared to estimates of $57.98 billion.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2024-05/A0010"
+  },
+  "2024-05/A0010-S02": {
+   "kind": "statement",
+   "text": "Same-store sales, excluding fuel, jumped 6.5%, led by its growing international business (up 8.5%), Canada (up 7.4%), and the US (up 6%).",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2024-05/A0010"
+  },
+  "2024-06/A0041-S02": {
+   "kind": "statement",
+   "text": "There is one card that Costco could play that could drive up some bullishness in the near term, potentially pushing it to a $1,000 valuation, and that's a hike to its membership fees.",
+   "verbatim": true,
+   "topics": "Pricing power",
+   "article": "2024-06/A0041"
+  },
+  "2024-06/A0043-S03": {
+   "kind": "statement",
+   "text": "Amid surges in profits, Costco warned consumers that they may have to pay a heftier fee in the future for the retailer's annual membership.",
+   "verbatim": true,
+   "topics": "Pricing power",
+   "article": "2024-06/A0043"
+  },
+  "2024-06/A0060-S01": {
+   "kind": "statement",
+   "text": "The massive warehouse store operator just reported revenue of $58.5 billion (up 9% year over year) and diluted earnings per share of $3.78 (up 29%) that easily beat Wall Street consensus analyst estimates.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2024-06/A0060"
+  },
+  "2024-06/A0060-S02": {
+   "kind": "statement",
+   "text": "In the latest fiscal quarter (Q3 2024, ended May 12), same-store sales increased 6.6%.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2024-06/A0060"
+  },
+  "2024-06/A0062": {
+   "kind": "article",
+   "article": "2024-06/A0062"
+  },
+  "2024-06/A0067-S01": {
+   "kind": "statement",
+   "text": "In their recent earnings report, both Target and Walmart noted a pullback in discretionary spending, while Costco's value and unique deals have given way to more discretionary spending and a larger market share.",
+   "verbatim": true,
+   "topics": "Market share",
+   "article": "2024-06/A0067"
+  },
+  "2024-06/A0067-S02": {
+   "kind": "statement",
+   "text": "For the quarter ended on May 12, Costco recorded revenue grew 9% YoY to $58.52 billion, earning $3.78 per share.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2024-06/A0067"
+  },
+  "2024-06/A0067-S03": {
+   "kind": "statement",
+   "text": "Costco is waiting for the right time to raise membership prices. Throughout most of its history, Costco has been raising its membership prices every five years on average, but it's now been nearly seven years since its last price hike and Costco is still keeping them steady.",
+   "verbatim": true,
+   "topics": "Pricing power",
+   "article": "2024-06/A0067"
+  },
+  "2024-07/A0073-S01": {
+   "kind": "statement",
+   "text": "The leading warehouse club operator announced this week that it is boosting its annual membership prices by 8% in September.",
+   "verbatim": true,
+   "topics": "Pricing power",
+   "article": "2024-07/A0073"
+  },
+  "2024-07/A0073-S03": {
+   "kind": "statement",
+   "text": "However, that $3.3 billion in membership fees accounts for more than half of the $6.2 billion in operating profit that it has served up in that time.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2024-07/A0073"
+  },
+  "2024-07/A0076-S01": {
+   "kind": "statement",
+   "text": "The bank said in a Thursday note that Costco's first membership hike in seven years will give investors greater earnings visibility into 2026.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2024-07/A0076"
+  },
+  "2024-07/A0078-S02": {
+   "kind": "statement",
+   "text": "Starting Sept. 1, fees will increase to $65 for individuals and $130 for executive memberships, up from $60 and $120, representing an 8% hike for both categories.",
+   "verbatim": true,
+   "topics": "Pricing power",
+   "article": "2024-07/A0078"
+  },
+  "2024-07/A0080-S01": {
+   "kind": "statement",
+   "text": "The retailer is raising membership fees by $5 to $65 a year in the US and Canada, Costco announced Wednesday.",
+   "verbatim": true,
+   "topics": "Pricing power",
+   "article": "2024-07/A0080"
+  },
+  "2024-07/A0081-S02": {
+   "kind": "statement",
+   "text": "The higher fees will go into effect from Sept. 1., and are expected to boost Costco's revenue.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2024-07/A0081"
+  },
+  "2024-07/A0083-S01": {
+   "kind": "statement",
+   "text": "(Reuters) - Costco Wholesale said on Wednesday it would hike annual membership fees for the first time in seven years for its U.S. and Canada customers, effective Sept. 1.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2024-07/A0083"
+  },
+  "2024-08/A0010": {
+   "kind": "article",
+   "article": "2024-08/A0010"
+  },
+  "2024-09/A0013": {
+   "kind": "article",
+   "article": "2024-09/A0013"
+  },
+  "2024-09/A0016-S02": {
+   "kind": "statement",
+   "text": "The US and Canada renewal rate slightly decreased to 92.9%, impacted by lower renewal rates from a digital promotion cohort.",
+   "verbatim": true,
+   "topics": "Market share",
+   "article": "2024-09/A0016"
+  },
+  "2024-09/A0018-S01": {
+   "kind": "statement",
+   "text": "(Reuters) -Costco Wholesale missed market expectations for fourth-quarter revenue on Thursday hurt by cautious consumer spending on pricier items at its membership-only stores and lower gasoline prices.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2024-09/A0018"
+  },
+  "2024-09/A0018-S02": {
+   "kind": "statement",
+   "text": "The membership warehouse retailer's same-store sales also took a hit from lower gasoline prices. They grew 5.4% in the reported period ended Sept. 1, compared with a 6.6% rise in the third quarter.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2024-09/A0018"
+  },
+  "2024-09/A0020": {
+   "kind": "article",
+   "article": "2024-09/A0020"
+  },
+  "2024-09/A0022-S01": {
+   "kind": "statement",
+   "text": "But the company posted a slight miss on revenue, with $79.7 billion, compared to expectations of $79.96 billion.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2024-09/A0022"
+  },
+  "2024-12/A0001": {
+   "kind": "article",
+   "article": "2024-12/A0001"
+  },
+  "2024-12/A0002-S01": {
+   "kind": "statement",
+   "text": "E-commerce sales rose 13% in the quarter compared with the year-ago period. The company is gaining market share by shipping big and bulky items, CEO Ron Vachris said on the company's earnings call, and it hit nearly 1 million deliveries in the quarter, which was a new record.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed);Market share",
+   "article": "2024-12/A0002"
+  },
+  "2024-12/A0002-S02": {
+   "kind": "statement",
+   "text": "Revenue: $62.15 billion vs. $62.08 billion expected",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2024-12/A0002"
+  },
+  "2024-12/A0002-S03": {
+   "kind": "statement",
+   "text": "It ended the quarter with 77.4 million paid household members, an approximately 8% year over year increase, or 138.8 million cardholders.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2024-12/A0002"
+  },
+  "2024-12/A0012-S01": {
+   "kind": "statement",
+   "text": "Total company comparable sales growth, excluding fuel: 7.2% versus 6.26%",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2024-12/A0012"
+  },
+  "2024-12/A0013": {
+   "kind": "article",
+   "article": "2024-12/A0013"
+  },
+  "2024-12/A0015-S01": {
+   "kind": "statement",
+   "text": "Analysts expect Costco will report a revenue bump of roughly 7% to $62.1 billion compared to $57.8 billion at the same time last year, according to estimates compiled by Visible Alpha.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2024-12/A0015"
+  },
+  "2024-12/A0015-S02": {
+   "kind": "statement",
+   "text": "However, analysts remained bullish following the monthly data as JPM analysts said Costco's \"core trends\" are \"ahead of expectations and quite robust,\" while Oppenheimer analysts raised the idea of a future stock split as a potential \"positive catalyst\" for Costco shares.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed);Share price & analyst views",
+   "article": "2024-12/A0015"
+  },
+  "R2023-05-25": {
+   "kind": "filing",
+   "form": "8-K",
+   "accession": "0000909832-23-000025",
+   "release_date": "2023-05-25",
+   "quarter_end": "2023-05-07",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983223000025/0000909832-23-000025-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983223000025/costex9918-k52523.htm",
+   "doc_name": "EX-99.1",
+   "search_url": "",
+   "lines": [
+    "Net income for the quarter was $1.30 billion, $2.93 per diluted share, which includes a non-recurring charge to merchandise costs of $298 million pretax, $0.50 per diluted share, primarily for the discontinuation of our charter shipping activities.",
+    "Last year's third quarter net income was $1.35 billion, $3.04 per diluted share, which included a non-recurring $77 million pretax charge, $0.13 per diluted share, for incremental employee benefits."
+   ],
+   "reconciliation": "",
+   "note": "no adjusted-EPS reconciliation table in the EX-99 exhibits; items named in the text"
+  },
+  "R2023-12-14": {
+   "kind": "filing",
+   "form": "8-K",
+   "accession": "0000909832-23-000062",
+   "release_date": "2023-12-14",
+   "quarter_end": "2023-11-26",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983223000062/0000909832-23-000062-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983223000062/costex9918-k121423.htm",
+   "doc_name": "EX-99.1",
+   "search_url": "",
+   "lines": [
+    "This year's results included a tax benefit of $44 million, $0.10 per diluted share, related to stock-based compensation.",
+    "Last year's results included a charge of $93 million pre-tax, $0.15 per diluted share, primarily related to downsizing our charter shipping activities, and a tax benefit of $53 million, $0.12 per diluted share, related to stock-based compensation."
+   ],
+   "reconciliation": "",
+   "note": "no adjusted-EPS reconciliation table in the EX-99 exhibits; items named in the text"
+  },
+  "R2024-03-07": {
+   "kind": "filing",
+   "form": "8-K",
+   "accession": "0000909832-24-000012",
+   "release_date": "2024-03-07",
+   "quarter_end": "2024-02-18",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000012/0000909832-24-000012-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000012/costex9918-k21824.htm",
+   "doc_name": "EX-99.1",
+   "search_url": "",
+   "lines": [
+    "This year's second quarter net income was positively impacted by a $94 million ($0.21 per diluted share) tax benefit due to the deductibility of the $15 per share special dividend to the extent received by 401(k) plan participants."
+   ],
+   "reconciliation": "",
+   "note": "no adjusted-EPS reconciliation table in the EX-99 exhibits; items named in the text"
+  },
+  "R2024-05-30": {
+   "kind": "filing",
+   "form": "8-K",
+   "accession": "0000909832-24-000026",
+   "release_date": "2024-05-30",
+   "quarter_end": "2024-05-12",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000026/0000909832-24-000026-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000026/costex9918-k51224.htm",
+   "doc_name": "EX-99.1",
+   "search_url": "",
+   "lines": [
+    "Last year's third quarter net income was $1.30 billion, $2.93 per diluted share, which included a non-recurring charge to merchandise costs of $298 million pretax, $0.50 per diluted share, primarily for the discontinuation of our charter shipping activities.",
+    "Last year's results included a non-recurring charge to merchandise costs of $298M pretax, $0.50 per diluted share, primarily for the discontinuation of our charter shipping activities."
+   ],
+   "reconciliation": "",
+   "note": "no adjusted-EPS reconciliation table in the EX-99 exhibits; items named in the text"
+  },
+  "R2024-09-26": {
+   "kind": "filing",
+   "form": "8-K",
+   "accession": "0000909832-24-000043",
+   "release_date": "2024-09-26",
+   "quarter_end": "2024-09-01",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000043/0000909832-24-000043-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000043/costex9918-k92624.htm",
+   "doc_name": "EX-99.1",
+   "search_url": "",
+   "lines": [
+    "This year's results included a net non-recurring tax benefit of $63 million, $0.14 per diluted share, related to a transfer pricing settlement, and true-ups of tax reserves.",
+    "This year’s results included a non-recurring tax benefit of $63M, or $0.14/diluted share."
+   ],
+   "reconciliation": "",
+   "note": "no adjusted-EPS reconciliation table in the EX-99 exhibits; items named in the text"
+  },
+  "R2024-12-12": {
+   "kind": "filing",
+   "form": "8-K",
+   "accession": "0000909832-24-000075",
+   "release_date": "2024-12-12",
+   "quarter_end": "2024-11-24",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000075/0000909832-24-000075-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000075/costex9918-k121224.htm",
+   "doc_name": "EX-99.1",
+   "search_url": "",
+   "lines": [
+    "This year's results included a tax benefit of $100 million, $0.22 per diluted share, related to stock-based compensation.",
+    "Last year's results included a tax benefit of $44 million, $0.10 per diluted share, also related to stock-based compensation.",
+    "This year’s results included a tax benefit of $100 million, or $0.22 per diluted share, related to stock- based compensation.",
+    "Last year’s results included a tax benefit of $44 million, or $0.10 per diluted share, also related to stock-based compensation."
+   ],
+   "reconciliation": "",
+   "note": "no adjusted-EPS reconciliation table in the EX-99 exhibits; items named in the text"
+  }
+ },
+ "articles": {
+  "2024-03/A0065": {
+   "title": "Is Costco Stock Going to $800? 1 Analyst Thinks So",
+   "url": "https://finance.yahoo.com/news/costco-stock-going-800-1-172504357.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-03-12"
+  },
+  "2024-03/A0066": {
+   "title": "Is Costco Stock Worth Its High Price?",
+   "url": "https://finance.yahoo.com/news/costco-stock-worth-high-price-104500419.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-03-12"
+  },
+  "2024-03/A0073": {
+   "title": "Costco Is Cutting Prices on Several Items, Executive Says",
+   "url": "https://finance.yahoo.com/news/costco-cutting-prices-several-items-212011277.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-03-08"
+  },
+  "2024-03/A0076": {
+   "title": "Why Costco Stock Took a Step Back Today",
+   "url": "https://finance.yahoo.com/news/why-costco-stock-took-step-162517605.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-03-08"
+  },
+  "2024-03/A0077": {
+   "title": "Costco stock closes for worst day in nearly two years on quarterly revenue miss",
+   "url": "https://finance.yahoo.com/news/costco-stock-set-worst-day-172915236.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-03-08"
+  },
+  "2024-03/A0081": {
+   "title": "February jobs report, State of the Union reactions, Costco disappoints: Yahoo Finance Live",
+   "url": "https://finance.yahoo.com/video/february-jobs-report-state-union-122007638.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-03-08"
+  },
+  "2024-04/A0075": {
+   "title": "Costco Wholesale Stock Has 11% Upside, According to 1 Wall Street Analyst",
+   "url": "https://finance.yahoo.com/news/costco-wholesale-stock-11-upside-114100558.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-04-04"
+  },
+  "2024-05/A0003": {
+   "title": "Why Costco Stock Pulled Back Today",
+   "url": "https://finance.yahoo.com/news/why-costco-stock-pulled-back-193439024.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-05-31"
+  },
+  "2024-05/A0009": {
+   "title": "Costco tops revenue estimates on rebound in demand for low-priced discretionary items",
+   "url": "https://finance.yahoo.com/news/costco-beats-quarterly-revenue-estimates-202300868.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-05-30"
+  },
+  "2024-05/A0010": {
+   "title": "Costco Q3 earnings beat all key metrics after the stock closed at an all-time high",
+   "url": "https://finance.yahoo.com/news/costco-q3-earnings-beat-all-key-metrics-after-the-stock-closed-at-an-all-time-high-222018033.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-05-30"
+  },
+  "2024-06/A0041": {
+   "title": "Could Costco Wholesale Stock Hit $1,000 This Year?",
+   "url": "https://finance.yahoo.com/news/could-costco-wholesale-stock-hit-090500171.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-06-12"
+  },
+  "2024-06/A0043": {
+   "title": "Costco accused of “greedflation”: Wholesaler reports increase in earnings while hiking up prices",
+   "url": "https://finance.yahoo.com/news/costco-accused-greedflation-wholesaler-reports-180006866.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-06-10"
+  },
+  "2024-06/A0060": {
+   "title": "Costco Beats Wall Street Estimates: Here's Why You Shouldn't Buy the Stock",
+   "url": "https://finance.yahoo.com/news/costco-beats-wall-street-estimates-113000677.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-06-06"
+  },
+  "2024-06/A0062": {
+   "title": "Is It Time to Buy Costco Stock Amid Talk of Increasing Membership Fees?",
+   "url": "https://finance.yahoo.com/news/time-buy-costco-stock-amid-090700109.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-06-06"
+  },
+  "2024-06/A0067": {
+   "title": "Costco Gobbles Discretionary Market Share Thanks To Its Value Proposition",
+   "url": "https://finance.yahoo.com/news/costco-gobbles-discretionary-market-share-143236173.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-06-04"
+  },
+  "2024-07/A0073": {
+   "title": "Why Did Costco Stock Slide After Raising Membership Prices by a Rotisserie Chicken?",
+   "url": "https://finance.yahoo.com/news/why-did-costco-stock-slide-114415897.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-07-12"
+  },
+  "2024-07/A0076": {
+   "title": "Buy Costco stock as shares are poised to rally 12% after the company raises membership fees for the first time since 2017",
+   "url": "https://finance.yahoo.com/news/buy-costco-stock-shares-poised-220059086.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-07-11"
+  },
+  "2024-07/A0078": {
+   "title": "Watch This Costco Price Level as Stock Gains On Membership Fee Hike, Strong Sales",
+   "url": "https://finance.yahoo.com/news/watch-costco-price-level-stock-022200272.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-07-11"
+  },
+  "2024-07/A0080": {
+   "title": "Costco membership fees are going up for the first time since 2017",
+   "url": "https://finance.yahoo.com/news/costco-membership-fees-going-first-224202446.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-07-10"
+  },
+  "2024-07/A0081": {
+   "title": "Costco Raises Membership Fees for First Time in 7 Years",
+   "url": "https://finance.yahoo.com/news/costco-raises-membership-fees-first-231645432.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-07-10"
+  },
+  "2024-07/A0083": {
+   "title": "Costco Wholesale to hike annual membership fees after seven years",
+   "url": "https://finance.yahoo.com/news/costco-wholesale-hike-annual-membership-215207056.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-07-10"
+  },
+  "2024-08/A0010": {
+   "title": "Why Costco Stock Topped the Market on Tuesday",
+   "url": "https://finance.yahoo.com/news/why-costco-stock-topped-market-215600850.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-08-27"
+  },
+  "2024-09/A0013": {
+   "title": "Why Costco Stock Was Pulling Back Today",
+   "url": "https://finance.yahoo.com/news/why-costco-stock-pulling-back-161551798.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-09-27"
+  },
+  "2024-09/A0016": {
+   "title": "Costco Wholesale Corp (COST) Q4 2024 Earnings Call Transcript Highlights: Strong E-commerce ...",
+   "url": "https://finance.yahoo.com/news/costco-wholesale-corp-cost-q4-090230597.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-09-27"
+  },
+  "2024-09/A0018": {
+   "title": "Costco misses revenue estimates on choppy big-ticket spend",
+   "url": "https://finance.yahoo.com/news/costco-wholesale-misses-quarterly-revenue-201955726.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-09-26"
+  },
+  "2024-09/A0020": {
+   "title": "Is Costco Going Back Down to $873? 1 Wall Street Analyst Thinks So",
+   "url": "https://finance.yahoo.com/news/costco-going-back-down-873-153100280.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-09-26"
+  },
+  "2024-09/A0022": {
+   "title": "Costco earnings: Revenue misses, stock slips",
+   "url": "https://finance.yahoo.com/news/costco-earnings-revenue-misses-stock-slips-130009969.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-09-25"
+  },
+  "2024-12/A0001": {
+   "title": "Costco quarter signals record stock run is not done yet. Here's our new price target",
+   "url": "https://www.cnbc.com/investingclub/2024/12/12/costco-quarter-signals-record-stock-run-is-not-done-here-is-our-new-price-target.html",
+   "source": "cnbc.com",
+   "published": "2024-12-12"
+  },
+  "2024-12/A0002": {
+   "title": "Costco beats on earnings as e-commerce sales jump",
+   "url": "https://www.cnbc.com/2024/12/12/costco-cost-earnings-q1-2025-earnings.html",
+   "source": "cnbc.com",
+   "published": "2024-12-12"
+  },
+  "2024-12/A0012": {
+   "title": "Costco posts another quarter of sales growth against an uncertain consumer environment",
+   "url": "https://finance.yahoo.com/news/costco-posts-another-quarter-of-sales-growth-against-an-uncertain-consumer-environment-214633091.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-12-12"
+  },
+  "2024-12/A0013": {
+   "title": "Costco tops quarterly sales, profit estimates on steady early holiday demand",
+   "url": "https://finance.yahoo.com/news/costco-beats-quarterly-sales-estimates-212038154.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-12-12"
+  },
+  "2024-12/A0015": {
+   "title": "Ahead of Earnings, Analysts Say ‘Robust’ Costco May See Stock Split",
+   "url": "https://finance.yahoo.com/news/ahead-earnings-analysts-robust-costco-190744744.html",
+   "source": "finance.yahoo.com",
+   "published": "2024-12-09"
+  }
+ }
+}

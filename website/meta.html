@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Deconstructing PVGO Moves</title>
+  <meta name="description" content="Why Meta Platforms' growth share (PVGO / price) moved from September 2022 to August 2023, month by month, explained from the news.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M3 26 L11 17 L17 21 L29 7' fill='none' stroke='%23ff9f1c' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='27' cy='8' r='4' fill='%23f2f0eb'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-company="meta_2022-09_2023-08">
+  <div class="layout">
+  <nav class="site-nav" aria-label="Pages">
+    <div class="wrap tabs">
+      <a class="tab" href="design.html">Design Overview</a>
+      <a class="tab" href="meta.html" aria-current="page">Example Output – Meta Platforms (META)</a>
+      <a class="tab" href="./">Example Output – Costco (COST)</a>
+    </div>
+  </nav>
+
+  <header class="site-header">
+    <h1 id="page-title">Deconstructing PVGO Moves</h1>
+    <p class="lede">
+      How much of a stock's price is the market paying for growth, and why does that share change?
+      The <strong>growth share</strong> is PVGO / price: the part of the price that today's earnings,
+      held flat forever, don't explain. Move the slider to step through the months, and that
+      month's explanation scrolls into view.
+    </p>
+    <p class="repo-link" id="repo-link" hidden><a href="#">Code and method on GitHub</a></p>
+    <p class="footnote" id="footnote"></p>
+    <details class="intro" id="intro" hidden>
+      <summary>How to read this: method, findings and settings</summary>
+      <div class="explanations intro-body"></div>
+    </details>
+  </header>
+
+  <div class="viz" id="viz">
+    <div class="viz-chart wrap">
+      <div class="chart-head">
+        <h2 class="chart-title" id="chart-title">Share price vs. no-growth value</h2>
+        <ul class="legend" aria-label="Legend">
+          <li><span class="key key-line" style="--c: var(--price)"></span>Share price, daily close</li>
+          <li><span class="key key-line" style="--c: var(--nogrowth)"></span>No-growth value</li>
+          <li><span class="key key-area"></span>PVGO</li>
+          <li><span class="key key-line" style="--c: var(--share)"></span>Growth share</li>
+          <li><span class="key key-dot"></span>Measurement date</li>
+          <li><span class="key key-dotted"></span>Earnings release</li>
+          <li><span class="key key-month"></span>Selected month</li>
+          <li><span class="key key-line" style="--c: var(--market)"></span><span>Market's part<span class="sector-etf"></span>, cumulative</span></li>
+          <li><span class="key key-line" style="--c: var(--company)"></span>Company-specific part, cumulative</li>
+          <li><span class="key key-stands-out"></span>Divergent or outlier period</li>
+        </ul>
+      </div>
+      <div id="chart" class="chart" role="img" aria-label="Daily share price, no-growth value and growth share, and the market's and company-specific parts of the growth share's change"></div>
+    </div>
+    <div class="viz-controls" id="controls">
+      <div class="wrap">
+        <div class="slider-row">
+          <button type="button" class="step" id="prev" aria-label="Previous month">&#8249;</button>
+          <div class="slider-wrap">
+            <input type="range" id="month-slider" min="0" max="0" step="1" value="0" aria-label="Month">
+            <div class="ticks" id="ticks"></div>
+          </div>
+          <button type="button" class="step" id="next" aria-label="Next month">&#8250;</button>
+        </div>
+        <p class="month-label" id="month-label" aria-live="polite"></p>
+      </div>
+    </div>
+  </div>
+
+  <main class="content">
+    <article class="explanations" id="explanations">
+      <p class="loading">Loading…</p>
+    </article>
+  </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/plotly.js-basic-dist-min@2.35.2/plotly-basic.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/lib/marked.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

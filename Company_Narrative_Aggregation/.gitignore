@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+batch_state.json
+batch_requests_preview.jsonl
+.env
+articles/
+runs/*/articles/
+# The DeepInfra request log holds each article's full text (publishers' text, like articles/);
+# it's only read by --resume on an unfinished run, which also needs batch_state.json
+realtime_requests.jsonl

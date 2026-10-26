@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Expectation Narratives at a Glance</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+  /* Layout: one wide two-lane flow (words on top, numbers below) that meets at the point-in-time explanations, then the Costco bridge, trust notes and the data upgrade path. */
+  :root {
+    --bg: #F4F6F3;
+    --surface: #FFFFFF;
+    --ink: #17201C;
+    --muted: #59645F;
+    --line: #C6CEC9;
+    --chip: #EEF1EE;
+    --accent: #1C7550;      /* growth green, the colour of the growth share in the project's chart */
+    --accent-soft: #DFF0E7;
+    --on-accent: #FFFFFF;
+    --news: #9A5A12;        /* newsprint amber for the words lane */
+    --neg: #A23B2A;
+    --display: "Newsreader", Georgia, "Times New Roman", serif;
+    --sans: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #101513; --surface: #19201D; --ink: #E5ECE8; --muted: #9AA6A0; --line: #34403A;
+      --chip: #222B27; --accent: #52C28F; --accent-soft: #1B3328; --on-accent: #0D1A14; --news: #E3A65C; --neg: #E6806C;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #101513; --surface: #19201D; --ink: #E5ECE8; --muted: #9AA6A0; --line: #34403A;
+    --chip: #222B27; --accent: #52C28F; --accent-soft: #1B3328; --on-accent: #0D1A14; --news: #E3A65C; --neg: #E6806C;
+    color-scheme: dark;
+  }
+
+  body { background: var(--bg); color: var(--ink); font-family: var(--sans); font-size: 15px; line-height: 1.55; }
+  .wrap {
+    max-width: 1220px; margin: 0 auto;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+    padding-block: 48px 64px;
+    display: grid; gap: 44px;
+  }
+  header { display: grid; gap: 14px; max-width: 72ch; }
+  .eyebrow { font: 600 12px/1 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
+  h1 { font: 600 clamp(30px, 4.4vw, 46px)/1.08 var(--display); margin: 0; text-wrap: balance; letter-spacing: -.01em; }
+  .lede { margin: 0; font-size: 17px; color: var(--muted); }
+  .lede strong { color: var(--ink); font-weight: 600; }
+  .formula { font-family: var(--mono); font-size: 14px; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px 16px; display: grid; gap: 4px; overflow-x: auto; }
+  .formula span { white-space: nowrap; }
+  .formula em { font-style: normal; color: var(--muted); }
+
+  figure { margin: 0; display: grid; gap: 14px; }
+  .scroller { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 8px; }
+  .scroller svg { display: block; width: 100%; min-width: 920px; height: auto; }
+  figcaption { color: var(--muted); max-width: 76ch; font-size: 14px; }
+  .hint { display: none; font-size: 12px; color: var(--muted); }
+  @media (max-width: 960px) { .hint { display: block; } }
+
+  /* SVG marks */
+  .box { fill: var(--surface); stroke: var(--line); stroke-width: 1.25; }
+  .box-news { stroke: var(--news); }
+  .box-test { fill: var(--bg); stroke: var(--line); }
+  .box-core { stroke: var(--accent); stroke-width: 1.75; }
+  .box-check { stroke: var(--muted); stroke-dasharray: 4 3; }
+  .box-out { stroke: var(--accent); stroke-width: 2; }
+  .chip { fill: var(--chip); }
+  .chip-check { fill: var(--chip); stroke: var(--muted); stroke-width: 1.25; stroke-dasharray: 4 3; }
+  .rule { stroke: var(--line); stroke-width: 1; }
+  .flow { fill: none; stroke: var(--muted); stroke-width: 1.5; }
+  .flow-news { stroke: var(--news); }
+  .flow-accent { stroke: var(--accent); }
+  .flow-check { stroke-dasharray: 4 3; }
+  .ah-muted { fill: var(--muted); } .ah-news { fill: var(--news); } .ah-accent { fill: var(--accent); }
+  .t-title { font: 600 13.5px var(--sans); fill: var(--ink); }
+  .t-sub { font: 600 12.5px var(--sans); fill: var(--ink); }
+  .t-body { font: 400 12px var(--sans); fill: var(--muted); }
+  .t-row { font: 400 11.5px var(--sans); fill: var(--ink); }
+  .t-code { font: 600 10.5px var(--mono); fill: var(--news); letter-spacing: .02em; }
+  .t-math { font: 500 11.5px var(--mono); fill: var(--ink); }
+  .t-chip { font: 500 12px var(--sans); fill: var(--ink); }
+  .t-label { font: 500 11px var(--sans); fill: var(--muted); }
+  .t-label-news { fill: var(--news); }
+  .t-label-accent { fill: var(--accent); }
+  .t-num { font: 600 13px var(--mono); fill: var(--accent); }
+  .t-tag { font: 600 10.5px var(--sans); letter-spacing: .1em; fill: var(--muted); }
+  .t-tag-news { fill: var(--news); }
+  .t-tag-accent { fill: var(--accent); }
+
+  .badge { fill: var(--ink); }
+  .t-badge { font: 600 10px var(--mono); fill: var(--bg); letter-spacing: .02em; }
+
+  h2 { font: 600 24px/1.2 var(--display); margin: 0; text-wrap: balance; }
+  .models { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+  .model { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 20px 22px; display: grid; gap: 12px; align-content: start; min-width: 0; }
+  .model .role { font: 600 11px/1 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+  .model .role.news { color: var(--news); }
+  .model h3 { margin: 0; font: 600 22px/1.2 var(--display); display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+  .model h3 span { font: 500 12.5px var(--mono); color: var(--muted); }
+  .model dl { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 8px 16px; margin: 0; font-size: 14px; }
+  .model dt { font: 600 11px/1.9 var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  .model dd { margin: 0; }
+  .model dd.cost { font-family: var(--mono); font-variant-numeric: tabular-nums; color: var(--accent); }
+  .models-note { margin: 0; color: var(--muted); font-size: 14px; max-width: 76ch; }
+  @media (max-width: 860px) { .models { grid-template-columns: 1fr; } }
+  section { display: grid; gap: 18px; }
+  section > p { margin: 0; max-width: 72ch; }
+  .costco { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 28px; align-items: start; }
+  .stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .stat { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; display: grid; gap: 4px; align-content: start; }
+  .stat .v { font: 600 22px/1.15 var(--mono); color: var(--ink); font-variant-numeric: tabular-nums; }
+  .stat .v .to { color: var(--accent); }
+  .stat .k { font-size: 13.5px; color: var(--muted); }
+  .bridge { display: grid; gap: 10px; min-width: 0; }
+  .bridge table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  .bridge th { text-align: left; font: 600 11px var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); padding: 0 0 8px; border-bottom: 1px solid var(--line); }
+  .bridge th:last-child, .bridge td:last-child { text-align: right; }
+  .bridge td { padding: 7px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+  .bridge td:last-child { font-family: var(--mono); font-variant-numeric: tabular-nums; white-space: nowrap; padding-left: 16px; }
+  .bridge td small { display: block; color: var(--muted); font-size: 12.5px; }
+  .bridge .pos { color: var(--accent); } .bridge .neg { color: var(--neg); }
+  .bridge tr.total td { font-weight: 600; border-bottom: 0; border-top: 2px solid var(--ink); }
+  .finding { margin: 0; color: var(--muted); font-size: 14px; }
+  .trust { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 32px; margin: 0; padding: 0; list-style: none; }
+  .trust li { display: grid; gap: 6px; border-top: 2px solid var(--accent); padding-top: 14px; min-width: 0; }
+  .trust b { font-weight: 600; }
+  .trust span { color: var(--muted); font-size: 14px; }
+  .upgrade { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 28px; align-items: start; }
+  .upgrade p { margin: 0; }
+  .upgrade p + p { margin-top: 12px; color: var(--muted); font-size: 14px; }
+  .compare { width: 100%; border-collapse: collapse; font-size: 14px; }
+  .compare th { text-align: left; font: 600 11px var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); padding: 0 12px 8px 0; border-bottom: 1px solid var(--line); }
+  .compare td { padding: 8px 12px 8px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+  .compare td:first-child { color: var(--muted); white-space: nowrap; }
+  .compare td:last-child { color: var(--accent); }
+  .compare-wrap { overflow-x: auto; min-width: 0; }
+  @media (max-width: 860px) {
+    .costco, .upgrade { grid-template-columns: 1fr; }
+    .trust { grid-template-columns: 1fr; gap: 18px; }
+  }
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Expectation Narratives · how it works</div>
+    <h1>Why a stock's PVGO share moves</h1>
+    <p class="lede">We track a stock's <strong>growth share</strong> daily: the fraction of the price above its <strong>no-growth value</strong>, trailing earnings capitalised at the cost of equity with no growth. Every daily change is bridged into market, company-specific, earnings and rate parts. Each month is cut into periods labelled by how much of the move the market explains, and every period and every earnings release is explained by AI that works only from a controlled set of sources, filtered through the company's value drivers, and must cite the evidence behind every cause. Ask a chatbot why a stock moved and you get a plausible answer from opaque sources; here every answer can be checked line by line.</p>
+    <div class="formula" aria-label="Formulas">
+      <span>no-growth value&nbsp;&nbsp;= adjusted TTM EPS ÷ cost of equity</span>
+      <span>cost of equity&nbsp;&nbsp;&nbsp;= 10y Treasury + β × ERP</span>
+      <span>growth share&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 1 − no-growth value ÷ price <em>&nbsp;(= PVGO ÷ price)</em></span>
+    </div>
+  </header>
+
+  <figure>
+    <div class="scroller">
+      <svg viewBox="0 0 1220 480" role="img" aria-label="Flowchart. Public data feeds two lanes. In the words lane, AI extracts verbatim statements from free news sources and codes each one to a value-driver codebook. In the numbers lane, filings and market data give a daily growth share, which is bridged into market, company-specific, EPS and rates parts. Both lanes meet in point-in-time explanations: each month is cut into periods labelled by how much the market explains, and every period and every earnings release is explained; a built-in placebo check counts causes found where the market or ordinary noise explains the move. The output is an attribution report in which every cause cites its evidence.">
+        <defs>
+          <marker id="ah-m" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="ah-muted" d="M0,0 L10,5 L0,10 z"/></marker>
+          <marker id="ah-n" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="ah-news" d="M0,0 L10,5 L0,10 z"/></marker>
+          <marker id="ah-a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="ah-accent" d="M0,0 L10,5 L0,10 z"/></marker>
+        </defs>
+
+        <!-- Lane tags -->
+        <text class="t-tag" x="20" y="54">PUBLIC DATA</text>
+        <text class="t-tag t-tag-news" x="240" y="54">THE WORDS</text>
+        <text class="t-tag" x="240" y="269">THE NUMBERS</text>
+        <text class="t-tag" x="740" y="54">THE EXPLANATION</text>
+        <text class="t-tag t-tag-accent" x="1020" y="149">THE OUTPUT</text>
+
+        <!-- Inputs -->
+        <rect class="box box-news" x="20" y="85" width="170" height="90" rx="8"/>
+        <text class="t-title" x="36" y="116">News flow (free)</text>
+        <text class="t-body" x="36" y="138">CNBC, Yahoo Finance,</text>
+        <text class="t-body" x="36" y="155">Fortune: no paywall</text>
+
+        <rect class="box" x="20" y="290" width="170" height="70" rx="8"/>
+        <text class="t-title" x="36" y="320">Earnings filings</text>
+        <text class="t-body" x="36" y="340">SEC XBRL, 8-K releases</text>
+
+        <rect class="box" x="20" y="380" width="170" height="70" rx="8"/>
+        <text class="t-title" x="36" y="410">Market data</text>
+        <text class="t-body" x="36" y="430">prices, 10y UST, ERP</text>
+
+        <line class="flow flow-news" x1="190" y1="130" x2="237" y2="130" marker-end="url(#ah-n)"/>
+        <line class="flow" x1="190" y1="325" x2="237" y2="325" marker-end="url(#ah-m)"/>
+        <line class="flow" x1="190" y1="415" x2="237" y2="415" marker-end="url(#ah-m)"/>
+
+        <!-- 1 Extract & code -->
+        <rect class="box box-news" x="240" y="65" width="220" height="185" rx="8"/>
+        <text class="t-num" x="256" y="96">1</text>
+        <text class="t-title" x="272" y="96">Extract &amp; code</text>
+        <text class="t-body" x="256" y="118">verbatim statements, each coded</text>
+        <text class="t-body" x="256" y="135">to a value-driver codebook:</text>
+        <line class="rule" x1="256" y1="146" x2="444" y2="146"/>
+        <text class="t-row" x="256" y="164">Revenue growth</text>
+        <text class="t-code" x="444" y="164" text-anchor="end">TAM SHARE REV</text>
+        <text class="t-row" x="256" y="182">Operating margins</text>
+        <text class="t-code" x="444" y="182" text-anchor="end">PRICE COST</text>
+        <text class="t-row" x="256" y="200">Investment efficiency</text>
+        <text class="t-code" x="444" y="200" text-anchor="end">INVEST</text>
+        <text class="t-row" x="256" y="218">Cost of capital</text>
+        <text class="t-code" x="444" y="218" text-anchor="end">EQUITY DEBT</text>
+        <text class="t-row" x="256" y="236">Failure risk</text>
+        <text class="t-code" x="444" y="236" text-anchor="end">FAIL</text>
+
+        <!-- words lane to the explanations -->
+        <line class="flow flow-news" x1="460" y1="130" x2="737" y2="130" marker-end="url(#ah-n)"/>
+        <text class="t-label t-label-news" x="598" y="121" text-anchor="middle">coded statements, by date</text>
+
+        <!-- 2 Growth share -->
+        <rect class="box" x="240" y="280" width="220" height="180" rx="8"/>
+        <text class="t-num" x="256" y="310">2</text>
+        <text class="t-title" x="272" y="310">Price the growth share</text>
+        <text class="t-math" x="256" y="338">NGV = adj. TTM EPS ÷ CoE</text>
+        <text class="t-math" x="256" y="358">CoE = 10y UST + β × ERP</text>
+        <text class="t-math" x="256" y="378">share = 1 − NGV ÷ P</text>
+        <line class="rule" x1="256" y1="392" x2="444" y2="392"/>
+        <text class="t-body" x="256" y="412">point-in-time EPS, stepped at</text>
+        <text class="t-body" x="256" y="429">each 8-K; β re-estimated</text>
+        <text class="t-body" x="256" y="446">monthly; daily series</text>
+
+        <line class="flow" x1="460" y1="370" x2="507" y2="370" marker-end="url(#ah-m)"/>
+        <text class="t-label" x="484" y="361" text-anchor="middle">daily Δ</text>
+
+        <!-- 3 Daily bridge -->
+        <rect class="box" x="510" y="280" width="180" height="180" rx="8"/>
+        <text class="t-num" x="526" y="310">3</text>
+        <text class="t-title" x="542" y="310">Bridge each day</text>
+        <rect class="chip" x="526" y="326" width="148" height="25" rx="5"/>
+        <text class="t-chip" x="600" y="343" text-anchor="middle">Market factors</text>
+        <rect class="chip" x="526" y="357" width="148" height="25" rx="5"/>
+        <text class="t-chip" x="600" y="374" text-anchor="middle">EPS update</text>
+        <rect class="chip" x="526" y="388" width="148" height="25" rx="5"/>
+        <text class="t-chip" x="600" y="405" text-anchor="middle">Treasury &amp; beta</text>
+        <rect class="chip-check" x="526" y="419" width="148" height="25" rx="5"/>
+        <text class="t-chip" x="600" y="436" text-anchor="middle">Company-specific</text>
+
+        <!-- the bridge, cut into periods, up to the period and release explanations -->
+        <polyline class="flow" points="660,280 660,190 737,190" marker-end="url(#ah-m)"/>
+        <text class="t-label" x="700" y="181" text-anchor="middle">periods</text>
+
+        <!-- each period's label to the placebo check -->
+        <line class="flow flow-check" x1="674" y1="431" x2="753" y2="431" marker-end="url(#ah-m)"/>
+        <text class="t-label" x="714" y="422" text-anchor="middle">labels</text>
+
+        <!-- 4 Explain, point in time -->
+        <rect class="box box-test" x="740" y="65" width="220" height="395" rx="8"/>
+        <text class="t-num" x="756" y="96">4</text>
+        <text class="t-title" x="772" y="96">Explain, point in time</text>
+
+        <rect class="box box-core" x="756" y="110" width="188" height="110" rx="6"/>
+        <text class="t-sub" x="770" y="131">Every period</text>
+        <text class="t-body" x="770" y="151">the period's news ±1 day</text>
+        <text class="t-body" x="770" y="168">and the stock's own moves,</text>
+        <text class="t-body" x="770" y="185">no market figures → cause,</text>
+        <text class="t-body" x="770" y="202">with its confidence</text>
+
+        <rect class="box box-core" x="756" y="230" width="188" height="103" rx="6"/>
+        <text class="t-sub" x="770" y="251">Every earnings release</text>
+        <text class="t-body" x="770" y="271">one-time items extracted</text>
+        <text class="t-body" x="770" y="288">from the press releases,</text>
+        <text class="t-body" x="770" y="305">amounts checked in code;</text>
+        <text class="t-body" x="770" y="322">code labels the reaction</text>
+
+        <rect class="box box-check" x="756" y="343" width="188" height="101" rx="6"/>
+        <text class="t-sub" x="770" y="364">Placebo check, built in</text>
+        <text class="t-body" x="770" y="384">a cause in a market-driven</text>
+        <text class="t-body" x="770" y="401">or within-noise period is</text>
+        <text class="t-body" x="770" y="418">suspect: counted against</text>
+        <text class="t-body" x="770" y="435">the stand-out periods</text>
+
+        <line class="flow flow-accent" x1="960" y1="262" x2="1017" y2="262" marker-end="url(#ah-a)"/>
+        <text class="t-label t-label-accent" x="989" y="253" text-anchor="middle">cited</text>
+
+        <!-- 5 Attribution report -->
+        <rect class="box box-out" x="1020" y="160" width="180" height="205" rx="8"/>
+        <text class="t-num" x="1036" y="191">5</text>
+        <text class="t-title" x="1052" y="191">Attribution report</text>
+        <text class="t-body" x="1036" y="217">why the growth share</text>
+        <text class="t-body" x="1036" y="235">moved: each month, each</text>
+        <text class="t-body" x="1036" y="253">period, each earnings</text>
+        <text class="t-body" x="1036" y="271">release</text>
+        <text class="t-body" x="1036" y="303">every cause and release</text>
+        <text class="t-body" x="1036" y="321">cites its sources</text>
+        <text class="t-label" x="1036" y="347">+ confidence; placebo count</text>
+
+        <!-- Model badges, drawn last so they sit on top of the box borders -->
+        <rect class="badge" x="356" y="57" width="92" height="17" rx="8.5"/>
+        <text class="t-badge" x="402" y="69" text-anchor="middle">Qwen3-235B</text>
+        <rect class="badge" x="856" y="57" width="92" height="17" rx="8.5"/>
+        <text class="t-badge" x="902" y="69" text-anchor="middle">Claude Sonnet</text>
+      </svg>
+    </div>
+    <div class="hint">Scroll sideways to see the whole flow.</div>
+    <figcaption>The bridge says how much of each move needs explaining. The coded statements say what changed. Code cuts each month into periods, labelled by how much of the move the market explains (a rolling S&amp;P 500 and sector-ETF model); a day whose company-specific move is at least 2.5× its trailing 60-day volatility stands alone. Every period and every earnings release gets an explanation built only from the news and filings around it, with every cause cited. The news is company-specific, so a cause found where the market or ordinary noise explains the move is suspect: the placebo check counts them.</figcaption>
+  </figure>
+
+  <section>
+    <h2>Two models, each matched to its job</h2>
+    <div class="models">
+      <div class="model">
+        <div class="role news">Step 1 · Extraction</div>
+        <h3>Qwen3-235B <span>open-weight, via DeepInfra</span></h3>
+        <dl>
+          <dt>Task</dt><dd>High volume, narrow job: extract statements from each article and code them to the codebook, returned as schema-enforced JSON.</dd>
+          <dt>Why</dt><dd>The task is tightly constrained, so a large open-weight model does it at a fraction of frontier prices. It answers with sentence numbers, so every quote is verbatim.</dd>
+          <dt>Cost</dt><dd class="cost">$0.10 for Costco's 864 articles</dd>
+        </dl>
+      </div>
+      <div class="model">
+        <div class="role">Step 4 · Explanation</div>
+        <h3>Claude Sonnet <span>Anthropic, batch API</span></h3>
+        <dl>
+          <dt>Task</dt><dd>A few dozen calls a year that need judgment: one per period (44 for Costco's year), naming the change in expectations behind its move, and one per earnings release, which only extracts the one-time items its press releases name. Outputs are structured and validated in code.</dd>
+          <dt>Why</dt><dd>This is where model quality matters most. Running the calls as one batch job lowers the price.</dd>
+          <dt>Cost</dt><dd class="cost">$0.16 for Costco's year</dd>
+        </dl>
+      </div>
+    </div>
+    <p class="models-note">A cheap model where volume is high and the task is constrained, a stronger one where volume is low and judgment matters. Each paid step shows its cost estimate and asks before spending. The extraction model is a setting, so Sonnet can run step 1 too.</p>
+  </section>
+
+  <section>
+    <h2>Proof of concept: Costco in 2024</h2>
+    <div class="costco">
+      <div class="stats">
+        <div class="stat"><div class="v">71.3% <span class="to">→ 78.6%</span></div><div class="k">growth share, Jan to Dec</div></div>
+        <div class="stat"><div class="v">864 <span class="to">→ 484</span></div><div class="k">articles read, coded statements kept</div></div>
+        <div class="stat"><div class="v">44 + 4</div><div class="k">period and earnings-release explanations, each citing its evidence</div></div>
+        <div class="stat"><div class="v">≈ $0.26</div><div class="k">AI cost for the whole year</div></div>
+      </div>
+      <div class="bridge">
+        <table>
+          <thead><tr><th>Bridge of the change</th><th>pp</th></tr></thead>
+          <tbody>
+            <tr><td>Market<small>return explained by the S&amp;P 500 and RSPS, the equal-weight consumer-staples ETF</small></td><td class="pos">+3.8</td></tr>
+            <tr><td>Company-specific, stand-out periods<small>the 10 divergent or outlier periods</small></td><td class="pos">+0.5</td></tr>
+            <tr><td>Company-specific, quiet periods<small>the 34 market-driven or within-noise periods</small></td><td class="pos">+3.7</td></tr>
+            <tr><td>EPS updates<small>new quarter replacing the old at each release</small></td><td class="neg">−3.5</td></tr>
+            <tr><td>10-year Treasury</td><td class="pos">+2.2</td></tr>
+            <tr><td>Beta</td><td class="pos">+0.6</td></tr>
+            <tr class="total"><td>Total</td><td>+7.3</td></tr>
+          </tbody>
+        </table>
+        <p class="finding">The re-rating came from the market and ordinary drift: the 10 periods that stand out net to +0.5pp. Each release raised trailing EPS, which worked against the growth share; $0.97 of the $2.35 rise was one-time items the press releases name.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Why the output can be trusted</h2>
+    <ul class="trust">
+      <li><b>A structured codebook, not free-form tagging</b><span>Codes follow Damodaran's value drivers, with definitions and routing rules, enforced by a JSON schema. Stock-pick pages and bare price-move or rating statements are excluded.</span></li>
+      <li><b>Point in time</b><span>EPS uses only filings available at each date, stepped at the 8-K acceptance time. Beta uses only prices known at each month end. Each period's explanation reads only its own news, from the day before to the day after.</span></li>
+      <li><b>Every claim has a source</b><span>Quotes are verbatim by construction. Each cause carries a statement ID that traces to its article and outlet, and each release cites its press releases, linked to SEC EDGAR.</span></li>
+      <li><b>A placebo check, built in</b><span>The news is company-specific, so a cause found where the market or ordinary noise explains the move is suspect. In Costco's year the model found one in 1 of 34 such periods, against 4 of the 8 that stand out. Given fake moves on 12 quiet days, it found a medium-confidence cause for 1.</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>What better data would add</h2>
+    <div class="upgrade">
+      <div>
+        <p>The prototype runs on free sources: three outlets on Media Cloud whose full text can be fetched without a paywall, selected by a search term in the headline. Nothing downstream depends on the source. A licensed news feed would plug into step 1 unchanged.</p>
+        <p>We expect it to widen coverage and cut screening noise. In the Costco run, 36 of 44 periods have no cause found and one more had no news, and none of the six stand-out rises has a cause in the news. Part of that is drift that news may never explain, which is why estimate revisions and style factors are also on the roadmap.</p>
+      </div>
+      <div class="compare-wrap">
+        <table class="compare">
+          <thead><tr><th></th><th>Today (free)</th><th>Licensed feed</th></tr></thead>
+          <tbody>
+            <tr><td>Outlets</td><td>CNBC, Yahoo Finance, Fortune</td><td>Broad press plus wire services</td></tr>
+            <tr><td>Selection</td><td>Company name in the headline</td><td>Entity-tagged articles, sector news</td></tr>
+            <tr><td>Primary sources</td><td>Press releases only</td><td>Earnings-call transcripts</td></tr>
+            <tr><td>Noise</td><td>864 articles → 484 statements</td><td>Fewer listicles and duplicates</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</div>
+</body>
+</html>

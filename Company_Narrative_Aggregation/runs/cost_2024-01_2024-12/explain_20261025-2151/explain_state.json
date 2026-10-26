@@ -1,0 +1,3858 @@
+{
+ "subject": "Costco (COST)",
+ "ticker": "COST",
+ "sector": "RSPS",
+ "basis": "ttm_adjusted",
+ "model": "claude-sonnet-5-5",
+ "first": "2024-01",
+ "last": "2024-12",
+ "runs": [
+  "runs/cost_2024-01_2024-12/news_pull_2024-01-01_2024-01-31",
+  "runs/cost_2024-01_2024-12/news_pull_2024-02-01_2024-02-29",
+  "runs/cost_2024-01_2024-12/news_pull_2024-03-01_2024-03-31",
+  "runs/cost_2024-01_2024-12/news_pull_2024-04-01_2024-04-30",
+  "runs/cost_2024-01_2024-12/news_pull_2024-05-01_2024-05-31",
+  "runs/cost_2024-01_2024-12/news_pull_2024-06-01_2024-06-30",
+  "runs/cost_2024-01_2024-12/news_pull_2024-07-01_2024-07-31",
+  "runs/cost_2024-01_2024-12/news_pull_2024-08-01_2024-08-31",
+  "runs/cost_2024-01_2024-12/news_pull_2024-09-01_2024-09-30",
+  "runs/cost_2024-01_2024-12/news_pull_2024-10-01_2024-10-31",
+  "runs/cost_2024-01_2024-12/news_pull_2024-11-01_2024-11-30",
+  "runs/cost_2024-01_2024-12/news_pull_2024-12-01_2024-12-31"
+ ],
+ "pvgo_settings": {
+  "beta": "own beta (60 monthly returns vs the S&P 500, Blume-adjusted)",
+  "erp": "a fixed ERP of 4.60%"
+ },
+ "extraction_models": [
+  "Qwen/Qwen3-235B-A22B-Instruct-2507"
+ ],
+ "pvgo_dir": "../PVGO_Collection/Outputs_CSV_data",
+ "prompt_sha256": {
+  "told": "496e64d8a027b8995b4f2eaffc6c794468e77a3318bb81e79a4700687b4ff4d8",
+  "release": "5f25a0959c2e9581a357e06b4ce204024c3449e41a01705bc4fb8ac684963eb4",
+  "ask": "2c2ecd27dd994aa34944a2f5b0e5b3e43ef2dfdcacb310dc6889a98d24c74dad"
+ },
+ "config": {
+  "FIT_DAYS": 180,
+  "VOL_DAYS": 60,
+  "SHOCK_Z": 2.5,
+  "SWING_PP": 0.75,
+  "PERIOD_MAX_DAYS": 10,
+  "MARKET_DRIVEN_SHARE": 0.7,
+  "NOISE_Z": 1.5,
+  "OUTLIER_SHARE": 0.3,
+  "NEWS_DAYS": 1
+ },
+ "periods": [
+  {
+   "period_id": "P01",
+   "month": "2024-01",
+   "start": "2024-01-02",
+   "end": "2024-01-03",
+   "days": 2,
+   "z": -1.0,
+   "ret_pct": -2.345,
+   "spx_ret_pct": -1.368,
+   "sector_ret_pct": 0.334,
+   "company_ret_pct": -1.682,
+   "price_driven_pp": -0.682,
+   "market_pp": -0.192,
+   "company_pp": -0.49,
+   "label": "within noise",
+   "market_share": 0.282,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-01-02",
+     "ret_pct": -1.43
+    },
+    {
+     "date": "2024-01-03",
+     "ret_pct": -0.92
+    }
+   ],
+   "n_statements": 3,
+   "n_articles": 0,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P02",
+   "month": "2024-01",
+   "start": "2024-01-04",
+   "end": "2024-01-18",
+   "days": 10,
+   "z": 1.59,
+   "ret_pct": 6.433,
+   "spx_ret_pct": 1.624,
+   "sector_ret_pct": -1.3,
+   "company_ret_pct": 5.754,
+   "price_driven_pp": 1.79,
+   "market_pp": 0.187,
+   "company_pp": 1.603,
+   "label": "outlier",
+   "market_share": 0.104,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-01-04",
+     "ret_pct": 0.57
+    },
+    {
+     "date": "2024-01-05",
+     "ret_pct": 1.18
+    },
+    {
+     "date": "2024-01-08",
+     "ret_pct": 0.87
+    },
+    {
+     "date": "2024-01-09",
+     "ret_pct": 0.83
+    },
+    {
+     "date": "2024-01-10",
+     "ret_pct": 0.84
+    },
+    {
+     "date": "2024-01-11",
+     "ret_pct": 0.12
+    },
+    {
+     "date": "2024-01-12",
+     "ret_pct": 1.43
+    },
+    {
+     "date": "2024-01-16",
+     "ret_pct": -0.26
+    },
+    {
+     "date": "2024-01-17",
+     "ret_pct": 0.4
+    },
+    {
+     "date": "2024-01-18",
+     "ret_pct": 0.46
+    }
+   ],
+   "n_statements": 13,
+   "n_articles": 2,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P03",
+   "month": "2024-01",
+   "start": "2024-01-19",
+   "end": "2024-01-25",
+   "days": 5,
+   "z": -0.95,
+   "ret_pct": -1.07,
+   "spx_ret_pct": 2.35,
+   "sector_ret_pct": -0.425,
+   "company_ret_pct": -2.41,
+   "price_driven_pp": -0.289,
+   "market_pp": 0.358,
+   "company_pp": -0.647,
+   "label": "within noise",
+   "market_share": 0.356,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-01-19",
+     "ret_pct": 1.11
+    },
+    {
+     "date": "2024-01-22",
+     "ret_pct": -0.35
+    },
+    {
+     "date": "2024-01-23",
+     "ret_pct": -0.71
+    },
+    {
+     "date": "2024-01-24",
+     "ret_pct": -0.16
+    },
+    {
+     "date": "2024-01-25",
+     "ret_pct": -0.96
+    }
+   ],
+   "n_statements": 13,
+   "n_articles": 3,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P04",
+   "month": "2024-01",
+   "start": "2024-01-26",
+   "end": "2024-01-31",
+   "days": 4,
+   "z": 1.18,
+   "ret_pct": 2.198,
+   "spx_ret_pct": -0.98,
+   "sector_ret_pct": 0.522,
+   "company_ret_pct": 2.711,
+   "price_driven_pp": 0.58,
+   "market_pp": -0.137,
+   "company_pp": 0.717,
+   "label": "within noise",
+   "market_share": 0.16,
+   "market_days": [
+    {
+     "date": "2024-01-31",
+     "spx_ret_pct": -1.61,
+     "spx_z": -2.5
+    }
+   ],
+   "daily": [
+    {
+     "date": "2024-01-26",
+     "ret_pct": 1.03
+    },
+    {
+     "date": "2024-01-29",
+     "ret_pct": 1.04
+    },
+    {
+     "date": "2024-01-30",
+     "ret_pct": 0.97
+    },
+    {
+     "date": "2024-01-31",
+     "ret_pct": -0.84
+    }
+   ],
+   "n_statements": 9,
+   "n_articles": 0,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P05",
+   "month": "2024-02",
+   "start": "2024-02-01",
+   "end": "2024-02-14",
+   "days": 10,
+   "z": 0.59,
+   "ret_pct": 3.888,
+   "spx_ret_pct": 3.181,
+   "sector_ret_pct": -1.216,
+   "company_ret_pct": 2.043,
+   "price_driven_pp": 1.002,
+   "market_pp": 0.479,
+   "company_pp": 0.522,
+   "label": "within noise",
+   "market_share": 0.479,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-02-01",
+     "ret_pct": 1.38
+    },
+    {
+     "date": "2024-02-02",
+     "ret_pct": 0.71
+    },
+    {
+     "date": "2024-02-05",
+     "ret_pct": 0.24
+    },
+    {
+     "date": "2024-02-06",
+     "ret_pct": -0.05
+    },
+    {
+     "date": "2024-02-07",
+     "ret_pct": 1.26
+    },
+    {
+     "date": "2024-02-08",
+     "ret_pct": 0.61
+    },
+    {
+     "date": "2024-02-09",
+     "ret_pct": -0.1
+    },
+    {
+     "date": "2024-02-12",
+     "ret_pct": -0.14
+    },
+    {
+     "date": "2024-02-13",
+     "ret_pct": -1.13
+    },
+    {
+     "date": "2024-02-14",
+     "ret_pct": 1.11
+    }
+   ],
+   "n_statements": 18,
+   "n_articles": 8,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P06",
+   "month": "2024-02",
+   "start": "2024-02-15",
+   "end": "2024-02-29",
+   "days": 10,
+   "z": 0.36,
+   "ret_pct": 2.984,
+   "spx_ret_pct": 1.924,
+   "sector_ret_pct": 3.22,
+   "company_ret_pct": 1.146,
+   "price_driven_pp": 0.726,
+   "market_pp": 0.452,
+   "company_pp": 0.275,
+   "label": "within noise",
+   "market_share": 0.622,
+   "market_days": [
+    {
+     "date": "2024-02-22",
+     "spx_ret_pct": 2.11,
+     "spx_z": 3.3
+    }
+   ],
+   "daily": [
+    {
+     "date": "2024-02-15",
+     "ret_pct": 0.32
+    },
+    {
+     "date": "2024-02-16",
+     "ret_pct": -0.07
+    },
+    {
+     "date": "2024-02-20",
+     "ret_pct": 0.23
+    },
+    {
+     "date": "2024-02-21",
+     "ret_pct": -0.37
+    },
+    {
+     "date": "2024-02-22",
+     "ret_pct": 1.57
+    },
+    {
+     "date": "2024-02-23",
+     "ret_pct": 0.48
+    },
+    {
+     "date": "2024-02-26",
+     "ret_pct": 1.01
+    },
+    {
+     "date": "2024-02-27",
+     "ret_pct": -0.09
+    },
+    {
+     "date": "2024-02-28",
+     "ret_pct": 0.44
+    },
+    {
+     "date": "2024-02-29",
+     "ret_pct": -0.54
+    }
+   ],
+   "n_statements": 11,
+   "n_articles": 1,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P07",
+   "month": "2024-03",
+   "start": "2024-03-01",
+   "end": "2024-03-07",
+   "days": 5,
+   "z": 1.96,
+   "ret_pct": 5.493,
+   "spx_ret_pct": 1.207,
+   "sector_ret_pct": 1.041,
+   "company_ret_pct": 4.557,
+   "price_driven_pp": 1.299,
+   "market_pp": 0.219,
+   "company_pp": 1.08,
+   "label": "outlier",
+   "market_share": 0.169,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-03-01",
+     "ret_pct": 0.75
+    },
+    {
+     "date": "2024-03-04",
+     "ret_pct": 1.3
+    },
+    {
+     "date": "2024-03-05",
+     "ret_pct": 0.1
+    },
+    {
+     "date": "2024-03-06",
+     "ret_pct": 1.75
+    },
+    {
+     "date": "2024-03-07",
+     "ret_pct": 1.6
+    }
+   ],
+   "release": "2024-03-07",
+   "n_statements": 27,
+   "n_articles": 4,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P08",
+   "month": "2024-03",
+   "start": "2024-03-08",
+   "end": "2024-03-08",
+   "days": 1,
+   "z": -6.96,
+   "ret_pct": -7.641,
+   "spx_ret_pct": -0.653,
+   "sector_ret_pct": 0.125,
+   "company_ret_pct": -7.256,
+   "price_driven_pp": -1.928,
+   "market_pp": -0.097,
+   "company_pp": -1.831,
+   "label": "outlier",
+   "market_share": 0.05,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-03-08",
+     "ret_pct": -7.64
+    }
+   ],
+   "release": "2024-03-07",
+   "n_statements": 25,
+   "n_articles": 2,
+   "status": "answered",
+   "failure": "",
+   "cause": "Costco missed second-quarter revenue expectations, with gasoline price deflation dragging reported comparable sales, and signaled price cuts on several items. The market read this as softer top-line growth and possible pressure on margins, and the shares had their worst day since May 2022. An EPS beat, 5.8% comparable sales growth excluding gas and FX, and strong membership growth did not offset the miss on a richly valued stock.",
+   "expected_before_vs_after": "Investors expected revenue to meet or beat estimates, with steady comparable sales and no margin give-up. Revenue came in a little light because of gas deflation, and the executive's comments about cutting prices on several items implied less pricing power. Expectations for near-term revenue growth and margins were trimmed.",
+   "drivers": "Revenue growth; Operating margins",
+   "confidence": "medium",
+   "evidence": "2024-03/A0073-H; 2024-03/A0077-S01; 2024-03/A0077-S02; 2024-03/A0081-S01; 2024-03/A0076"
+  },
+  {
+   "period_id": "P09",
+   "month": "2024-03",
+   "start": "2024-03-11",
+   "end": "2024-03-11",
+   "days": 1,
+   "z": -1.16,
+   "ret_pct": -1.582,
+   "spx_ret_pct": -0.112,
+   "sector_ret_pct": 0.904,
+   "company_ret_pct": -1.633,
+   "price_driven_pp": -0.424,
+   "market_pp": 0.014,
+   "company_pp": -0.437,
+   "label": "within noise",
+   "market_share": 0.031,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-03-11",
+     "ret_pct": -1.58
+    }
+   ],
+   "n_statements": 1,
+   "n_articles": 2,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P10",
+   "month": "2024-03",
+   "start": "2024-03-12",
+   "end": "2024-03-25",
+   "days": 10,
+   "z": 0.25,
+   "ret_pct": 2.408,
+   "spx_ret_pct": 1.957,
+   "sector_ret_pct": -0.329,
+   "company_ret_pct": 0.997,
+   "price_driven_pp": 0.61,
+   "market_pp": 0.356,
+   "company_pp": 0.254,
+   "label": "within noise",
+   "market_share": 0.584,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-03-12",
+     "ret_pct": 3.19
+    },
+    {
+     "date": "2024-03-13",
+     "ret_pct": -0.36
+    },
+    {
+     "date": "2024-03-14",
+     "ret_pct": -0.31
+    },
+    {
+     "date": "2024-03-15",
+     "ret_pct": -0.86
+    },
+    {
+     "date": "2024-03-18",
+     "ret_pct": 0.81
+    },
+    {
+     "date": "2024-03-19",
+     "ret_pct": 0.09
+    },
+    {
+     "date": "2024-03-20",
+     "ret_pct": 1.17
+    },
+    {
+     "date": "2024-03-21",
+     "ret_pct": 0.25
+    },
+    {
+     "date": "2024-03-22",
+     "ret_pct": -1.05
+    },
+    {
+     "date": "2024-03-25",
+     "ret_pct": -0.52
+    }
+   ],
+   "n_statements": 31,
+   "n_articles": 7,
+   "status": "answered",
+   "failure": "",
+   "cause": "No new company-specific information in this period. The statements recycle the March 7 Q2 results (comps accelerating to 5.6%, membership fees up 8%, 93% renewal rate, store openings). The one new item, the BMO price target raise to $800, is a modest analyst update. The +3.2% jump on March 12 looks like a rebound after the 7.4% post-earnings drop, not a change in fundamentals. The rest of the period was flat, so the +2.4% net is within normal noise.",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": "2024-03/A0065; 2024-03/A0066"
+  },
+  {
+   "period_id": "P11",
+   "month": "2024-03",
+   "start": "2024-03-26",
+   "end": "2024-03-28",
+   "days": 3,
+   "z": -0.23,
+   "ret_pct": 0.228,
+   "spx_ret_pct": 0.695,
+   "sector_ret_pct": 2.034,
+   "company_ret_pct": -0.489,
+   "price_driven_pp": 0.059,
+   "market_pp": 0.185,
+   "company_pp": -0.126,
+   "label": "within noise",
+   "market_share": 0.595,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-03-26",
+     "ret_pct": 0.0
+    },
+    {
+     "date": "2024-03-27",
+     "ret_pct": 0.15
+    },
+    {
+     "date": "2024-03-28",
+     "ret_pct": 0.08
+    }
+   ],
+   "n_statements": 6,
+   "n_articles": 1,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P12",
+   "month": "2024-04",
+   "start": "2024-04-01",
+   "end": "2024-04-04",
+   "days": 4,
+   "z": -0.84,
+   "ret_pct": -3.836,
+   "spx_ret_pct": -2.05,
+   "sector_ret_pct": -2.389,
+   "company_ret_pct": -2.055,
+   "price_driven_pp": -1.009,
+   "market_pp": -0.469,
+   "company_pp": -0.54,
+   "label": "within noise",
+   "market_share": 0.465,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-04-01",
+     "ret_pct": -1.55
+    },
+    {
+     "date": "2024-04-02",
+     "ret_pct": -1.38
+    },
+    {
+     "date": "2024-04-03",
+     "ret_pct": -0.79
+    },
+    {
+     "date": "2024-04-04",
+     "ret_pct": -0.11
+    }
+   ],
+   "n_statements": 15,
+   "n_articles": 4,
+   "status": "answered",
+   "failure": "",
+   "cause": "Only a mild, indirect explanation exists: a Gordon Haskett downgrade from buy to accumulate on April 4 cited near-term uncertainties (rising gas prices, a shorter holiday season), but it came on the last day when the stock was nearly flat (-0.1%), so it does not explain the -3.8% decline over the four days. Other items (the Sesame weight-loss partnership, opinion pieces about margins and growth, local store news) are minor or repeated older information and do not plausibly explain the drop. The move looks like general market or sector weakness or noise.",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": "2024-04/A0075"
+  },
+  {
+   "period_id": "P13",
+   "month": "2024-04",
+   "start": "2024-04-05",
+   "end": "2024-04-18",
+   "days": 10,
+   "z": 0.82,
+   "ret_pct": 0.941,
+   "spx_ret_pct": -2.646,
+   "sector_ret_pct": -1.955,
+   "company_ret_pct": 3.187,
+   "price_driven_pp": 0.242,
+   "market_pp": -0.562,
+   "company_pp": 0.804,
+   "label": "within noise",
+   "market_share": 0.411,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-04-05",
+     "ret_pct": 1.25
+    },
+    {
+     "date": "2024-04-08",
+     "ret_pct": -0.27
+    },
+    {
+     "date": "2024-04-09",
+     "ret_pct": 0.95
+    },
+    {
+     "date": "2024-04-10",
+     "ret_pct": 0.56
+    },
+    {
+     "date": "2024-04-11",
+     "ret_pct": 1.35
+    },
+    {
+     "date": "2024-04-12",
+     "ret_pct": -0.14
+    },
+    {
+     "date": "2024-04-15",
+     "ret_pct": -1.78
+    },
+    {
+     "date": "2024-04-16",
+     "ret_pct": -0.32
+    },
+    {
+     "date": "2024-04-17",
+     "ret_pct": -0.11
+    },
+    {
+     "date": "2024-04-18",
+     "ret_pct": -0.55
+    }
+   ],
+   "n_statements": 29,
+   "n_articles": 5,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P14",
+   "month": "2024-04",
+   "start": "2024-04-19",
+   "end": "2024-04-30",
+   "days": 8,
+   "z": 0.34,
+   "ret_pct": 1.641,
+   "spx_ret_pct": 0.523,
+   "sector_ret_pct": 1.653,
+   "company_ret_pct": 1.133,
+   "price_driven_pp": 0.406,
+   "market_pp": 0.121,
+   "company_pp": 0.285,
+   "label": "within noise",
+   "market_share": 0.298,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-04-19",
+     "ret_pct": -0.24
+    },
+    {
+     "date": "2024-04-22",
+     "ret_pct": 0.84
+    },
+    {
+     "date": "2024-04-23",
+     "ret_pct": 1.01
+    },
+    {
+     "date": "2024-04-24",
+     "ret_pct": 0.17
+    },
+    {
+     "date": "2024-04-25",
+     "ret_pct": -0.28
+    },
+    {
+     "date": "2024-04-26",
+     "ret_pct": 1.01
+    },
+    {
+     "date": "2024-04-29",
+     "ret_pct": -0.39
+    },
+    {
+     "date": "2024-04-30",
+     "ret_pct": -0.47
+    }
+   ],
+   "n_statements": 21,
+   "n_articles": 4,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P15",
+   "month": "2024-05",
+   "start": "2024-05-01",
+   "end": "2024-05-01",
+   "days": 1,
+   "z": 0.2,
+   "ret_pct": -0.094,
+   "spx_ret_pct": -0.344,
+   "sector_ret_pct": -1.342,
+   "company_ret_pct": 0.236,
+   "price_driven_pp": -0.024,
+   "market_pp": -0.083,
+   "company_pp": 0.059,
+   "label": "within noise",
+   "market_share": 0.585,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-05-01",
+     "ret_pct": -0.09
+    }
+   ],
+   "n_statements": 6,
+   "n_articles": 1,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P16",
+   "month": "2024-05",
+   "start": "2024-05-02",
+   "end": "2024-05-15",
+   "days": 10,
+   "z": 1.04,
+   "ret_pct": 8.701,
+   "spx_ret_pct": 5.64,
+   "sector_ret_pct": 2.179,
+   "company_ret_pct": 4.149,
+   "price_driven_pp": 2.077,
+   "market_pp": 1.09,
+   "company_pp": 0.987,
+   "label": "within noise",
+   "market_share": 0.525,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-05-02",
+     "ret_pct": 1.42
+    },
+    {
+     "date": "2024-05-03",
+     "ret_pct": 1.56
+    },
+    {
+     "date": "2024-05-06",
+     "ret_pct": 1.69
+    },
+    {
+     "date": "2024-05-07",
+     "ret_pct": 1.96
+    },
+    {
+     "date": "2024-05-08",
+     "ret_pct": -1.02
+    },
+    {
+     "date": "2024-05-09",
+     "ret_pct": 2.05
+    },
+    {
+     "date": "2024-05-10",
+     "ret_pct": 1.05
+    },
+    {
+     "date": "2024-05-13",
+     "ret_pct": -1.53
+    },
+    {
+     "date": "2024-05-14",
+     "ret_pct": 0.35
+    },
+    {
+     "date": "2024-05-15",
+     "ret_pct": 1.17
+    }
+   ],
+   "n_statements": 30,
+   "n_articles": 5,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P17",
+   "month": "2024-05",
+   "start": "2024-05-16",
+   "end": "2024-05-30",
+   "days": 10,
+   "z": 1.26,
+   "ret_pct": 3.568,
+   "spx_ret_pct": -1.368,
+   "sector_ret_pct": -3.912,
+   "company_ret_pct": 4.941,
+   "price_driven_pp": 0.808,
+   "market_pp": -0.311,
+   "company_pp": 1.118,
+   "label": "within noise",
+   "market_share": 0.218,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-05-16",
+     "ret_pct": 0.77
+    },
+    {
+     "date": "2024-05-17",
+     "ret_pct": 0.35
+    },
+    {
+     "date": "2024-05-20",
+     "ret_pct": -0.35
+    },
+    {
+     "date": "2024-05-21",
+     "ret_pct": 1.0
+    },
+    {
+     "date": "2024-05-22",
+     "ret_pct": 0.12
+    },
+    {
+     "date": "2024-05-23",
+     "ret_pct": -0.69
+    },
+    {
+     "date": "2024-05-24",
+     "ret_pct": 1.68
+    },
+    {
+     "date": "2024-05-28",
+     "ret_pct": 0.42
+    },
+    {
+     "date": "2024-05-29",
+     "ret_pct": -0.82
+    },
+    {
+     "date": "2024-05-30",
+     "ret_pct": 1.09
+    }
+   ],
+   "release": "2024-05-30",
+   "n_statements": 45,
+   "n_articles": 8,
+   "status": "answered",
+   "failure": "",
+   "cause": "Costco's fiscal Q3 results, reported after the close on May 30, beat expectations on revenue ($58.52B vs ~$58.0B est.), comparable sales (+6.5%) and e-commerce (+20.7%). That supports revenue growth expectations. However, the +1.1% on May 30 came before the report. Most of the period's gain came from drift higher toward all-time highs, with no clear news catalyst, and the post-earnings reaction (a drop on May 31) falls outside the period. The earnings beat itself therefore does not explain the move.",
+   "expected_before_vs_after": "Before: the stock ran up to all-time highs on expectations of steady membership growth and renewals around 90%. After: the earnings beat confirmed strong sales, but it was not priced into the move within this period.",
+   "drivers": "Revenue growth",
+   "confidence": "low",
+   "evidence": "2024-05/A0009-S01; 2024-05/A0009-S02; 2024-05/A0009-S03; 2024-05/A0010-S02; 2024-05/A0003"
+  },
+  {
+   "period_id": "P18",
+   "month": "2024-05",
+   "start": "2024-05-31",
+   "end": "2024-05-31",
+   "days": 1,
+   "z": -1.16,
+   "ret_pct": -0.668,
+   "spx_ret_pct": 0.803,
+   "sector_ret_pct": 2.093,
+   "company_ret_pct": -1.453,
+   "price_driven_pp": -0.149,
+   "market_pp": 0.175,
+   "company_pp": -0.324,
+   "label": "within noise",
+   "market_share": 0.351,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-05-31",
+     "ret_pct": -0.67
+    }
+   ],
+   "release": "2024-05-30",
+   "n_statements": 15,
+   "n_articles": 2,
+   "status": "answered",
+   "failure": "",
+   "cause": "Costco reported a Q3 beat (revenue $58.52B vs about $58.0B expected, comparable sales +6.5%, e-commerce +20.7%), but the stock had closed at an all-time high before the report. Investors judged the strong quarter already priced in, so the shares slipped, down as much as 3.4% intraday and closing -0.7%. The hot dog price pledge and gold bar sales are not new information.",
+   "expected_before_vs_after": "Expectations were already high going into the report, with the stock at a record. The beat on revenue and comparable sales was in line with or only slightly above what was priced in, so expectations barely changed and the stock gave back a little.",
+   "drivers": "Revenue growth",
+   "confidence": "low",
+   "evidence": "2024-05/A0009-S01; 2024-05/A0009-S02; 2024-05/A0010-S01; 2024-05/A0010-S02; 2024-05/A0003"
+  },
+  {
+   "period_id": "P19",
+   "month": "2024-06",
+   "start": "2024-06-03",
+   "end": "2024-06-14",
+   "days": 10,
+   "z": 1.39,
+   "ret_pct": 5.528,
+   "spx_ret_pct": 2.89,
+   "sector_ret_pct": -2.866,
+   "company_ret_pct": 3.337,
+   "price_driven_pp": 1.271,
+   "market_pp": 0.504,
+   "company_pp": 0.767,
+   "label": "within noise",
+   "market_share": 0.397,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-06-03",
+     "ret_pct": 0.68
+    },
+    {
+     "date": "2024-06-04",
+     "ret_pct": 1.47
+    },
+    {
+     "date": "2024-06-05",
+     "ret_pct": 0.84
+    },
+    {
+     "date": "2024-06-06",
+     "ret_pct": 1.0
+    },
+    {
+     "date": "2024-06-07",
+     "ret_pct": 0.35
+    },
+    {
+     "date": "2024-06-10",
+     "ret_pct": 0.33
+    },
+    {
+     "date": "2024-06-11",
+     "ret_pct": 0.11
+    },
+    {
+     "date": "2024-06-12",
+     "ret_pct": -0.18
+    },
+    {
+     "date": "2024-06-13",
+     "ret_pct": -0.22
+    },
+    {
+     "date": "2024-06-14",
+     "ret_pct": 1.15
+    }
+   ],
+   "n_statements": 22,
+   "n_articles": 8,
+   "status": "answered",
+   "failure": "",
+   "cause": "Investors kept rewarding Costco's fiscal Q3 results (reported late May, before the period): revenue up 9%, EPS up 29% and a beat of consensus, same-store sales up 6.6%, and share gains in discretionary spending while Walmart and Target noted pullbacks. Management's hint at a future membership-fee increase added to the case. The statements only recap this earnings news and offer commentary, with no new event in the period, so the drift higher is a modest, partly momentum-driven continuation.",
+   "expected_before_vs_after": "Before, the market expected steady comparable sales growth. After the beat, it expected stronger revenue and share gains plus a likely membership-fee hike, which would lift margins and earnings.",
+   "drivers": "Revenue growth; Operating margins",
+   "confidence": "low",
+   "evidence": "2024-06/A0067-S01; 2024-06/A0067-S02; 2024-06/A0067-S03; 2024-06/A0060-S01; 2024-06/A0060-S02; 2024-06/A0043-S03; 2024-06/A0041-S02; 2024-06/A0062"
+  },
+  {
+   "period_id": "P20",
+   "month": "2024-06",
+   "start": "2024-06-17",
+   "end": "2024-06-28",
+   "days": 9,
+   "z": -0.44,
+   "ret_pct": -0.631,
+   "spx_ret_pct": 0.536,
+   "sector_ret_pct": -0.598,
+   "company_ret_pct": -1.013,
+   "price_driven_pp": -0.152,
+   "market_pp": 0.085,
+   "company_pp": -0.237,
+   "label": "within noise",
+   "market_share": 0.264,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-06-17",
+     "ret_pct": 1.43
+    },
+    {
+     "date": "2024-06-18",
+     "ret_pct": 0.33
+    },
+    {
+     "date": "2024-06-20",
+     "ret_pct": -0.95
+    },
+    {
+     "date": "2024-06-21",
+     "ret_pct": -1.64
+    },
+    {
+     "date": "2024-06-24",
+     "ret_pct": -0.02
+    },
+    {
+     "date": "2024-06-25",
+     "ret_pct": 0.87
+    },
+    {
+     "date": "2024-06-26",
+     "ret_pct": 0.16
+    },
+    {
+     "date": "2024-06-27",
+     "ret_pct": -0.73
+    },
+    {
+     "date": "2024-06-28",
+     "ret_pct": -0.07
+    }
+   ],
+   "n_statements": 19,
+   "n_articles": 2,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P21",
+   "month": "2024-07",
+   "start": "2024-07-01",
+   "end": "2024-07-03",
+   "days": 3,
+   "z": 0.28,
+   "ret_pct": 1.495,
+   "spx_ret_pct": 1.396,
+   "sector_ret_pct": -0.683,
+   "company_ret_pct": 0.377,
+   "price_driven_pp": 0.339,
+   "market_pp": 0.255,
+   "company_pp": 0.084,
+   "label": "market-driven",
+   "market_share": 0.752,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-07-01",
+     "ret_pct": -0.51
+    },
+    {
+     "date": "2024-07-02",
+     "ret_pct": 1.62
+    },
+    {
+     "date": "2024-07-03",
+     "ret_pct": 0.38
+    }
+   ],
+   "n_statements": 3,
+   "n_articles": 2,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P22",
+   "month": "2024-07",
+   "start": "2024-07-05",
+   "end": "2024-07-05",
+   "days": 1,
+   "z": 2.84,
+   "ret_pct": 2.667,
+   "spx_ret_pct": 0.545,
+   "sector_ret_pct": 0.493,
+   "company_ret_pct": 2.176,
+   "price_driven_pp": 0.591,
+   "market_pp": 0.109,
+   "company_pp": 0.482,
+   "label": "outlier",
+   "market_share": 0.184,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-07-05",
+     "ret_pct": 2.67
+    }
+   ],
+   "n_statements": 8,
+   "n_articles": 1,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P23",
+   "month": "2024-07",
+   "start": "2024-07-08",
+   "end": "2024-07-10",
+   "days": 3,
+   "z": -0.86,
+   "ret_pct": -0.149,
+   "spx_ret_pct": 1.197,
+   "sector_ret_pct": -0.03,
+   "company_ret_pct": -1.183,
+   "price_driven_pp": -0.034,
+   "market_pp": 0.231,
+   "company_pp": -0.265,
+   "label": "within noise",
+   "market_share": 0.466,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-07-08",
+     "ret_pct": -0.55
+    },
+    {
+     "date": "2024-07-09",
+     "ret_pct": 0.68
+    },
+    {
+     "date": "2024-07-10",
+     "ret_pct": -0.29
+    }
+   ],
+   "n_statements": 22,
+   "n_articles": 1,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P24",
+   "month": "2024-07",
+   "start": "2024-07-11",
+   "end": "2024-07-11",
+   "days": 1,
+   "z": -4.4,
+   "ret_pct": -4.265,
+   "spx_ret_pct": -0.876,
+   "sector_ret_pct": 0.622,
+   "company_ret_pct": -3.558,
+   "price_driven_pp": -1.0,
+   "market_pp": -0.166,
+   "company_pp": -0.834,
+   "label": "outlier",
+   "market_share": 0.166,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-07-11",
+     "ret_pct": -4.27
+    }
+   ],
+   "n_statements": 22,
+   "n_articles": 0,
+   "status": "answered",
+   "failure": "",
+   "cause": "The stock fell 4.3% on 2024-07-11 despite a positive-looking announcement. Costco raised US and Canada membership fees by about 8% (to $65 and $130) effective Sept. 1, its first hike since 2017, and reported June sales up 7.4%. Fee income is a high-margin source of profit, so the hike should lift operating margins and earnings visibility into 2026. However, the hike had been widely anticipated and the shares had run up, so the move looks like a sell-the-news reaction, with the already-priced-in fee increase and sales failing to add new upside. The statements do not explicitly confirm this reasoning, which makes the cause uncertain.",
+   "expected_before_vs_after": "Before: the market already expected a fee hike was due after seven years, and the stock had priced much of the earnings benefit in. After: the hike came as expected (about 8%, effective Sept. 1) with solid June sales, so there was little new upside surprise, and the shares fell.",
+   "drivers": "Operating margins; Revenue growth",
+   "confidence": "low",
+   "evidence": "2024-07/A0080-S01; 2024-07/A0081-S02; 2024-07/A0083-S01; 2024-07/A0076-S01; 2024-07/A0078-S02; 2024-07/A0073-S01; 2024-07/A0073-S03"
+  },
+  {
+   "period_id": "P25",
+   "month": "2024-07",
+   "start": "2024-07-12",
+   "end": "2024-07-23",
+   "days": 8,
+   "z": 0.43,
+   "ret_pct": 0.666,
+   "spx_ret_pct": -0.492,
+   "sector_ret_pct": 0.487,
+   "company_ret_pct": 1.15,
+   "price_driven_pp": 0.151,
+   "market_pp": -0.116,
+   "company_pp": 0.268,
+   "label": "within noise",
+   "market_share": 0.302,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-07-12",
+     "ret_pct": -0.44
+    },
+    {
+     "date": "2024-07-15",
+     "ret_pct": 0.69
+    },
+    {
+     "date": "2024-07-16",
+     "ret_pct": 0.24
+    },
+    {
+     "date": "2024-07-17",
+     "ret_pct": -0.53
+    },
+    {
+     "date": "2024-07-18",
+     "ret_pct": -0.82
+    },
+    {
+     "date": "2024-07-19",
+     "ret_pct": -0.15
+    },
+    {
+     "date": "2024-07-22",
+     "ret_pct": 1.11
+    },
+    {
+     "date": "2024-07-23",
+     "ret_pct": 0.55
+    }
+   ],
+   "n_statements": 18,
+   "n_articles": 7,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P26",
+   "month": "2024-07",
+   "start": "2024-07-24",
+   "end": "2024-07-31",
+   "days": 6,
+   "z": -1.33,
+   "ret_pct": -3.536,
+   "spx_ret_pct": -0.555,
+   "sector_ret_pct": 1.071,
+   "company_ret_pct": -3.164,
+   "price_driven_pp": -0.845,
+   "market_pp": -0.076,
+   "company_pp": -0.769,
+   "label": "within noise",
+   "market_share": 0.09,
+   "market_days": [
+    {
+     "date": "2024-07-24",
+     "spx_ret_pct": -2.31,
+     "spx_z": -3.8
+    }
+   ],
+   "daily": [
+    {
+     "date": "2024-07-24",
+     "ret_pct": -2.5
+    },
+    {
+     "date": "2024-07-25",
+     "ret_pct": -1.79
+    },
+    {
+     "date": "2024-07-26",
+     "ret_pct": 0.2
+    },
+    {
+     "date": "2024-07-29",
+     "ret_pct": -0.25
+    },
+    {
+     "date": "2024-07-30",
+     "ret_pct": -0.68
+    },
+    {
+     "date": "2024-07-31",
+     "ret_pct": 1.48
+    }
+   ],
+   "n_statements": 3,
+   "n_articles": 3,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P27",
+   "month": "2024-08",
+   "start": "2024-08-01",
+   "end": "2024-08-05",
+   "days": 3,
+   "z": 1.9,
+   "ret_pct": -2.45,
+   "spx_ret_pct": -6.204,
+   "sector_ret_pct": -0.465,
+   "company_ret_pct": 3.228,
+   "price_driven_pp": -0.638,
+   "market_pp": -1.454,
+   "company_pp": 0.816,
+   "label": "divergent",
+   "market_share": 0.641,
+   "market_days": [
+    {
+     "date": "2024-08-02",
+     "spx_ret_pct": -1.84,
+     "spx_z": -2.7
+    },
+    {
+     "date": "2024-08-05",
+     "spx_ret_pct": -3.0,
+     "spx_z": -4.1
+    }
+   ],
+   "daily": [
+    {
+     "date": "2024-08-01",
+     "ret_pct": -0.62
+    },
+    {
+     "date": "2024-08-02",
+     "ret_pct": 0.64
+    },
+    {
+     "date": "2024-08-05",
+     "ret_pct": -2.46
+    }
+   ],
+   "n_statements": 4,
+   "n_articles": 1,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P28",
+   "month": "2024-08",
+   "start": "2024-08-06",
+   "end": "2024-08-19",
+   "days": 10,
+   "z": 0.48,
+   "ret_pct": 8.553,
+   "spx_ret_pct": 7.889,
+   "sector_ret_pct": 3.191,
+   "company_ret_pct": 1.505,
+   "price_driven_pp": 2.079,
+   "market_pp": 1.692,
+   "company_pp": 0.387,
+   "label": "market-driven",
+   "market_share": 0.814,
+   "market_days": [
+    {
+     "date": "2024-08-08",
+     "spx_ret_pct": 2.3,
+     "spx_z": 2.8
+    }
+   ],
+   "daily": [
+    {
+     "date": "2024-08-06",
+     "ret_pct": 1.88
+    },
+    {
+     "date": "2024-08-07",
+     "ret_pct": -0.81
+    },
+    {
+     "date": "2024-08-08",
+     "ret_pct": 3.59
+    },
+    {
+     "date": "2024-08-09",
+     "ret_pct": 1.85
+    },
+    {
+     "date": "2024-08-12",
+     "ret_pct": 1.01
+    },
+    {
+     "date": "2024-08-13",
+     "ret_pct": 0.14
+    },
+    {
+     "date": "2024-08-14",
+     "ret_pct": -0.24
+    },
+    {
+     "date": "2024-08-15",
+     "ret_pct": 1.7
+    },
+    {
+     "date": "2024-08-16",
+     "ret_pct": -0.77
+    },
+    {
+     "date": "2024-08-19",
+     "ret_pct": 0.2
+    }
+   ],
+   "n_statements": 11,
+   "n_articles": 2,
+   "status": "answered",
+   "failure": "",
+   "cause": "No clearly new company-specific information explains the +8.6% move. The membership-scanning crackdown (Aug 7) and the fee increase were already announced, so the news mostly repeats older items. The rest is commentary: hedge fund and Cramer bullishness, plus a recap of an earlier earnings beat. The rise likely reflects the broader market rebound after early-August volatility and a rotation into defensive quality names, which these statements do not establish.",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P29",
+   "month": "2024-08",
+   "start": "2024-08-20",
+   "end": "2024-08-30",
+   "days": 9,
+   "z": 0.55,
+   "ret_pct": 2.331,
+   "spx_ret_pct": 0.732,
+   "sector_ret_pct": 0.33,
+   "company_ret_pct": 1.686,
+   "price_driven_pp": 0.536,
+   "market_pp": 0.148,
+   "company_pp": 0.389,
+   "label": "within noise",
+   "market_share": 0.276,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-08-20",
+     "ret_pct": 0.44
+    },
+    {
+     "date": "2024-08-21",
+     "ret_pct": 0.6
+    },
+    {
+     "date": "2024-08-22",
+     "ret_pct": -0.44
+    },
+    {
+     "date": "2024-08-23",
+     "ret_pct": 0.19
+    },
+    {
+     "date": "2024-08-26",
+     "ret_pct": 1.51
+    },
+    {
+     "date": "2024-08-27",
+     "ret_pct": 1.84
+    },
+    {
+     "date": "2024-08-28",
+     "ret_pct": -2.29
+    },
+    {
+     "date": "2024-08-29",
+     "ret_pct": -0.16
+    },
+    {
+     "date": "2024-08-30",
+     "ret_pct": 0.65
+    }
+   ],
+   "n_statements": 13,
+   "n_articles": 7,
+   "status": "answered",
+   "failure": "",
+   "cause": "No clear new company-specific catalyst. The period's news is mostly recycled commentary (July comps of 5.2%, membership fee pricing power, a routine new warehouse permit filing, Cramer and listicle pieces). The one possible catalyst is an Oppenheimer bullish analyst note on Aug 27, which coincided with a ~1.8% rise but was reversed the next day by a -2.3% drop. The net +2.3% over the period looks like ordinary market and sector drift, not a change in expectations.",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": "2024-08/A0010"
+  },
+  {
+   "period_id": "P30",
+   "month": "2024-09",
+   "start": "2024-09-03",
+   "end": "2024-09-06",
+   "days": 4,
+   "z": 1.06,
+   "ret_pct": -1.748,
+   "spx_ret_pct": -4.303,
+   "sector_ret_pct": 0.964,
+   "company_ret_pct": 2.179,
+   "price_driven_pp": -0.413,
+   "market_pp": -0.924,
+   "company_pp": 0.51,
+   "label": "within noise",
+   "market_share": 0.644,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-09-03",
+     "ret_pct": -1.55
+    },
+    {
+     "date": "2024-09-04",
+     "ret_pct": 1.3
+    },
+    {
+     "date": "2024-09-05",
+     "ret_pct": -0.45
+    },
+    {
+     "date": "2024-09-06",
+     "ret_pct": -1.05
+    }
+   ],
+   "n_statements": 5,
+   "n_articles": 2,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P31",
+   "month": "2024-09",
+   "start": "2024-09-09",
+   "end": "2024-09-20",
+   "days": 10,
+   "z": -0.38,
+   "ret_pct": 3.458,
+   "spx_ret_pct": 5.328,
+   "sector_ret_pct": -0.444,
+   "company_ret_pct": -1.225,
+   "price_driven_pp": 0.799,
+   "market_pp": 1.091,
+   "company_pp": -0.292,
+   "label": "market-driven",
+   "market_share": 0.789,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-09-09",
+     "ret_pct": 2.26
+    },
+    {
+     "date": "2024-09-10",
+     "ret_pct": -0.25
+    },
+    {
+     "date": "2024-09-11",
+     "ret_pct": 0.68
+    },
+    {
+     "date": "2024-09-12",
+     "ret_pct": 1.62
+    },
+    {
+     "date": "2024-09-13",
+     "ret_pct": 0.11
+    },
+    {
+     "date": "2024-09-16",
+     "ret_pct": -0.89
+    },
+    {
+     "date": "2024-09-17",
+     "ret_pct": -1.17
+    },
+    {
+     "date": "2024-09-18",
+     "ret_pct": -0.53
+    },
+    {
+     "date": "2024-09-19",
+     "ret_pct": 0.92
+    },
+    {
+     "date": "2024-09-20",
+     "ret_pct": 0.69
+    }
+   ],
+   "n_statements": 11,
+   "n_articles": 3,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P32",
+   "month": "2024-09",
+   "start": "2024-09-23",
+   "end": "2024-09-23",
+   "days": 1,
+   "z": 0.83,
+   "ret_pct": 1.114,
+   "spx_ret_pct": 0.281,
+   "sector_ret_pct": -0.34,
+   "company_ret_pct": 0.864,
+   "price_driven_pp": 0.254,
+   "market_pp": 0.057,
+   "company_pp": 0.197,
+   "label": "within noise",
+   "market_share": 0.224,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-09-23",
+     "ret_pct": 1.11
+    }
+   ],
+   "n_statements": 1,
+   "n_articles": 1,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P33",
+   "month": "2024-09",
+   "start": "2024-09-24",
+   "end": "2024-09-30",
+   "days": 5,
+   "z": -1.64,
+   "ret_pct": -3.353,
+   "spx_ret_pct": 0.767,
+   "sector_ret_pct": 0.536,
+   "company_ret_pct": -3.993,
+   "price_driven_pp": -0.785,
+   "market_pp": 0.152,
+   "company_pp": -0.937,
+   "label": "outlier",
+   "market_share": 0.14,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-09-24",
+     "ret_pct": -1.69
+    },
+    {
+     "date": "2024-09-25",
+     "ret_pct": 0.76
+    },
+    {
+     "date": "2024-09-26",
+     "ret_pct": -0.77
+    },
+    {
+     "date": "2024-09-27",
+     "ret_pct": -1.75
+    },
+    {
+     "date": "2024-09-30",
+     "ret_pct": 0.1
+    }
+   ],
+   "release": "2024-09-26",
+   "n_statements": 27,
+   "n_articles": 6,
+   "status": "answered",
+   "failure": "",
+   "cause": "Costco reported fiscal Q4 results on Sept. 26 with a small revenue miss ($79.7B vs ~$79.97B), softer big-ticket spending and lower gasoline prices, with same-store sales growth slowing from the prior quarter. A profit beat and a better-than-expected 6.9% comp were offset by a slightly lower renewal rate and port-strike risk. With the stock already at a premium valuation, the miss prompted a modest pullback (Friday down as much as 3% intraday), along with a Truist downgrade on valuation.",
+   "expected_before_vs_after": "Before, investors expected about $79.97B revenue and continued strong growth at a premium valuation. After, revenue came in slightly short, with softer big-ticket and gasoline-driven sales and a small dip in renewal rates. The profit beat and fee-hike tailwind were not enough to justify the premium multiple, so expectations for near-term growth were trimmed slightly.",
+   "drivers": "Revenue growth; Operating margins",
+   "confidence": "medium",
+   "evidence": "2024-09/A0022-S01; 2024-09/A0018-S01; 2024-09/A0018-S02; 2024-09/A0016-S02; 2024-09/A0020; 2024-09/A0013"
+  },
+  {
+   "period_id": "P34",
+   "month": "2024-10",
+   "start": "2024-10-01",
+   "end": "2024-10-07",
+   "days": 5,
+   "z": -0.3,
+   "ret_pct": -1.454,
+   "spx_ret_pct": -1.148,
+   "sector_ret_pct": -2.709,
+   "company_ret_pct": -0.614,
+   "price_driven_pp": -0.351,
+   "market_pp": -0.204,
+   "company_pp": -0.147,
+   "label": "within noise",
+   "market_share": 0.581,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-10-01",
+     "ret_pct": -1.03
+    },
+    {
+     "date": "2024-10-02",
+     "ret_pct": 0.13
+    },
+    {
+     "date": "2024-10-03",
+     "ret_pct": -0.33
+    },
+    {
+     "date": "2024-10-04",
+     "ret_pct": 0.85
+    },
+    {
+     "date": "2024-10-07",
+     "ret_pct": -1.08
+    }
+   ],
+   "n_statements": 26,
+   "n_articles": 6,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P35",
+   "month": "2024-10",
+   "start": "2024-10-08",
+   "end": "2024-10-21",
+   "days": 10,
+   "z": -0.27,
+   "ret_pct": 1.56,
+   "spx_ret_pct": 2.754,
+   "sector_ret_pct": 1.087,
+   "company_ret_pct": -0.82,
+   "price_driven_pp": 0.354,
+   "market_pp": 0.55,
+   "company_pp": -0.196,
+   "label": "market-driven",
+   "market_share": 0.737,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-10-08",
+     "ret_pct": 1.93
+    },
+    {
+     "date": "2024-10-09",
+     "ret_pct": 2.1
+    },
+    {
+     "date": "2024-10-10",
+     "ret_pct": -1.7
+    },
+    {
+     "date": "2024-10-11",
+     "ret_pct": -0.51
+    },
+    {
+     "date": "2024-10-14",
+     "ret_pct": 0.08
+    },
+    {
+     "date": "2024-10-15",
+     "ret_pct": 0.55
+    },
+    {
+     "date": "2024-10-16",
+     "ret_pct": -0.81
+    },
+    {
+     "date": "2024-10-17",
+     "ret_pct": -0.24
+    },
+    {
+     "date": "2024-10-18",
+     "ret_pct": 0.48
+    },
+    {
+     "date": "2024-10-21",
+     "ret_pct": -0.31
+    }
+   ],
+   "n_statements": 22,
+   "n_articles": 4,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P36",
+   "month": "2024-10",
+   "start": "2024-10-22",
+   "end": "2024-10-31",
+   "days": 8,
+   "z": 0.27,
+   "ret_pct": -1.416,
+   "spx_ret_pct": -2.547,
+   "sector_ret_pct": -2.952,
+   "company_ret_pct": 0.715,
+   "price_driven_pp": -0.321,
+   "market_pp": -0.485,
+   "company_pp": 0.164,
+   "label": "market-driven",
+   "market_share": 0.747,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-10-22",
+     "ret_pct": 0.76
+    },
+    {
+     "date": "2024-10-23",
+     "ret_pct": 0.64
+    },
+    {
+     "date": "2024-10-24",
+     "ret_pct": -0.64
+    },
+    {
+     "date": "2024-10-25",
+     "ret_pct": -0.25
+    },
+    {
+     "date": "2024-10-28",
+     "ret_pct": -0.03
+    },
+    {
+     "date": "2024-10-29",
+     "ret_pct": -0.45
+    },
+    {
+     "date": "2024-10-30",
+     "ret_pct": -0.89
+    },
+    {
+     "date": "2024-10-31",
+     "ret_pct": -0.56
+    }
+   ],
+   "n_statements": 16,
+   "n_articles": 3,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P37",
+   "month": "2024-11",
+   "start": "2024-11-01",
+   "end": "2024-11-07",
+   "days": 5,
+   "z": 0.25,
+   "ret_pct": 4.472,
+   "spx_ret_pct": 4.627,
+   "sector_ret_pct": -0.376,
+   "company_ret_pct": 0.522,
+   "price_driven_pp": 0.99,
+   "market_pp": 0.876,
+   "company_pp": 0.114,
+   "label": "market-driven",
+   "market_share": 0.885,
+   "market_days": [
+    {
+     "date": "2024-11-06",
+     "spx_ret_pct": 2.53,
+     "spx_z": 3.2
+    }
+   ],
+   "daily": [
+    {
+     "date": "2024-11-01",
+     "ret_pct": 0.36
+    },
+    {
+     "date": "2024-11-04",
+     "ret_pct": 1.0
+    },
+    {
+     "date": "2024-11-05",
+     "ret_pct": 0.46
+    },
+    {
+     "date": "2024-11-06",
+     "ret_pct": 1.02
+    },
+    {
+     "date": "2024-11-07",
+     "ret_pct": 1.63
+    }
+   ],
+   "n_statements": 2,
+   "n_articles": 2,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P38",
+   "month": "2024-11",
+   "start": "2024-11-08",
+   "end": "2024-11-08",
+   "days": 1,
+   "z": 3.2,
+   "ret_pct": 3.268,
+   "spx_ret_pct": 0.376,
+   "sector_ret_pct": 0.682,
+   "company_ret_pct": 2.962,
+   "price_driven_pp": 0.691,
+   "market_pp": 0.065,
+   "company_pp": 0.627,
+   "label": "outlier",
+   "market_share": 0.094,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-11-08",
+     "ret_pct": 3.27
+    }
+   ],
+   "n_statements": 2,
+   "n_articles": 1,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P39",
+   "month": "2024-11",
+   "start": "2024-11-11",
+   "end": "2024-11-20",
+   "days": 8,
+   "z": -0.18,
+   "ret_pct": -1.634,
+   "spx_ret_pct": -1.304,
+   "sector_ret_pct": -1.026,
+   "company_ret_pct": -0.499,
+   "price_driven_pp": -0.359,
+   "market_pp": -0.247,
+   "company_pp": -0.111,
+   "label": "within noise",
+   "market_share": 0.69,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-11-11",
+     "ret_pct": -1.16
+    },
+    {
+     "date": "2024-11-12",
+     "ret_pct": -0.05
+    },
+    {
+     "date": "2024-11-13",
+     "ret_pct": 0.14
+    },
+    {
+     "date": "2024-11-14",
+     "ret_pct": -1.05
+    },
+    {
+     "date": "2024-11-15",
+     "ret_pct": -1.82
+    },
+    {
+     "date": "2024-11-18",
+     "ret_pct": 1.37
+    },
+    {
+     "date": "2024-11-19",
+     "ret_pct": 1.16
+    },
+    {
+     "date": "2024-11-20",
+     "ret_pct": -0.22
+    }
+   ],
+   "n_statements": 3,
+   "n_articles": 1,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P40",
+   "month": "2024-11",
+   "start": "2024-11-21",
+   "end": "2024-11-21",
+   "days": 1,
+   "z": 2.57,
+   "ret_pct": 2.971,
+   "spx_ret_pct": 0.534,
+   "sector_ret_pct": 0.978,
+   "company_ret_pct": 2.472,
+   "price_driven_pp": 0.613,
+   "market_pp": 0.103,
+   "company_pp": 0.51,
+   "label": "outlier",
+   "market_share": 0.168,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-11-21",
+     "ret_pct": 2.97
+    }
+   ],
+   "n_statements": 0,
+   "n_articles": 0,
+   "status": "no news collected"
+  },
+  {
+   "period_id": "P41",
+   "month": "2024-11",
+   "start": "2024-11-22",
+   "end": "2024-11-29",
+   "days": 5,
+   "z": 0.15,
+   "ret_pct": 1.705,
+   "spx_ret_pct": 1.402,
+   "sector_ret_pct": 2.653,
+   "company_ret_pct": 0.32,
+   "price_driven_pp": 0.347,
+   "market_pp": 0.284,
+   "company_pp": 0.064,
+   "label": "market-driven",
+   "market_share": 0.816,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-11-22",
+     "ret_pct": 0.87
+    },
+    {
+     "date": "2024-11-25",
+     "ret_pct": -0.32
+    },
+    {
+     "date": "2024-11-26",
+     "ret_pct": 1.1
+    },
+    {
+     "date": "2024-11-27",
+     "ret_pct": -1.02
+    },
+    {
+     "date": "2024-11-29",
+     "ret_pct": 1.07
+    }
+   ],
+   "n_statements": 0,
+   "n_articles": 1,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P42",
+   "month": "2024-12",
+   "start": "2024-12-02",
+   "end": "2024-12-13",
+   "days": 10,
+   "z": 0.53,
+   "ret_pct": 1.803,
+   "spx_ret_pct": 0.319,
+   "sector_ret_pct": -0.583,
+   "company_ret_pct": 1.616,
+   "price_driven_pp": 0.367,
+   "market_pp": 0.038,
+   "company_pp": 0.329,
+   "label": "within noise",
+   "market_share": 0.104,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-12-02",
+     "ret_pct": 0.32
+    },
+    {
+     "date": "2024-12-03",
+     "ret_pct": 0.73
+    },
+    {
+     "date": "2024-12-04",
+     "ret_pct": 0.89
+    },
+    {
+     "date": "2024-12-05",
+     "ret_pct": -0.87
+    },
+    {
+     "date": "2024-12-06",
+     "ret_pct": 1.05
+    },
+    {
+     "date": "2024-12-09",
+     "ret_pct": -0.48
+    },
+    {
+     "date": "2024-12-10",
+     "ret_pct": 0.56
+    },
+    {
+     "date": "2024-12-11",
+     "ret_pct": 0.13
+    },
+    {
+     "date": "2024-12-12",
+     "ret_pct": -0.63
+    },
+    {
+     "date": "2024-12-13",
+     "ret_pct": 0.1
+    }
+   ],
+   "release": "2024-12-12",
+   "n_statements": 15,
+   "n_articles": 4,
+   "status": "answered",
+   "failure": "",
+   "cause": "Costco's fiscal Q1 2025 report on Dec 12 was a modest beat that largely confirmed already-high expectations: revenue of $62.15B vs $62.08B expected, comparable sales ex-fuel of 7.2% vs 6.26%, e-commerce up 13%, and paid members up about 8%. Pre-earnings analyst bullishness (robust core trends, stock-split talk) supported a run to record highs. The stock's gain of +1.8% over the period is small, and the tariff caution from management was minor, so the move reflects a mild confirmation of growth and share gains rather than a major change in expectations.",
+   "expected_before_vs_after": "Before: analysts expected about $62.1B revenue (roughly 7% growth) with robust core trends and a premium valuation. After: a slight beat on revenue and profit, comparable sales above estimates, and strong e-commerce and membership growth confirmed the trajectory, but with little upside surprise against high expectations.",
+   "drivers": "Revenue growth; Operating margins",
+   "confidence": "medium",
+   "evidence": "2024-12/A0015-S01; 2024-12/A0015-S02; 2024-12/A0002-S01; 2024-12/A0002-S02; 2024-12/A0002-S03; 2024-12/A0012-S01; 2024-12/A0001; 2024-12/A0013"
+  },
+  {
+   "period_id": "P43",
+   "month": "2024-12",
+   "start": "2024-12-16",
+   "end": "2024-12-16",
+   "days": 1,
+   "z": 0.16,
+   "ret_pct": 0.356,
+   "spx_ret_pct": 0.38,
+   "sector_ret_pct": -0.854,
+   "company_ret_pct": 0.15,
+   "price_driven_pp": 0.072,
+   "market_pp": 0.042,
+   "company_pp": 0.03,
+   "label": "within noise",
+   "market_share": 0.583,
+   "market_days": [],
+   "daily": [
+    {
+     "date": "2024-12-16",
+     "ret_pct": 0.36
+    }
+   ],
+   "n_statements": 6,
+   "n_articles": 1,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  },
+  {
+   "period_id": "P44",
+   "month": "2024-12",
+   "start": "2024-12-17",
+   "end": "2024-12-31",
+   "days": 10,
+   "z": -1.76,
+   "ret_pct": -7.961,
+   "spx_ret_pct": -3.147,
+   "sector_ret_pct": -4.026,
+   "company_ret_pct": -5.082,
+   "price_driven_pp": -1.669,
+   "market_pp": -0.604,
+   "company_pp": -1.065,
+   "label": "divergent",
+   "market_share": 0.362,
+   "market_days": [
+    {
+     "date": "2024-12-18",
+     "spx_ret_pct": -2.95,
+     "spx_z": -4.5
+    }
+   ],
+   "daily": [
+    {
+     "date": "2024-12-17",
+     "ret_pct": -1.09
+    },
+    {
+     "date": "2024-12-18",
+     "ret_pct": -1.77
+    },
+    {
+     "date": "2024-12-19",
+     "ret_pct": -1.03
+    },
+    {
+     "date": "2024-12-20",
+     "ret_pct": -0.08
+    },
+    {
+     "date": "2024-12-23",
+     "ret_pct": -0.44
+    },
+    {
+     "date": "2024-12-24",
+     "ret_pct": 0.94
+    },
+    {
+     "date": "2024-12-26",
+     "ret_pct": -0.28
+    },
+    {
+     "date": "2024-12-27",
+     "ret_pct": -1.72
+    },
+    {
+     "date": "2024-12-30",
+     "ret_pct": -1.86
+    },
+    {
+     "date": "2024-12-31",
+     "ret_pct": -0.64
+    }
+   ],
+   "n_statements": 14,
+   "n_articles": 1,
+   "status": "answered",
+   "failure": "",
+   "cause": "",
+   "expected_before_vs_after": "",
+   "drivers": "",
+   "confidence": "none",
+   "evidence": ""
+  }
+ ],
+ "months": [
+  {
+   "month": "2024-01",
+   "n_periods": 4,
+   "n_days": 21,
+   "total_change_pp": 2.138,
+   "price_driven_pp": 1.399,
+   "market_pp": 0.216,
+   "eps_update_pp": 0.0,
+   "rate_other_pp": 0.739,
+   "company_pp": 1.184,
+   "rate_treasury_pp": 0.672,
+   "rate_erp_pp": 0.0,
+   "rate_beta_pp": 0.067,
+   "share_start": 71.3,
+   "share_end": 73.43
+  },
+  {
+   "month": "2024-02",
+   "n_periods": 2,
+   "n_days": 20,
+   "total_change_pp": 2.239,
+   "price_driven_pp": 1.728,
+   "market_pp": 0.931,
+   "eps_update_pp": 0.0,
+   "rate_other_pp": 0.511,
+   "company_pp": 0.797,
+   "rate_treasury_pp": 0.438,
+   "rate_erp_pp": 0.0,
+   "rate_beta_pp": 0.073,
+   "share_start": 73.43,
+   "share_end": 75.67
+  },
+  {
+   "month": "2024-03",
+   "n_periods": 5,
+   "n_days": 20,
+   "total_change_pp": -1.5,
+   "price_driven_pp": -0.384,
+   "market_pp": 0.677,
+   "eps_update_pp": -1.068,
+   "rate_other_pp": -0.048,
+   "company_pp": -1.06,
+   "rate_treasury_pp": 0.035,
+   "rate_erp_pp": 0.0,
+   "rate_beta_pp": -0.083,
+   "share_start": 75.67,
+   "share_end": 74.17
+  },
+  {
+   "month": "2024-04",
+   "n_periods": 3,
+   "n_days": 22,
+   "total_change_pp": 0.819,
+   "price_driven_pp": -0.361,
+   "market_pp": -0.911,
+   "eps_update_pp": 0.0,
+   "rate_other_pp": 1.18,
+   "company_pp": 0.55,
+   "rate_treasury_pp": 1.165,
+   "rate_erp_pp": 0.0,
+   "rate_beta_pp": 0.015,
+   "share_start": 74.17,
+   "share_end": 74.99
+  },
+  {
+   "month": "2024-05",
+   "n_periods": 4,
+   "n_days": 22,
+   "total_change_pp": 1.477,
+   "price_driven_pp": 2.712,
+   "market_pp": 0.872,
+   "eps_update_pp": -1.239,
+   "rate_other_pp": 0.004,
+   "company_pp": 1.84,
+   "rate_treasury_pp": -0.193,
+   "rate_erp_pp": 0.0,
+   "rate_beta_pp": 0.197,
+   "share_start": 74.99,
+   "share_end": 76.47
+  },
+  {
+   "month": "2024-06",
+   "n_periods": 2,
+   "n_days": 19,
+   "total_change_pp": 0.612,
+   "price_driven_pp": 1.119,
+   "market_pp": 0.59,
+   "eps_update_pp": 0.0,
+   "rate_other_pp": -0.507,
+   "company_pp": 0.529,
+   "rate_treasury_pp": -0.412,
+   "rate_erp_pp": 0.0,
+   "rate_beta_pp": -0.095,
+   "share_start": 76.47,
+   "share_end": 77.08
+  },
+  {
+   "month": "2024-07",
+   "n_periods": 6,
+   "n_days": 22,
+   "total_change_pp": -2.141,
+   "price_driven_pp": -0.798,
+   "market_pp": 0.237,
+   "eps_update_pp": 0.0,
+   "rate_other_pp": -1.344,
+   "company_pp": -1.035,
+   "rate_treasury_pp": -1.344,
+   "rate_erp_pp": 0.0,
+   "rate_beta_pp": 0.0,
+   "share_start": 77.08,
+   "share_end": 74.94
+  },
+  {
+   "month": "2024-08",
+   "n_periods": 3,
+   "n_days": 22,
+   "total_change_pp": 2.134,
+   "price_driven_pp": 1.977,
+   "market_pp": 0.385,
+   "eps_update_pp": 0.0,
+   "rate_other_pp": 0.157,
+   "company_pp": 1.592,
+   "rate_treasury_pp": -0.003,
+   "rate_erp_pp": 0.0,
+   "rate_beta_pp": 0.16,
+   "share_start": 74.94,
+   "share_end": 77.07
+  },
+  {
+   "month": "2024-09",
+   "n_periods": 4,
+   "n_days": 20,
+   "total_change_pp": -0.944,
+   "price_driven_pp": -0.145,
+   "market_pp": 0.376,
+   "eps_update_pp": -0.614,
+   "rate_other_pp": -0.185,
+   "company_pp": -0.521,
+   "rate_treasury_pp": -0.184,
+   "rate_erp_pp": 0.0,
+   "rate_beta_pp": -0.001,
+   "share_start": 77.07,
+   "share_end": 76.13
+  },
+  {
+   "month": "2024-10",
+   "n_periods": 3,
+   "n_days": 23,
+   "total_change_pp": 1.147,
+   "price_driven_pp": -0.318,
+   "market_pp": -0.138,
+   "eps_update_pp": 0.0,
+   "rate_other_pp": 1.465,
+   "company_pp": -0.18,
+   "rate_treasury_pp": 1.45,
+   "rate_erp_pp": 0.0,
+   "rate_beta_pp": 0.015,
+   "share_start": 76.13,
+   "share_end": 77.28
+  },
+  {
+   "month": "2024-11",
+   "n_periods": 5,
+   "n_days": 20,
+   "total_change_pp": 2.007,
+   "price_driven_pp": 2.283,
+   "market_pp": 1.08,
+   "eps_update_pp": 0.0,
+   "rate_other_pp": -0.276,
+   "company_pp": 1.203,
+   "rate_treasury_pp": -0.427,
+   "rate_erp_pp": 0.0,
+   "rate_beta_pp": 0.151,
+   "share_start": 77.28,
+   "share_end": 79.28
+  },
+  {
+   "month": "2024-12",
+   "n_periods": 3,
+   "n_days": 21,
+   "total_change_pp": -0.689,
+   "price_driven_pp": -1.23,
+   "market_pp": -0.524,
+   "eps_update_pp": -0.551,
+   "rate_other_pp": 1.091,
+   "company_pp": -0.705,
+   "rate_treasury_pp": 0.961,
+   "rate_erp_pp": 0.0,
+   "rate_beta_pp": 0.13,
+   "share_start": 79.28,
+   "share_end": 78.6
+  }
+ ],
+ "releases": [
+  {
+   "release_date": "2024-03-07",
+   "release_time": "21:37",
+   "release_form": "8-K",
+   "measurement_date": "2024-03-08",
+   "quarter_end": "2024-02-18",
+   "eps_before": "14.67",
+   "eps_after": "15.29",
+   "eps_update_pp": -1.068,
+   "share_before_step": 74.72,
+   "share_after_step": 73.66,
+   "ngv_before": 183.3916,
+   "ngv_after": 191.1423,
+   "cost_of_equity_pct": "7.9993",
+   "reaction_ret_pct": -6.04,
+   "reaction_spx_pct": 0.38,
+   "reaction_sector_pct": 0.6,
+   "reaction_company_pct": -6.39,
+   "reaction_pp": -1.629,
+   "reaction_z": -4.34,
+   "reaction_days": 2,
+   "reaction_by_day": [
+    {
+     "date": "2024-03-07",
+     "company_ret_pct": 0.87,
+     "z": 0.83
+    },
+    {
+     "date": "2024-03-08",
+     "company_ret_pct": -7.26,
+     "z": -6.96
+    }
+   ],
+   "period_ids": "P07; P08",
+   "eps_composition": {
+    "eps_ttm": "15.29",
+    "eps_ttm_adjusted": "15.29",
+    "investment_adjustment_per_share": "0.0",
+    "investment_gains_ttm": "",
+    "investment_gain_tags": "no investment gains in SEC's data",
+    "eps_two_year": "14.0733",
+    "eps_six_month": "15.0",
+    "eps_period": "2023-02-13 .. 2024-02-18",
+    "two_year_period": "2022-02-14 .. 2024-02-18",
+    "two_year_dropped": "2023-05-07 2.93; 2023-09-03 4.86",
+    "ttm_quarters": "2023-05-07 2.9300 10-Q; 2023-09-03 4.8600 derived: FY - Q1-Q3; 2023-11-26 3.5800 10-Q; 2024-02-18 3.9200 10-Q",
+    "ttm_quarter_leaving": "2023-02-12 3.3000 10-Q"
+   },
+   "prev_composition": {
+    "eps_ttm": "14.67",
+    "eps_ttm_adjusted": "14.67",
+    "investment_adjustment_per_share": "0.0",
+    "investment_gains_ttm": "",
+    "investment_gain_tags": "no investment gains in SEC's data",
+    "eps_two_year": "13.4133",
+    "eps_six_month": "16.88",
+    "eps_period": "2022-11-21 .. 2023-11-26",
+    "two_year_period": "2021-11-22 .. 2023-11-26",
+    "two_year_dropped": "2022-02-13 2.92; 2023-09-03 4.86",
+    "ttm_quarters": "2023-02-12 3.3000 10-Q; 2023-05-07 2.9300 10-Q; 2023-09-03 4.8600 derived: FY - Q1-Q3; 2023-11-26 3.5800 10-Q",
+    "ttm_quarter_leaving": "2022-11-20 3.0700 10-Q"
+   },
+   "pvgo_flags": [],
+   "reconciliation": "",
+   "item_sentences": "This year's second quarter net income was positively impacted by a $94 million ($0.21 per diluted share) tax benefit due to the deductibility of the $15 per share special dividend to the extent received by 401(k) plan participants.",
+   "item_dollar_sentences": "",
+   "diluted_shares": "",
+   "reconciliation_note": "no adjusted-EPS reconciliation table in the EX-99 exhibits; items named in the text",
+   "leaving": {
+    "quarter_end": "2023-02-12",
+    "release_date": "2023-03-03",
+    "reconciliation": "",
+    "item_sentences": "",
+    "item_dollar_sentences": "",
+    "diluted_shares": ""
+   },
+   "splits": [],
+   "items": [
+    {
+     "name": "Tax benefit from deductibility of special dividend to 401(k) participants",
+     "amount": 0.21,
+     "unit": "per diluted share",
+     "tax": "after tax or a tax item",
+     "kind": "benefit or gain",
+     "quarter": "new quarter (entering)",
+     "per_share": 0.21
+    }
+   ],
+   "failure": "",
+   "one_time_items": "entering: Tax benefit from deductibility of special dividend to 401(k) participants, benefit $0.21 (+0.21 to the step)",
+   "items_effect": 0.21,
+   "eps_change_ex_items": 0.41,
+   "items_check": ""
+  },
+  {
+   "release_date": "2024-05-30",
+   "release_time": "20:26",
+   "release_form": "8-K",
+   "measurement_date": "2024-05-31",
+   "quarter_end": "2024-05-12",
+   "eps_before": "15.29",
+   "eps_after": "16.14",
+   "eps_update_pp": -1.239,
+   "share_before_step": 77.71,
+   "share_after_step": 76.47,
+   "ngv_before": 180.5354,
+   "ngv_after": 190.5717,
+   "cost_of_equity_pct": "8.4693",
+   "reaction_ret_pct": 0.43,
+   "reaction_spx_pct": 0.21,
+   "reaction_sector_pct": 1.96,
+   "reaction_company_pct": 0.14,
+   "reaction_pp": 0.029,
+   "reaction_z": 0.08,
+   "reaction_days": 2,
+   "reaction_by_day": [
+    {
+     "date": "2024-05-30",
+     "company_ret_pct": 1.59,
+     "z": 1.28
+    },
+    {
+     "date": "2024-05-31",
+     "company_ret_pct": -1.45,
+     "z": -1.16
+    }
+   ],
+   "period_ids": "P17; P18",
+   "eps_composition": {
+    "eps_ttm": "16.14",
+    "eps_ttm_adjusted": "16.14",
+    "investment_adjustment_per_share": "0.0",
+    "investment_gains_ttm": "",
+    "investment_gain_tags": "no investment gains in SEC's data",
+    "eps_two_year": "14.5667",
+    "eps_six_month": "15.4",
+    "eps_period": "2023-05-08 .. 2024-05-12",
+    "two_year_period": "2022-05-09 .. 2024-05-12",
+    "two_year_dropped": "2023-05-07 2.93; 2023-09-03 4.86",
+    "ttm_quarters": "2023-09-03 4.8600 derived: FY - Q1-Q3; 2023-11-26 3.5800 10-Q; 2024-02-18 3.9200 10-Q; 2024-05-12 3.7800 10-Q",
+    "ttm_quarter_leaving": "2023-05-07 2.9300 10-Q"
+   },
+   "prev_composition": {
+    "eps_ttm": "15.29",
+    "eps_ttm_adjusted": "15.29",
+    "investment_adjustment_per_share": "0.0",
+    "investment_gains_ttm": "",
+    "investment_gain_tags": "no investment gains in SEC's data",
+    "eps_two_year": "14.0733",
+    "eps_six_month": "15.0",
+    "eps_period": "2023-02-13 .. 2024-02-18",
+    "two_year_period": "2022-02-14 .. 2024-02-18",
+    "two_year_dropped": "2023-05-07 2.93; 2023-09-03 4.86",
+    "ttm_quarters": "2023-05-07 2.9300 10-Q; 2023-09-03 4.8600 derived: FY - Q1-Q3; 2023-11-26 3.5800 10-Q; 2024-02-18 3.9200 10-Q",
+    "ttm_quarter_leaving": "2023-02-12 3.3000 10-Q"
+   },
+   "pvgo_flags": [],
+   "reconciliation": "",
+   "item_sentences": "Last year's third quarter net income was $1.30 billion, $2.93 per diluted share, which included a non-recurring charge to merchandise costs of $298 million pretax, $0.50 per diluted share, primarily for the discontinuation of our charter shipping activities.\nLast year's results included a non-recurring charge to merchandise costs of $298M pretax, $0.50 per diluted share, primarily for the discontinuation of our charter shipping activities.",
+   "item_dollar_sentences": "",
+   "diluted_shares": "",
+   "reconciliation_note": "no adjusted-EPS reconciliation table in the EX-99 exhibits; items named in the text",
+   "leaving": {
+    "quarter_end": "2023-05-07",
+    "release_date": "2023-05-25",
+    "reconciliation": "",
+    "item_sentences": "Net income for the quarter was $1.30 billion, $2.93 per diluted share, which includes a non-recurring charge to merchandise costs of $298 million pretax, $0.50 per diluted share, primarily for the discontinuation of our charter shipping activities.\nLast year's third quarter net income was $1.35 billion, $3.04 per diluted share, which included a non-recurring $77 million pretax charge, $0.13 per diluted share, for incremental employee benefits.",
+    "item_dollar_sentences": "",
+    "diluted_shares": ""
+   },
+   "splits": [],
+   "items": [
+    {
+     "name": "Non-recurring charge to merchandise costs (discontinuation of charter shipping activities)",
+     "amount": 0.5,
+     "unit": "per diluted share",
+     "tax": "after tax or a tax item",
+     "kind": "charge or loss",
+     "quarter": "quarter leaving the TTM",
+     "per_share": 0.5
+    }
+   ],
+   "failure": "",
+   "one_time_items": "leaving: Non-recurring charge to merchandise costs (discontinuation of charter shipping activities), charge $0.50 (+0.50 to the step)",
+   "items_effect": 0.5,
+   "eps_change_ex_items": 0.35,
+   "items_check": ""
+  },
+  {
+   "release_date": "2024-09-26",
+   "release_time": "20:17",
+   "release_form": "8-K",
+   "measurement_date": "2024-09-27",
+   "quarter_end": "2024-09-01",
+   "eps_before": "16.14",
+   "eps_after": "16.56",
+   "eps_update_pp": -0.614,
+   "share_before_step": 76.42,
+   "share_after_step": 75.81,
+   "ngv_before": 208.82,
+   "ngv_after": 214.254,
+   "cost_of_equity_pct": "7.7291",
+   "reaction_ret_pct": -2.52,
+   "reaction_spx_pct": 0.28,
+   "reaction_sector_pct": 1.65,
+   "reaction_company_pct": -2.7,
+   "reaction_pp": -0.633,
+   "reaction_z": -1.79,
+   "reaction_days": 2,
+   "reaction_by_day": [
+    {
+     "date": "2024-09-26",
+     "company_ret_pct": -1.08,
+     "z": -1.02
+    },
+    {
+     "date": "2024-09-27",
+     "company_ret_pct": -1.62,
+     "z": -1.51
+    }
+   ],
+   "period_ids": "P33",
+   "eps_composition": {
+    "eps_ttm": "16.56",
+    "eps_ttm_adjusted": "16.56",
+    "investment_adjustment_per_share": "0.0",
+    "investment_gains_ttm": "",
+    "investment_gain_tags": "no investment gains in SEC's data",
+    "eps_two_year": "15.0067",
+    "eps_six_month": "18.12",
+    "eps_period": "2023-09-04 .. 2024-09-01",
+    "two_year_period": "2022-08-29 .. 2024-09-01",
+    "two_year_dropped": "2023-05-07 2.93; 2024-09-01 5.28",
+    "ttm_quarters": "2023-11-26 3.5800 10-Q; 2024-02-18 3.9200 10-Q; 2024-05-12 3.7800 10-Q; 2024-09-01 5.2800 derived: FY - Q1-Q3",
+    "ttm_quarter_leaving": "2023-09-03 4.8600 derived: FY - Q1-Q3"
+   },
+   "prev_composition": {
+    "eps_ttm": "16.14",
+    "eps_ttm_adjusted": "16.14",
+    "investment_adjustment_per_share": "0.0",
+    "investment_gains_ttm": "",
+    "investment_gain_tags": "no investment gains in SEC's data",
+    "eps_two_year": "14.5667",
+    "eps_six_month": "15.4",
+    "eps_period": "2023-05-08 .. 2024-05-12",
+    "two_year_period": "2022-05-09 .. 2024-05-12",
+    "two_year_dropped": "2023-05-07 2.93; 2023-09-03 4.86",
+    "ttm_quarters": "2023-09-03 4.8600 derived: FY - Q1-Q3; 2023-11-26 3.5800 10-Q; 2024-02-18 3.9200 10-Q; 2024-05-12 3.7800 10-Q",
+    "ttm_quarter_leaving": "2023-05-07 2.9300 10-Q"
+   },
+   "pvgo_flags": [],
+   "reconciliation": "",
+   "item_sentences": "This year's results included a net non-recurring tax benefit of $63 million, $0.14 per diluted share, related to a transfer pricing settlement, and true-ups of tax reserves.\nThis year’s results included a non-recurring tax benefit of $63M, or $0.14/diluted share.",
+   "item_dollar_sentences": "",
+   "diluted_shares": "",
+   "reconciliation_note": "no adjusted-EPS reconciliation table in the EX-99 exhibits; items named in the text",
+   "leaving": {
+    "quarter_end": "2023-09-03",
+    "release_date": "2023-09-26",
+    "reconciliation": "",
+    "item_sentences": "",
+    "item_dollar_sentences": "",
+    "diluted_shares": ""
+   },
+   "splits": [],
+   "items": [
+    {
+     "name": "Non-recurring tax benefit (transfer pricing settlement and tax reserve true-ups)",
+     "amount": 0.14,
+     "unit": "per diluted share",
+     "tax": "after tax or a tax item",
+     "kind": "benefit or gain",
+     "quarter": "new quarter (entering)",
+     "per_share": 0.14
+    }
+   ],
+   "failure": "",
+   "one_time_items": "entering: Non-recurring tax benefit (transfer pricing settlement and tax reserve true-ups), benefit $0.14 (+0.14 to the step)",
+   "items_effect": 0.14,
+   "eps_change_ex_items": 0.28,
+   "items_check": ""
+  },
+  {
+   "release_date": "2024-12-12",
+   "release_time": "21:18",
+   "release_form": "8-K",
+   "measurement_date": "2024-12-13",
+   "quarter_end": "2024-11-24",
+   "eps_before": "16.56",
+   "eps_after": "17.02",
+   "eps_update_pp": -0.551,
+   "share_before_step": 80.18,
+   "share_after_step": 79.63,
+   "ngv_before": 196.083,
+   "ngv_after": 201.5298,
+   "cost_of_equity_pct": "8.4454",
+   "reaction_ret_pct": -0.54,
+   "reaction_spx_pct": -0.54,
+   "reaction_sector_pct": 0.25,
+   "reaction_company_pct": -0.13,
+   "reaction_pp": -0.027,
+   "reaction_z": -0.1,
+   "reaction_days": 2,
+   "reaction_by_day": [
+    {
+     "date": "2024-12-12",
+     "company_ret_pct": -0.23,
+     "z": -0.24
+    },
+    {
+     "date": "2024-12-13",
+     "company_ret_pct": 0.09,
+     "z": 0.1
+    }
+   ],
+   "period_ids": "P42",
+   "eps_composition": {
+    "eps_ttm": "17.02",
+    "eps_ttm_adjusted": "17.02",
+    "investment_adjustment_per_share": "0.0",
+    "investment_gains_ttm": "",
+    "investment_gain_tags": "no investment gains in SEC's data",
+    "eps_two_year": "15.6533",
+    "eps_six_month": "18.64",
+    "eps_period": "2023-11-27 .. 2024-11-24",
+    "two_year_period": "2022-11-21 .. 2024-11-24",
+    "two_year_dropped": "2023-05-07 2.93; 2024-09-01 5.28",
+    "ttm_quarters": "2024-02-18 3.9200 10-Q; 2024-05-12 3.7800 10-Q; 2024-09-01 5.2800 derived: FY - Q1-Q3; 2024-11-24 4.0400 10-Q",
+    "ttm_quarter_leaving": "2023-11-26 3.5800 10-Q"
+   },
+   "prev_composition": {
+    "eps_ttm": "16.56",
+    "eps_ttm_adjusted": "16.56",
+    "investment_adjustment_per_share": "0.0",
+    "investment_gains_ttm": "",
+    "investment_gain_tags": "no investment gains in SEC's data",
+    "eps_two_year": "15.0067",
+    "eps_six_month": "18.12",
+    "eps_period": "2023-09-04 .. 2024-09-01",
+    "two_year_period": "2022-08-29 .. 2024-09-01",
+    "two_year_dropped": "2023-05-07 2.93; 2024-09-01 5.28",
+    "ttm_quarters": "2023-11-26 3.5800 10-Q; 2024-02-18 3.9200 10-Q; 2024-05-12 3.7800 10-Q; 2024-09-01 5.2800 derived: FY - Q1-Q3",
+    "ttm_quarter_leaving": "2023-09-03 4.8600 derived: FY - Q1-Q3"
+   },
+   "pvgo_flags": [],
+   "reconciliation": "",
+   "item_sentences": "This year's results included a tax benefit of $100 million, $0.22 per diluted share, related to stock-based compensation.\nLast year's results included a tax benefit of $44 million, $0.10 per diluted share, also related to stock-based compensation.\nThis year’s results included a tax benefit of $100 million, or $0.22 per diluted share, related to stock- based compensation.\nLast year’s results included a tax benefit of $44 million, or $0.10 per diluted share, also related to stock-based compensation.",
+   "item_dollar_sentences": "",
+   "diluted_shares": "",
+   "reconciliation_note": "no adjusted-EPS reconciliation table in the EX-99 exhibits; items named in the text",
+   "leaving": {
+    "quarter_end": "2023-11-26",
+    "release_date": "2023-12-14",
+    "reconciliation": "",
+    "item_sentences": "This year's results included a tax benefit of $44 million, $0.10 per diluted share, related to stock-based compensation.\nLast year's results included a charge of $93 million pre-tax, $0.15 per diluted share, primarily related to downsizing our charter shipping activities, and a tax benefit of $53 million, $0.12 per diluted share, related to stock-based compensation.",
+    "item_dollar_sentences": "",
+    "diluted_shares": ""
+   },
+   "splits": [],
+   "items": [
+    {
+     "name": "Tax benefit related to stock-based compensation",
+     "amount": 0.22,
+     "unit": "per diluted share",
+     "tax": "after tax or a tax item",
+     "kind": "benefit or gain",
+     "quarter": "new quarter (entering)",
+     "per_share": 0.22
+    },
+    {
+     "name": "Tax benefit related to stock-based compensation",
+     "amount": 0.1,
+     "unit": "per diluted share",
+     "tax": "after tax or a tax item",
+     "kind": "benefit or gain",
+     "quarter": "quarter leaving the TTM",
+     "per_share": 0.1
+    }
+   ],
+   "failure": "",
+   "one_time_items": "entering: Tax benefit related to stock-based compensation, benefit $0.22 (+0.22 to the step); leaving: Tax benefit related to stock-based compensation, benefit $0.10 (-0.10 to the step)",
+   "items_effect": 0.12,
+   "eps_change_ex_items": 0.34,
+   "items_check": ""
+  }
+ ],
+ "refs": {
+  "told_P01": [
+   "2024-01/A0035-S01",
+   "2024-01/A0035-S02",
+   "2024-01/A0035-S03"
+  ],
+  "told_P02": [
+   "2024-01/A0035-S01",
+   "2024-01/A0035-S02",
+   "2024-01/A0035-S03",
+   "2024-01/A0030-S01",
+   "2024-01/A0030-S02",
+   "2024-01/A0030-S03",
+   "2024-01/A0026-S02",
+   "2024-01/A0026-S03",
+   "2024-01/A0024-S01",
+   "2024-01/A0024-S03",
+   "2024-01/A0039-S01",
+   "2024-01/A0039-S02",
+   "2024-01/A0039-S03",
+   "2024-01/A0029",
+   "2024-01/A0027"
+  ],
+  "told_P03": [
+   "2024-01/A0020-S01",
+   "2024-01/A0020-S02",
+   "2024-01/A0020-S03",
+   "2024-01/A0018-S01",
+   "2024-01/A0018-S02",
+   "2024-01/A0018-S03",
+   "2024-01/A0012-S01",
+   "2024-01/A0012-S02",
+   "2024-01/A0012-S03",
+   "2024-01/A0009-S01",
+   "2024-01/A0009-S02",
+   "2024-01/A0008-S01",
+   "2024-01/A0008-S03",
+   "2024-01/A0016",
+   "2024-01/A0017",
+   "2024-01/A0010"
+  ],
+  "told_P04": [
+   "2024-01/A0008-S01",
+   "2024-01/A0008-S03",
+   "2024-01/A0006-S02",
+   "2024-01/A0007-S01",
+   "2024-01/A0007-S02",
+   "2024-01/A0007-S03",
+   "2024-02/A0044-S01",
+   "2024-02/A0044-S02",
+   "2024-02/A0044-S03"
+  ],
+  "told_P05": [
+   "2024-02/A0044-S01",
+   "2024-02/A0044-S02",
+   "2024-02/A0044-S03",
+   "2024-02/A0041-S01",
+   "2024-02/A0041-S02",
+   "2024-02/A0038-S01",
+   "2024-02/A0038-S02",
+   "2024-02/A0038-S03",
+   "2024-02/A0023-S01",
+   "2024-02/A0023-S02",
+   "2024-02/A0023-S03",
+   "2024-02/A0024-S01",
+   "2024-02/A0024-S02",
+   "2024-02/A0024-S03",
+   "2024-02/A0019-S01",
+   "2024-02/A0019-S02",
+   "2024-02/A0019-S03",
+   "2024-02/A0018-S02",
+   "2024-02/A0042",
+   "2024-02/A0039",
+   "2024-02/A0036",
+   "2024-02/A0034",
+   "2024-02/A0035",
+   "2024-02/A0030",
+   "2024-02/A0026",
+   "2024-02/A0021"
+  ],
+  "told_P06": [
+   "2024-02/A0018-S02",
+   "2024-02/A0014-S01",
+   "2024-02/A0014-S02",
+   "2024-02/A0013-S01",
+   "2024-02/A0013-S02",
+   "2024-02/A0011-S01",
+   "2024-02/A0011-S03",
+   "2024-02/A0008-S01",
+   "2024-02/A0008-S02",
+   "2024-02/A0008-S03",
+   "2024-03/A0115-S01",
+   "2024-02/A0010"
+  ],
+  "told_P07": [
+   "2024-03/A0115-S01",
+   "2024-03/A0106-S01",
+   "2024-03/A0106-S02",
+   "2024-03/A0106-S03",
+   "2024-03/A0096-S01",
+   "2024-03/A0096-S02",
+   "2024-03/A0096-S03",
+   "2024-03/A0073-H",
+   "2024-03/A0074-S01",
+   "2024-03/A0074-S02",
+   "2024-03/A0074-S03",
+   "2024-03/A0077-S01",
+   "2024-03/A0077-S02",
+   "2024-03/A0077-S03",
+   "2024-03/A0079-S01",
+   "2024-03/A0079-S02",
+   "2024-03/A0079-S03",
+   "2024-03/A0081-S01",
+   "2024-03/A0083-S01",
+   "2024-03/A0083-S02",
+   "2024-03/A0083-S03",
+   "2024-03/A0085-S01",
+   "2024-03/A0085-S02",
+   "2024-03/A0085-S03",
+   "2024-03/A0116-S01",
+   "2024-03/A0116-S02",
+   "2024-03/A0116-S03",
+   "2024-03/A0112",
+   "2024-03/A0105",
+   "2024-03/A0076",
+   "2024-03/A0084"
+  ],
+  "told_P08": [
+   "2024-03/A0073-H",
+   "2024-03/A0074-S01",
+   "2024-03/A0074-S02",
+   "2024-03/A0074-S03",
+   "2024-03/A0077-S01",
+   "2024-03/A0077-S02",
+   "2024-03/A0077-S03",
+   "2024-03/A0079-S01",
+   "2024-03/A0079-S02",
+   "2024-03/A0079-S03",
+   "2024-03/A0081-S01",
+   "2024-03/A0083-S01",
+   "2024-03/A0083-S02",
+   "2024-03/A0083-S03",
+   "2024-03/A0085-S01",
+   "2024-03/A0085-S02",
+   "2024-03/A0085-S03",
+   "2024-03/A0116-S01",
+   "2024-03/A0116-S02",
+   "2024-03/A0116-S03",
+   "2024-03/A0071-S01",
+   "2024-03/A0071-S02",
+   "2024-03/A0072-S01",
+   "2024-03/A0072-S02",
+   "2024-03/A0072-S03",
+   "2024-03/A0076",
+   "2024-03/A0084"
+  ],
+  "told_P09": [
+   "2024-03/A0064-H",
+   "2024-03/A0065",
+   "2024-03/A0066"
+  ],
+  "told_P10": [
+   "2024-03/A0064-H",
+   "2024-03/A0057-S01",
+   "2024-03/A0057-S02",
+   "2024-03/A0057-S03",
+   "2024-03/A0060-S01",
+   "2024-03/A0060-S02",
+   "2024-03/A0060-S03",
+   "2024-03/A0061-H",
+   "2024-03/A0052-S01",
+   "2024-03/A0052-S02",
+   "2024-03/A0052-S03",
+   "2024-03/A0056-S01",
+   "2024-03/A0056-S02",
+   "2024-03/A0056-S03",
+   "2024-03/A0050-S01",
+   "2024-03/A0050-S03",
+   "2024-03/A0036-S01",
+   "2024-03/A0036-S02",
+   "2024-03/A0036-S03",
+   "2024-03/A0033-S01",
+   "2024-03/A0033-S02",
+   "2024-03/A0033-S03",
+   "2024-03/A0030-S01",
+   "2024-03/A0030-S02",
+   "2024-03/A0028-S02",
+   "2024-03/A0022-S01",
+   "2024-03/A0022-S02",
+   "2024-03/A0022-S03",
+   "2024-03/A0024-S01",
+   "2024-03/A0024-S02",
+   "2024-03/A0024-S03",
+   "2024-03/A0065",
+   "2024-03/A0066",
+   "2024-03/A0063",
+   "2024-03/A0048",
+   "2024-03/A0042",
+   "2024-03/A0044",
+   "2024-03/A0027"
+  ],
+  "told_P11": [
+   "2024-03/A0022-S01",
+   "2024-03/A0022-S02",
+   "2024-03/A0022-S03",
+   "2024-03/A0024-S01",
+   "2024-03/A0024-S02",
+   "2024-03/A0024-S03",
+   "2024-03/A0021"
+  ],
+  "told_P12": [
+   "2024-04/A0090-S01",
+   "2024-04/A0090-S02",
+   "2024-04/A0093-S01",
+   "2024-04/A0093-S02",
+   "2024-04/A0082-S01",
+   "2024-04/A0082-S02",
+   "2024-04/A0082-S03",
+   "2024-04/A0077-S01",
+   "2024-04/A0077-S02",
+   "2024-04/A0077-S03",
+   "2024-04/A0080-S02",
+   "2024-04/A0080-S03",
+   "2024-04/A0083-S01",
+   "2024-04/A0083-S02",
+   "2024-04/A0083-S03",
+   "2024-03/A0001",
+   "2024-03/A0002",
+   "2024-04/A0075",
+   "2024-04/A0076"
+  ],
+  "told_P13": [
+   "2024-04/A0069-S01",
+   "2024-04/A0069-S02",
+   "2024-04/A0069-S03",
+   "2024-04/A0064-S01",
+   "2024-04/A0064-S02",
+   "2024-04/A0064-S03",
+   "2024-04/A0056-S01",
+   "2024-04/A0056-S02",
+   "2024-04/A0056-S03",
+   "2024-04/A0049-S02",
+   "2024-04/A0049-S03",
+   "2024-04/A0050-S01",
+   "2024-04/A0050-S02",
+   "2024-04/A0054-S01",
+   "2024-04/A0054-S02",
+   "2024-04/A0054-S03",
+   "2024-04/A0055-S01",
+   "2024-04/A0055-S02",
+   "2024-04/A0055-S03",
+   "2024-04/A0057-S01",
+   "2024-04/A0057-S02",
+   "2024-04/A0057-S03",
+   "2024-04/A0094-S01",
+   "2024-04/A0094-S02",
+   "2024-04/A0094-S03",
+   "2024-04/A0033-S01",
+   "2024-04/A0035-S01",
+   "2024-04/A0035-S02",
+   "2024-04/A0035-S03",
+   "2024-04/A0075",
+   "2024-04/A0076",
+   "2024-04/A0052",
+   "2024-04/A0037",
+   "2024-04/A0034"
+  ],
+  "told_P14": [
+   "2024-04/A0033-S01",
+   "2024-04/A0035-S01",
+   "2024-04/A0035-S02",
+   "2024-04/A0035-S03",
+   "2024-04/A0018-S02",
+   "2024-04/A0015-S01",
+   "2024-04/A0015-S02",
+   "2024-04/A0015-S03",
+   "2024-04/A0014-S01",
+   "2024-04/A0014-S02",
+   "2024-04/A0014-S03",
+   "2024-04/A0009-S01",
+   "2024-04/A0003-S01",
+   "2024-04/A0003-S02",
+   "2024-04/A0003-S03",
+   "2024-04/A0002-S01",
+   "2024-04/A0002-S02",
+   "2024-04/A0002-S03",
+   "2024-05/A0129-S01",
+   "2024-05/A0129-S02",
+   "2024-05/A0129-S03",
+   "2024-04/A0034",
+   "2024-04/A0028",
+   "2024-04/A0008",
+   "2024-05/A0128"
+  ],
+  "told_P15": [
+   "2024-04/A0002-S01",
+   "2024-04/A0002-S02",
+   "2024-04/A0002-S03",
+   "2024-05/A0129-S01",
+   "2024-05/A0129-S02",
+   "2024-05/A0129-S03",
+   "2024-05/A0128"
+  ],
+  "told_P16": [
+   "2024-05/A0129-S01",
+   "2024-05/A0129-S02",
+   "2024-05/A0129-S03",
+   "2024-05/A0123-S01",
+   "2024-05/A0123-S02",
+   "2024-05/A0123-S03",
+   "2024-05/A0116-S01",
+   "2024-05/A0116-S02",
+   "2024-05/A0116-S03",
+   "2024-05/A0106-H",
+   "2024-05/A0086-S01",
+   "2024-05/A0086-S02",
+   "2024-05/A0086-S03",
+   "2024-05/A0090-S01",
+   "2024-05/A0090-S02",
+   "2024-05/A0090-S03",
+   "2024-05/A0092-S01",
+   "2024-05/A0092-S02",
+   "2024-05/A0094-S01",
+   "2024-05/A0094-S02",
+   "2024-05/A0094-S03",
+   "2024-05/A0082-S01",
+   "2024-05/A0082-S02",
+   "2024-05/A0082-S03",
+   "2024-05/A0083-S01",
+   "2024-05/A0083-S02",
+   "2024-05/A0083-S03",
+   "2024-05/A0069-S01",
+   "2024-05/A0069-S02",
+   "2024-05/A0069-S03",
+   "2024-05/A0128",
+   "2024-05/A0125",
+   "2024-05/A0105",
+   "2024-05/A0072",
+   "2024-05/A0075"
+  ],
+  "told_P17": [
+   "2024-05/A0082-S01",
+   "2024-05/A0082-S02",
+   "2024-05/A0082-S03",
+   "2024-05/A0083-S01",
+   "2024-05/A0083-S02",
+   "2024-05/A0083-S03",
+   "2024-05/A0069-S01",
+   "2024-05/A0069-S02",
+   "2024-05/A0069-S03",
+   "2024-05/A0061-S01",
+   "2024-05/A0063-S01",
+   "2024-05/A0063-S02",
+   "2024-05/A0063-S03",
+   "2024-05/A0049-S01",
+   "2024-05/A0049-S02",
+   "2024-05/A0049-S03",
+   "2024-05/A0048-S01",
+   "2024-05/A0048-S02",
+   "2024-05/A0040-S01",
+   "2024-05/A0040-S02",
+   "2024-05/A0040-S03",
+   "2024-05/A0043-S01",
+   "2024-05/A0043-S02",
+   "2024-05/A0035-S01",
+   "2024-05/A0035-S02",
+   "2024-05/A0035-S03",
+   "2024-05/A0038-S01",
+   "2024-05/A0038-S02",
+   "2024-05/A0038-S03",
+   "2024-05/A0034-S01",
+   "2024-05/A0034-S02",
+   "2024-05/A0020-S02",
+   "2024-05/A0020-S03",
+   "2024-05/A0009-S01",
+   "2024-05/A0009-S02",
+   "2024-05/A0009-S03",
+   "2024-05/A0010-S01",
+   "2024-05/A0010-S02",
+   "2024-05/A0010-S03",
+   "2024-05/A0001-S01",
+   "2024-05/A0001-S02",
+   "2024-05/A0001-S03",
+   "2024-05/A0004-S01",
+   "2024-05/A0004-S02",
+   "2024-05/A0004-S03",
+   "2024-05/A0072",
+   "2024-05/A0075",
+   "2024-05/A0066",
+   "2024-05/A0051",
+   "2024-05/A0029",
+   "2024-05/A0015",
+   "2024-05/A0003",
+   "2024-05/A0008"
+  ],
+  "told_P18": [
+   "2024-05/A0009-S01",
+   "2024-05/A0009-S02",
+   "2024-05/A0009-S03",
+   "2024-05/A0010-S01",
+   "2024-05/A0010-S02",
+   "2024-05/A0010-S03",
+   "2024-05/A0001-S01",
+   "2024-05/A0001-S02",
+   "2024-05/A0001-S03",
+   "2024-05/A0004-S01",
+   "2024-05/A0004-S02",
+   "2024-05/A0004-S03",
+   "2024-06/A0081-S01",
+   "2024-06/A0081-S02",
+   "2024-06/A0081-S03",
+   "2024-05/A0003",
+   "2024-05/A0008"
+  ],
+  "told_P19": [
+   "2024-06/A0073-S01",
+   "2024-06/A0073-S02",
+   "2024-06/A0073-S03",
+   "2024-06/A0067-S01",
+   "2024-06/A0067-S02",
+   "2024-06/A0067-S03",
+   "2024-06/A0068-S01",
+   "2024-06/A0068-S02",
+   "2024-06/A0068-S03",
+   "2024-06/A0060-S01",
+   "2024-06/A0060-S02",
+   "2024-06/A0051-S01",
+   "2024-06/A0051-S02",
+   "2024-06/A0051-S03",
+   "2024-06/A0043-S01",
+   "2024-06/A0043-S02",
+   "2024-06/A0043-S03",
+   "2024-06/A0040-S01",
+   "2024-06/A0040-S02",
+   "2024-06/A0040-S03",
+   "2024-06/A0041-S02",
+   "2024-06/A0041-S03",
+   "2024-06/A0076",
+   "2024-06/A0069",
+   "2024-06/A0065",
+   "2024-06/A0062",
+   "2024-06/A0054",
+   "2024-06/A0047",
+   "2024-06/A0049",
+   "2024-06/A0045"
+  ],
+  "told_P20": [
+   "2024-06/A0035-H",
+   "2024-06/A0032-S01",
+   "2024-06/A0032-S02",
+   "2024-06/A0024-S01",
+   "2024-06/A0024-S02",
+   "2024-06/A0024-S03",
+   "2024-06/A0022-S01",
+   "2024-06/A0022-S02",
+   "2024-06/A0022-S03",
+   "2024-06/A0014-S01",
+   "2024-06/A0014-S02",
+   "2024-06/A0014-S03",
+   "2024-06/A0080-S01",
+   "2024-06/A0080-S02",
+   "2024-06/A0080-S03",
+   "2024-06/A0007-S01",
+   "2024-06/A0007-S03",
+   "2024-06/A0009-S01",
+   "2024-06/A0009-S03",
+   "2024-06/A0005",
+   "2024-06/A0008"
+  ],
+  "told_P21": [
+   "2024-06/A0004-S02",
+   "2024-07/A0099-S01",
+   "2024-07/A0099-S02",
+   "2024-06/A0003",
+   "2024-07/A0100"
+  ],
+  "told_P22": [
+   "2024-07/A0099-S01",
+   "2024-07/A0099-S02",
+   "2024-07/A0096-S01",
+   "2024-07/A0096-S02",
+   "2024-07/A0096-S03",
+   "2024-07/A0092-S01",
+   "2024-07/A0092-S02",
+   "2024-07/A0094-H",
+   "2024-07/A0100"
+  ],
+  "told_P23": [
+   "2024-07/A0087-S01",
+   "2024-07/A0087-S02",
+   "2024-07/A0080-S01",
+   "2024-07/A0080-S02",
+   "2024-07/A0081-S01",
+   "2024-07/A0081-S02",
+   "2024-07/A0081-S03",
+   "2024-07/A0082-S01",
+   "2024-07/A0082-S02",
+   "2024-07/A0082-S03",
+   "2024-07/A0083-S01",
+   "2024-07/A0083-S02",
+   "2024-07/A0083-S03",
+   "2024-07/A0084-H",
+   "2024-07/A0085-H",
+   "2024-07/A0076-S01",
+   "2024-07/A0076-S02",
+   "2024-07/A0077-H",
+   "2024-07/A0078-S02",
+   "2024-07/A0079-S01",
+   "2024-07/A0079-S02",
+   "2024-07/A0079-S03",
+   "2024-07/A0088"
+  ],
+  "told_P24": [
+   "2024-07/A0080-S01",
+   "2024-07/A0080-S02",
+   "2024-07/A0081-S01",
+   "2024-07/A0081-S02",
+   "2024-07/A0081-S03",
+   "2024-07/A0082-S01",
+   "2024-07/A0082-S02",
+   "2024-07/A0082-S03",
+   "2024-07/A0083-S01",
+   "2024-07/A0083-S02",
+   "2024-07/A0083-S03",
+   "2024-07/A0084-H",
+   "2024-07/A0085-H",
+   "2024-07/A0076-S01",
+   "2024-07/A0076-S02",
+   "2024-07/A0077-H",
+   "2024-07/A0078-S02",
+   "2024-07/A0079-S01",
+   "2024-07/A0079-S02",
+   "2024-07/A0079-S03",
+   "2024-07/A0073-S01",
+   "2024-07/A0073-S03"
+  ],
+  "told_P25": [
+   "2024-07/A0076-S01",
+   "2024-07/A0076-S02",
+   "2024-07/A0077-H",
+   "2024-07/A0078-S02",
+   "2024-07/A0079-S01",
+   "2024-07/A0079-S02",
+   "2024-07/A0079-S03",
+   "2024-07/A0073-S01",
+   "2024-07/A0073-S03",
+   "2024-07/A0063-S01",
+   "2024-07/A0063-S02",
+   "2024-07/A0063-S03",
+   "2024-07/A0062-S01",
+   "2024-07/A0062-S02",
+   "2024-07/A0054-S01",
+   "2024-07/A0054-S02",
+   "2024-07/A0109-S01",
+   "2024-07/A0109-S02",
+   "2024-07/A0071",
+   "2024-07/A0070",
+   "2024-07/A0061",
+   "2024-07/A0056",
+   "2024-07/A0040",
+   "2024-07/A0041",
+   "2024-07/A0031"
+  ],
+  "told_P26": [
+   "2024-07/A0014-H",
+   "2024-07/A0008-S01",
+   "2024-07/A0008-S02",
+   "2024-07/A0031",
+   "2024-07/A0016",
+   "2024-07/A0009"
+  ],
+  "told_P27": [
+   "2024-08/A0071-S01",
+   "2024-08/A0071-S02",
+   "2024-08/A0071-S03",
+   "2024-08/A0066-H",
+   "2024-08/A0065"
+  ],
+  "told_P28": [
+   "2024-08/A0073-S01",
+   "2024-08/A0073-S02",
+   "2024-08/A0073-S03",
+   "2024-08/A0053-H",
+   "2024-08/A0054-S01",
+   "2024-08/A0047-S02",
+   "2024-08/A0043-H",
+   "2024-08/A0026-S01",
+   "2024-08/A0021-S01",
+   "2024-08/A0021-S02",
+   "2024-08/A0021-S03",
+   "2024-08/A0038",
+   "2024-08/A0036"
+  ],
+  "told_P29": [
+   "2024-08/A0021-S01",
+   "2024-08/A0021-S02",
+   "2024-08/A0021-S03",
+   "2024-08/A0019-S01",
+   "2024-08/A0019-S02",
+   "2024-08/A0009-S01",
+   "2024-08/A0009-S02",
+   "2024-08/A0009-S03",
+   "2024-08/A0004-S01",
+   "2024-08/A0004-S02",
+   "2024-08/A0001-S01",
+   "2024-08/A0001-S02",
+   "2024-08/A0001-S03",
+   "2024-08/A0012",
+   "2024-08/A0013",
+   "2024-08/A0010",
+   "2024-08/A0008",
+   "2024-08/A0005",
+   "2024-08/A0007",
+   "2024-08/A0002"
+  ],
+  "told_P30": [
+   "2024-09/A0071-S01",
+   "2024-09/A0071-S02",
+   "2024-09/A0071-S03",
+   "2024-09/A0072-H",
+   "2024-09/A0068-H",
+   "2024-09/A0070",
+   "2024-09/A0067"
+  ],
+  "told_P31": [
+   "2024-09/A0053-S01",
+   "2024-09/A0053-S02",
+   "2024-09/A0055-S02",
+   "2024-09/A0055-S03",
+   "2024-09/A0052-S01",
+   "2024-09/A0052-S02",
+   "2024-09/A0045-S01",
+   "2024-09/A0045-S02",
+   "2024-09/A0077-S01",
+   "2024-09/A0077-S02",
+   "2024-09/A0077-S03",
+   "2024-09/A0065",
+   "2024-09/A0002",
+   "2024-09/A0036"
+  ],
+  "told_P32": [
+   "2024-09/A0027-H",
+   "2024-09/A0029"
+  ],
+  "told_P33": [
+   "2024-09/A0027-H",
+   "2024-09/A0022-S01",
+   "2024-09/A0022-S02",
+   "2024-09/A0022-S03",
+   "2024-09/A0018-S01",
+   "2024-09/A0018-S02",
+   "2024-09/A0018-S03",
+   "2024-09/A0019-S01",
+   "2024-09/A0019-S02",
+   "2024-09/A0019-S03",
+   "2024-09/A0021-S01",
+   "2024-09/A0021-S02",
+   "2024-09/A0076-S01",
+   "2024-09/A0076-S02",
+   "2024-09/A0076-S03",
+   "2024-09/A0012-S01",
+   "2024-09/A0012-S02",
+   "2024-09/A0012-S03",
+   "2024-09/A0016-S01",
+   "2024-09/A0016-S02",
+   "2024-09/A0016-S03",
+   "2024-09/A0017-S01",
+   "2024-09/A0017-S02",
+   "2024-09/A0008-S02",
+   "2024-09/A0008-S03",
+   "2024-10/A0008-S01",
+   "2024-10/A0008-S02",
+   "2024-09/A0001",
+   "2024-09/A0020",
+   "2024-09/A0013",
+   "2024-09/A0009",
+   "2024-09/A0003",
+   "2024-10/A0061"
+  ],
+  "told_P34": [
+   "2024-10/A0008-S01",
+   "2024-10/A0008-S02",
+   "2024-10/A0007-S01",
+   "2024-10/A0007-S02",
+   "2024-10/A0007-S03",
+   "2024-10/A0057-S01",
+   "2024-10/A0057-S02",
+   "2024-10/A0057-S03",
+   "2024-10/A0059-S01",
+   "2024-10/A0059-S02",
+   "2024-10/A0063-S01",
+   "2024-10/A0063-S02",
+   "2024-10/A0063-S03",
+   "2024-10/A0005-S01",
+   "2024-10/A0005-S02",
+   "2024-10/A0005-S03",
+   "2024-10/A0056-S01",
+   "2024-10/A0056-S02",
+   "2024-10/A0056-S03",
+   "2024-10/A0055-S01",
+   "2024-10/A0055-S02",
+   "2024-10/A0055-S03",
+   "2024-10/A0047-H",
+   "2024-10/A0041-S01",
+   "2024-10/A0041-S02",
+   "2024-10/A0041-S03",
+   "2024-09/A0003",
+   "2024-10/A0061",
+   "2024-10/A0058",
+   "2024-10/A0051",
+   "2024-10/A0054",
+   "2024-10/A0046"
+  ],
+  "told_P35": [
+   "2024-10/A0041-S01",
+   "2024-10/A0041-S02",
+   "2024-10/A0041-S03",
+   "2024-10/A0037-S01",
+   "2024-10/A0037-S03",
+   "2024-10/A0034-S01",
+   "2024-10/A0034-S02",
+   "2024-10/A0034-S03",
+   "2024-10/A0004-S01",
+   "2024-10/A0004-S02",
+   "2024-10/A0004-S03",
+   "2024-10/A0023-S01",
+   "2024-10/A0023-S02",
+   "2024-10/A0023-S03",
+   "2024-10/A0002-S01",
+   "2024-10/A0002-S03",
+   "2024-10/A0003-S01",
+   "2024-10/A0003-S02",
+   "2024-10/A0003-S03",
+   "2024-10/A0019-S01",
+   "2024-10/A0019-S02",
+   "2024-10/A0019-S03",
+   "2024-10/A0006",
+   "2024-10/A0036",
+   "2024-10/A0029",
+   "2024-10/A0024"
+  ],
+  "told_P36": [
+   "2024-10/A0023-S01",
+   "2024-10/A0023-S02",
+   "2024-10/A0023-S03",
+   "2024-10/A0002-S01",
+   "2024-10/A0002-S03",
+   "2024-10/A0003-S01",
+   "2024-10/A0003-S02",
+   "2024-10/A0003-S03",
+   "2024-10/A0019-S01",
+   "2024-10/A0019-S02",
+   "2024-10/A0019-S03",
+   "2024-10/A0001-S01",
+   "2024-10/A0001-S02",
+   "2024-10/A0001-S03",
+   "2024-10/A0062-S02",
+   "2024-10/A0062-S03",
+   "2024-10/A0024",
+   "2024-10/A0014",
+   "2024-10/A0010"
+  ],
+  "told_P37": [
+   "2024-11/A0008-S01",
+   "2024-11/A0008-S02",
+   "2024-11/A0017",
+   "2024-11/A0009"
+  ],
+  "told_P38": [
+   "2024-11/A0008-S01",
+   "2024-11/A0008-S02",
+   "2024-11/A0009"
+  ],
+  "told_P39": [
+   "2024-11/A0003-S01",
+   "2024-11/A0003-S02",
+   "2024-11/A0003-S03",
+   "2024-11/A0005"
+  ],
+  "told_P41": [
+   "2024-11/A0002"
+  ],
+  "told_P42": [
+   "2024-12/A0015-S01",
+   "2024-12/A0015-S02",
+   "2024-12/A0015-S03",
+   "2024-12/A0002-S01",
+   "2024-12/A0002-S02",
+   "2024-12/A0002-S03",
+   "2024-12/A0003-S01",
+   "2024-12/A0003-S02",
+   "2024-12/A0003-S03",
+   "2024-12/A0012-S01",
+   "2024-12/A0012-S02",
+   "2024-12/A0012-S03",
+   "2024-12/A0017-S01",
+   "2024-12/A0017-S02",
+   "2024-12/A0017-S03",
+   "2024-12/A0004",
+   "2024-12/A0014",
+   "2024-12/A0001",
+   "2024-12/A0013"
+  ],
+  "told_P43": [
+   "2024-12/A0010-S01",
+   "2024-12/A0010-S02",
+   "2024-12/A0010-S03",
+   "2024-12/A0016-S01",
+   "2024-12/A0016-S02",
+   "2024-12/A0016-S03",
+   "2024-12/A0011"
+  ],
+  "told_P44": [
+   "2024-12/A0010-S01",
+   "2024-12/A0010-S02",
+   "2024-12/A0010-S03",
+   "2024-12/A0016-S01",
+   "2024-12/A0016-S02",
+   "2024-12/A0016-S03",
+   "2024-12/A0008-S01",
+   "2024-12/A0008-S02",
+   "2024-12/A0008-S03",
+   "2024-12/A0007-S01",
+   "2024-12/A0007-S02",
+   "2024-12/A0007-S03",
+   "2024-12/A0005-S02",
+   "2024-12/A0005-S03",
+   "2024-12/A0009"
+  ]
+ },
+ "collected": true,
+ "batch_id": "msgbatch_011DK5AeTYhvbbL516QKVKG8",
+ "submitted_at": "2026-10-26T04:51:22Z",
+ "n_requests": 47,
+ "pending": [
+  "told_P01",
+  "told_P02",
+  "told_P03",
+  "told_P04",
+  "told_P05",
+  "told_P06",
+  "told_P07",
+  "told_P08",
+  "told_P09",
+  "told_P10",
+  "told_P11",
+  "told_P12",
+  "told_P13",
+  "told_P14",
+  "told_P15",
+  "told_P16",
+  "told_P17",
+  "told_P18",
+  "told_P19",
+  "told_P20",
+  "told_P21",
+  "told_P22",
+  "told_P23",
+  "told_P24",
+  "told_P25",
+  "told_P26",
+  "told_P27",
+  "told_P28",
+  "told_P29",
+  "told_P30",
+  "told_P31",
+  "told_P32",
+  "told_P33",
+  "told_P34",
+  "told_P35",
+  "told_P36",
+  "told_P37",
+  "told_P38",
+  "told_P39",
+  "told_P41",
+  "told_P42",
+  "told_P43",
+  "told_P44",
+  "release_2024-03-07",
+  "release_2024-05-30",
+  "release_2024-09-26",
+  "release_2024-12-12"
+ ],
+ "text_checks": [],
+ "collected_at": "2026-10-26T04:53:25Z",
+ "usage": {
+  "requests": 47,
+  "cache_hits": 0,
+  "input": 136212,
+  "cache_write": 0,
+  "cache_read": 0,
+  "output": 4967
+ },
+ "cost_usd": 0.161,
+ "batches": [
+  "msgbatch_011DK5AeTYhvbbL516QKVKG8"
+ ]
+}

@@ -1,0 +1,445 @@
+sic,sic_description,damodaran_industry,review_note
+100,AGRICULTURAL PRODUCTION-CROPS,Farming/Agriculture,
+200,AGRICULTURAL PROD-LIVESTOCK & ANIMAL SPECIALTIES,Food Processing,"Description suggests Farming/Agriculture, but Damodaran classes most companies with this SIC as Food Processing (76% of 51, global)."
+700,AGRICULTURAL SERVICES,Farming/Agriculture,"Chose Farming/Agriculture from the description; Damodaran's global companies with this SIC: Environmental & Waste Services 45%, Farming/Agriculture 24%, Food Processing 7% (n=42)."
+800,FORESTRY,Paper/Forest Products,
+900,"FISHING, HUNTING AND TRAPPING",Food Processing,
+1000,METAL MINING,Metals & Mining,
+1040,GOLD AND SILVER ORES,Precious Metals,
+1090,MISCELLANEOUS METAL ORES,Metals & Mining,"Check: split evidence. Damodaran's US companies with this SIC: Metals & Mining 58%, Coal & Related Energy 33%, Precious Metals 8% (n=12)."
+1220,BITUMINOUS COAL & LIGNITE MINING,Coal & Related Energy,"Check: split evidence. Damodaran's US companies with this SIC: Coal & Related Energy 43%, Steel 29%, Oil/Gas (Production and Exploration) 14% (n=7)."
+1221,BITUMINOUS COAL & LIGNITE SURFACE MINING,Coal & Related Energy,"Check: split evidence. Damodaran's global companies with this SIC: Coal & Related Energy 50%, Steel 50% (n=4)."
+1311,CRUDE PETROLEUM & NATURAL GAS,Oil/Gas (Production and Exploration),
+1381,DRILLING OIL & GAS WELLS,Oilfield Svcs/Equip.,"Drilling contractors fit Oilfield Svcs/Equip. by description; Damodaran's US companies with this SIC: Oil/Gas (Production and Exploration) 57%, n=7."
+1382,OIL & GAS FIELD EXPLORATION SERVICES,Oilfield Svcs/Equip.,
+1389,"OIL & GAS FIELD SERVICES, NEC",Oilfield Svcs/Equip.,
+1400,MINING & QUARRYING OF NONMETALLIC MINERALS (NO FUELS),Metals & Mining,"Check: split evidence. Damodaran's US companies with this SIC: Metals & Mining 50%, Construction Supplies 29%, Chemical (Specialty) 14% (n=14)."
+1520,GENERAL BLDG CONTRACTORS - RESIDENTIAL BLDGS,Homebuilding,"Check: split evidence. Damodaran's global companies with this SIC: Homebuilding 57%, Engineering/Construction 28%, Real Estate (Development) 7% (n=68)."
+1531,OPERATIVE BUILDERS,Homebuilding,
+1540,GENERAL BLDG CONTRACTORS - NONRESIDENTIAL BLDGS,Engineering/Construction,
+1600,HEAVY CONSTRUCTION OTHER THAN BLDG CONST - CONTRACTORS,Engineering/Construction,
+1623,"WATER, SEWER, PIPELINE, COMM & POWER LINE CONSTRUCTION",Engineering/Construction,
+1700,CONSTRUCTION - SPECIAL TRADE CONTRACTORS,Engineering/Construction,
+1731,ELECTRICAL WORK,Engineering/Construction,
+2000,FOOD AND KINDRED PRODUCTS,Food Processing,
+2011,MEAT PACKING PLANTS,Food Processing,
+2013,SAUSAGES & OTHER PREPARED MEAT PRODUCTS,Food Processing,
+2015,POULTRY SLAUGHTERING AND PROCESSING,Food Processing,
+2020,DAIRY PRODUCTS,Food Processing,
+2024,ICE CREAM & FROZEN DESSERTS,Food Processing,
+2030,"CANNED, FROZEN & PRESERVD FRUIT, VEG & FOOD SPECIALTIES",Food Processing,
+2033,"CANNED, FRUITS, VEG, PRESERVES, JAMS & JELLIES",Food Processing,
+2040,GRAIN MILL PRODUCTS,Food Processing,"Chose Food Processing from the description; Damodaran's US companies with this SIC: Farming/Agriculture 29%, Food Processing 29%, Environmental & Waste Services 14% (n=7)."
+2050,BAKERY PRODUCTS,Food Processing,
+2052,COOKIES & CRACKERS,Food Processing,
+2060,SUGAR & CONFECTIONERY PRODUCTS,Food Processing,
+2070,FATS & OILS,Food Processing,"Global sample: Food Processing 61%, Farming/Agriculture 34%. Large agricultural processors may be Farming/Agriculture in Damodaran's list."
+2080,BEVERAGES,Beverage (Soft),"Mixed code: soft-drink makers and alcoholic-beverage makers both use it. Damodaran's US companies: Beverage (Soft) 40%, Beverage (Alcoholic) 20% (n=5). Alcoholic-beverage companies would fit Beverage (Alcoholic)."
+2082,MALT BEVERAGES,Beverage (Alcoholic),
+2086,BOTTLED & CANNED SOFT DRINKS & CARBONATED WATERS,Beverage (Soft),
+2090,MISCELLANEOUS FOOD PREPARATIONS & KINDRED PRODUCTS,Food Processing,
+2092,PREPARED FRESH OR FROZEN FISH & SEAFOODS,Food Processing,
+2100,TOBACCO PRODUCTS,Tobacco,"Check: split evidence. Damodaran's US companies with this SIC: Tobacco 67%, Computer Services 33% (n=3)."
+2111,CIGARETTES,Tobacco,
+2200,TEXTILE MILL PRODUCTS,Apparel,"Check: split evidence. Damodaran's US companies with this SIC: Apparel 67%, Drugs (Pharmaceutical) 33% (n=3)."
+2211,"BROADWOVEN FABRIC MILLS, COTTON",Apparel,
+2221,"BROADWOVEN FABRIC MILLS, MAN MADE FIBER & SILK",Apparel,
+2250,KNITTING MILLS,Apparel,
+2253,KNIT OUTERWEAR MILLS,Apparel,
+2273,CARPETS & RUGS,Furn/Home Furnishings,"Check: split evidence. Damodaran's US companies with this SIC: Furn/Home Furnishings 67%, Office Equipment & Services 33% (n=3)."
+2300,APPAREL & OTHER FINISHD PRODS OF FABRICS & SIMILAR MATL,Apparel,
+2320,"MEN'S & BOYS' FURNISHGS, WORK CLOTHG, & ALLIED GARMENTS",Apparel,
+2330,"WOMEN'S, MISSES', AND JUNIORS OUTERWEAR",Apparel,
+2340,"WOMEN'S, MISSES', CHILDREN'S & INFANTS' UNDERGARMENTS",Apparel,
+2390,MISCELLANEOUS FABRICATED TEXTILE PRODUCTS,Apparel,"Check: split evidence. Damodaran's global companies with this SIC: Apparel 44%, Furn/Home Furnishings 25%, Auto Parts 19% (n=36)."
+2400,LUMBER & WOOD PRODUCTS (NO FURNITURE),Building Materials,"Check: split evidence. Damodaran's US companies with this SIC: Building Materials 40%, Paper/Forest Products 20%, R.E.I.T. 20% (n=5)."
+2421,"SAWMILLS & PLANTING MILLS, GENERAL",Paper/Forest Products,
+2430,"MILLWOOD, VENEER, PLYWOOD, & STRUCTURAL WOOD MEMBERS",Building Materials,
+2451,MOBILE HOMES,Homebuilding,
+2452,PREFABRICATED WOOD BLDGS & COMPONENTS,Homebuilding,"Chose Homebuilding from the description; Damodaran's US companies with this SIC: Building Materials 50%, Homebuilding 50% (n=4)."
+2510,HOUSEHOLD FURNITURE,Furn/Home Furnishings,
+2511,"WOOD HOUSEHOLD FURNITURE, (NO UPHOLSTERED)",Furn/Home Furnishings,
+2520,OFFICE FURNITURE,Office Equipment & Services,
+2522,OFFICE FURNITURE (NO WOOD),Office Equipment & Services,
+2531,PUBLIC BLDG & RELATED FURNITURE,Auto Parts,"Mostly used by auto-seat makers; Damodaran's companies with this SIC are mostly Auto Parts (62%, global)."
+2540,"PARTITIONS, SHELVG, LOCKERS, & OFFICE & STORE FIXTURES",Office Equipment & Services,
+2590,MISCELLANEOUS FURNITURE & FIXTURES,Furn/Home Furnishings,"Check: split evidence. Damodaran's global companies with this SIC: Furn/Home Furnishings 38%, Office Equipment & Services 23%, Healthcare Products 15% (n=13)."
+2600,PAPERS & ALLIED PRODUCTS,Paper/Forest Products,
+2611,PULP MILLS,Paper/Forest Products,
+2621,PAPER MILLS,Paper/Forest Products,"Check: split evidence. Damodaran's US companies with this SIC: Paper/Forest Products 67%, Household Products 33% (n=3)."
+2631,PAPERBOARD MILLS,Packaging & Container,
+2650,PAPERBOARD CONTAINERS & BOXES,Packaging & Container,
+2670,CONVERTED PAPER & PAPERBOARD PRODS (NO CONTANERS/BOXES),Packaging & Container,"Check: split evidence. Damodaran's US companies with this SIC: Packaging & Container 50%, Chemical (Specialty) 25%, Office Equipment & Services 25% (n=4)."
+2673,"PLASTICS, FOIL & COATED PAPER BAGS",Packaging & Container,
+2711,NEWSPAPERS: PUBLISHING OR PUBLISHING & PRINTING,Publishing & Newspapers,
+2721,PERIODICALS: PUBLISHING OR PUBLISHING & PRINTING,Publishing & Newspapers,"Check: split evidence. Damodaran's US companies with this SIC: Publishing & Newspapers 40%, Beverage (Soft) 20%, Business & Consumer Services 20% (n=5)."
+2731,BOOKS: PUBLISHING OR PUBLISHING & PRINTING,Publishing & Newspapers,
+2732,BOOK PRINTING,Publishing & Newspapers,
+2741,MISCELLANEOUS PUBLISHING,Publishing & Newspapers,
+2750,COMMERCIAL PRINTING,Publishing & Newspapers,"Check: split evidence. Damodaran's US companies with this SIC: Publishing & Newspapers 50%, Electrical Equipment 25%, Oil/Gas (Production and Exploration) 25% (n=4)."
+2761,MANIFOLD BUSINESS FORMS,Publishing & Newspapers,
+2771,GREETING CARDS,Publishing & Newspapers,No Damodaran companies with this SIC; matched by description only.
+2780,"BLANKBOOKS, LOOSELEAF BINDERS & BOOKBINDG & RELATD WORK",Office Equipment & Services,Chose Office Equipment & Services from the description; Damodaran's global companies with this SIC: Publishing & Newspapers 100% (n=1).
+2790,SERVICE INDUSTRIES FOR THE PRINTING TRADE,Publishing & Newspapers,Chose Publishing & Newspapers from the description; Damodaran's global companies with this SIC: Machinery 100% (n=1).
+2800,CHEMICALS & ALLIED PRODUCTS,Chemical (Specialty),"Check: split evidence. Damodaran's US companies with this SIC: Chemical (Specialty) 58%, Chemical (Basic) 42% (n=12)."
+2810,INDUSTRIAL INORGANIC CHEMICALS,Chemical (Specialty),"Description suggests Chemical (Basic), but Damodaran's US companies with this SIC are mostly Chemical (Specialty) (67%), e.g. industrial gases."
+2820,"PLASTIC MATERIAL, SYNTH RESIN/RUBBER, CELLULOS (NO GLASS)",Chemical (Basic),"Check: split evidence. Damodaran's US companies with this SIC: Chemical (Basic) 57%, Chemical (Specialty) 43% (n=7)."
+2821,"PLASTIC MATERIALS, SYNTH RESINS & NONVULCAN ELASTOMERS",Chemical (Basic),
+2833,MEDICINAL CHEMICALS & BOTANICAL PRODUCTS,Drugs (Pharmaceutical),"Check: split evidence. Damodaran's US companies with this SIC: Drugs (Pharmaceutical) 53%, Household Products 34%, Heathcare Information and Technology 6% (n=32)."
+2834,PHARMACEUTICAL PREPARATIONS,Drugs (Pharmaceutical),
+2835,IN VITRO & IN VIVO DIAGNOSTIC SUBSTANCES,Healthcare Products,"Split: Drugs (Biotechnology) 41%, Healthcare Products 38% (n=32). Chose Healthcare Products from the description (diagnostics)."
+2836,"BIOLOGICAL PRODUCTS, (NO DIAGNOSTIC SUBSTANCES)",Drugs (Biotechnology),
+2840,"SOAP, DETERGENTS, CLEANG PREPARATIONS, PERFUMES, COSMETICS",Household Products,
+2842,"SPECIALTY CLEANING, POLISHING AND SANITATION PREPARATIONS",Household Products,"Chose Household Products from the description; Damodaran's US companies with this SIC: Chemical (Specialty) 50%, Household Products 50% (n=4)."
+2844,"PERFUMES, COSMETICS & OTHER TOILET PREPARATIONS",Household Products,
+2851,"PAINTS, VARNISHES, LACQUERS, ENAMELS & ALLIED PRODS",Chemical (Specialty),
+2860,INDUSTRIAL ORGANIC CHEMICALS,Chemical (Specialty),"Check: split evidence. Damodaran's US companies with this SIC: Chemical (Specialty) 40%, Oilfield Svcs/Equip. 32%, Chemical (Basic) 8% (n=25)."
+2870,AGRICULTURAL CHEMICALS,Chemical (Specialty),
+2890,MISCELLANEOUS CHEMICAL PRODUCTS,Chemical (Specialty),"Check: split evidence. Damodaran's US companies with this SIC: Chemical (Specialty) 55%, Household Products 18%, Chemical (Basic) 9% (n=11)."
+2891,ADHESIVES & SEALANTS,Chemical (Specialty),
+2911,PETROLEUM REFINING,Oilfield Svcs/Equip.,"Counterintuitive but per Damodaran's data: most US refiners with this SIC are in Oilfield Svcs/Equip. (84% of 19). Integrated majors (e.g. Exxon, Chevron) also use 2911 but are Oil/Gas (Integrated) in Damodaran (beta 0.30 vs 0.95)."
+2950,ASPHALT PAVING & ROOFING MATERIALS,Construction Supplies,"Check: split evidence. Damodaran's global companies with this SIC: Construction Supplies 50%, Building Materials 21%, Engineering/Construction 7% (n=14)."
+2990,MISCELLANEOUS PRODUCTS OF PETROLEUM & COAL,Oilfield Svcs/Equip.,"Check: split evidence. Damodaran's US companies with this SIC: Oilfield Svcs/Equip. 50%, Chemical (Specialty) 12%, Coal & Related Energy 12% (n=8)."
+3011,TIRES & INNER TUBES,Rubber& Tires,
+3021,RUBBER & PLASTICS FOOTWEAR,Shoe,
+3050,"GASKETS, PACKG & SEALG DEVICES & RUBBER & PLASTICS HOSE",Machinery,"Check: split evidence. Damodaran's global companies with this SIC: Machinery 39%, Rubber& Tires 22%, Auto Parts 17% (n=36)."
+3060,"FABRICATED RUBBER PRODUCTS, NEC",Rubber& Tires,"Chose Rubber& Tires from the description; Damodaran's US companies with this SIC: Drugs (Pharmaceutical) 25%, Heathcare Information and Technology 25%, Household Products 25% (n=4)."
+3080,MISCELLANEOUS PLASTICS PRODUCTS,Packaging & Container,"Chose Packaging & Container from the description; Damodaran's global companies with this SIC: Chemical (Basic) 29%, Packaging & Container 29%, Building Materials 20% (n=278)."
+3081,UNSUPPORTED PLASTICS FILM & SHEET,Chemical (Basic),
+3086,PLASTICS FOAM PRODUCTS,Chemical (Basic),"Check: split evidence. Damodaran's global companies with this SIC: Chemical (Basic) 25%, Building Materials 17%, Chemical (Specialty) 17% (n=12)."
+3089,"PLASTICS PRODUCTS, NEC",Packaging & Container,"Chose Packaging & Container from the description; Damodaran's US companies with this SIC: Chemical (Basic) 43%, Packaging & Container 43%, Building Materials 14% (n=7)."
+3100,LEATHER & LEATHER PRODUCTS,Apparel,
+3140,"FOOTWEAR, (NO RUBBER)",Shoe,
+3211,FLAT GLASS,Building Materials,
+3220,"GLASS & GLASSWARE, PRESSED OR BLOWN",Building Materials,"Check: split evidence. Damodaran's global companies with this SIC: Building Materials 21%, Electronics (General) 15%, Household Products 15% (n=33)."
+3221,GLASS CONTAINERS,Packaging & Container,
+3231,"GLASS PRODUCTS, MADE OF PURCHASED GLASS",Building Materials,"Chose Building Materials from the description; Damodaran's global companies with this SIC: Auto Parts 44%, Household Products 33%, Building Materials 22% (n=9)."
+3241,"CEMENT, HYDRAULIC",Construction Supplies,
+3250,STRUCTURAL CLAY PRODUCTS,Building Materials,
+3260,POTTERY & RELATED PRODUCTS,Building Materials,"Check: split evidence. Damodaran's global companies with this SIC: Building Materials 39%, Household Products 34%, Machinery 5% (n=59)."
+3270,"CONCRETE, GYPSUM & PLASTER PRODUCTS",Construction Supplies,"Check: split evidence. Damodaran's US companies with this SIC: Construction Supplies 67%, Drugs (Biotechnology) 33% (n=3)."
+3272,"CONCRETE PRODUCTS, EXCEPT BLOCK & BRICK",Construction Supplies,
+3281,CUT STONE & STONE PRODUCTS,Construction Supplies,"Chose Construction Supplies from the description; Damodaran's global companies with this SIC: Building Materials 50%, Construction Supplies 50% (n=6)."
+3290,"ABRASIVE, ASBESTOS & MISC NONMETALLIC MINERAL PRODS",Building Materials,"Check: split evidence. Damodaran's US companies with this SIC: Building Materials 50%, Apparel 25%, Household Products 25% (n=4)."
+3310,"STEEL WORKS, BLAST FURNACES & ROLLING & FINISHING MILLS",Steel,"Check: split evidence. Damodaran's US companies with this SIC: Steel 57%, Building Materials 29%, Metals & Mining 14% (n=7)."
+3312,"STEEL WORKS, BLAST FURNACES & ROLLING MILLS (COKE OVENS)",Steel,
+3317,STEEL PIPE & TUBES,Steel,"Check: split evidence. Damodaran's US companies with this SIC: Steel 67%, Engineering/Construction 33% (n=3)."
+3320,IRON & STEEL FOUNDRIES,Steel,
+3330,PRIMARY SMELTING & REFINING OF NONFERROUS METALS,Metals & Mining,"Check: split evidence. Damodaran's US companies with this SIC: Metals & Mining 75%, Electrical Equipment 25% (n=4)."
+3334,PRIMARY PRODUCTION OF ALUMINUM,Metals & Mining,
+3341,SECONDARY SMELTING & REFINING OF NONFERROUS METALS,Metals & Mining,"Check: split evidence. Damodaran's global companies with this SIC: Metals & Mining 50%, Precious Metals 19%, Chemical (Basic) 6% (n=16)."
+3350,ROLLING DRAWING & EXTRUDING OF NONFERROUS METALS,Metals & Mining,"Check: split evidence. Damodaran's US companies with this SIC: Metals & Mining 50%, Machinery 33%, Aerospace/Defense 17% (n=6)."
+3357,DRAWING & INSULATING OF NONFERROUS WIRE,Electrical Equipment,
+3360,NONFERROUS FOUNDRIES (CASTINGS),Metals & Mining,"Check: split evidence. Damodaran's global companies with this SIC: Metals & Mining 45%, Machinery 23%, Auto Parts 9% (n=22)."
+3390,MISCELLANEOUS PRIMARY METAL PRODUCTS,Metals & Mining,"Check: split evidence. Damodaran's global companies with this SIC: Metals & Mining 33%, Machinery 22%, Steel 15% (n=27)."
+3411,METAL CANS,Packaging & Container,
+3412,"METAL SHIPPING BARRELS, DRUMS, KEGS & PAILS",Packaging & Container,"Check: split evidence. Damodaran's global companies with this SIC: Packaging & Container 50%, Diversified 20%, Machinery 20% (n=10)."
+3420,"CUTLERY, HANDTOOLS & GENERAL HARDWARE",Machinery,"Check: split evidence. Damodaran's US companies with this SIC: Machinery 36%, Building Materials 18%, Household Products 18% (n=11)."
+3430,"HEATING EQUIP, EXCEPT ELEC & WARM AIR; & PLUMBING FIXTURES",Building Materials,"Check: split evidence. Damodaran's US companies with this SIC: Building Materials 75%, Machinery 25% (n=4)."
+3433,"HEATING EQUIPMENT, EXCEPT ELECTRIC & WARM AIR FURNACES",Machinery,"Check: split evidence. Damodaran's global companies with this SIC: Machinery 44%, Building Materials 25%, Furn/Home Furnishings 19% (n=16)."
+3440,FABRICATED STRUCTURAL METAL PRODUCTS,Engineering/Construction,
+3442,"METAL DOORS, SASH, FRAMES, MOLDINGS & TRIM",Building Materials,
+3443,FABRICATED PLATE WORK (BOILER SHOPS),Machinery,
+3444,SHEET METAL WORK,Building Materials,"Check: split evidence. Damodaran's global companies with this SIC: Building Materials 50%, Metals & Mining 25%, Steel 25% (n=8)."
+3448,PREFABRICATED METAL BUILDINGS & COMPONENTS,Engineering/Construction,"Check: split evidence. Damodaran's global companies with this SIC: Engineering/Construction 50%, Building Materials 20%, Construction Supplies 10% (n=10)."
+3451,SCREW MACHINE PRODUCTS,Machinery,
+3452,"BOLTS, NUTS, SCREWS, RIVETS & WASHERS",Machinery,"Check: split evidence. Damodaran's US companies with this SIC: Machinery 67%, Auto Parts 33% (n=3)."
+3460,METAL FORGINGS & STAMPINGS,Machinery,"Chose Machinery from the description; Damodaran's global companies with this SIC: Auto Parts 23%, Steel 19%, Machinery 17% (n=70)."
+3470,"COATING, ENGRAVING & ALLIED SERVICES",Machinery,"Check: split evidence. Damodaran's global companies with this SIC: Machinery 21%, Building Materials 10%, Business & Consumer Services 10% (n=29)."
+3480,"ORDNANCE & ACCESSORIES, (NO VEHICLES/GUIDED MISSILES)",Aerospace/Defense,
+3490,MISCELLANEOUS FABRICATED METAL PRODUCTS,Machinery,
+3510,ENGINES & TURBINES,Electrical Equipment,Engine makers: Damodaran's US companies with this SIC are mostly Electrical Equipment (64%).
+3523,FARM MACHINERY & EQUIPMENT,Farming/Agriculture,Farm machinery makers are Farming/Agriculture in Damodaran's list (92% of 12).
+3524,LAWN & GARDEN TRACTORS & HOME LAWN & GARDENS EQUIP,Furn/Home Furnishings,
+3530,"CONSTRUCTION, MINING & MATERIALS HANDLING MACHINERY & EQUIP",Machinery,
+3531,CONSTRUCTION MACHINERY & EQUIP,Construction Supplies,"Description suggests Machinery, but Damodaran's US companies with this SIC are all Construction Supplies (5 of 5)."
+3532,MINING MACHINERY & EQUIP (NO OIL & GAS FIELD MACH & EQUIP),Construction Supplies,"Description suggests Machinery, but Damodaran puts most companies with this SIC in Construction Supplies (84%, global)."
+3533,OIL & GAS FIELD MACHINERY & EQUIPMENT,Oilfield Svcs/Equip.,
+3537,"INDUSTRIAL TRUCKS, TRACTORS, TRAILORS & STACKERS",Construction Supplies,"Description suggests Machinery, but Damodaran puts most companies with this SIC in Construction Supplies (63%, global)."
+3540,METALWORKG MACHINERY & EQUIPMENT,Machinery,
+3541,"MACHINE TOOLS, METAL CUTTING TYPES",Machinery,
+3550,SPECIAL INDUSTRY MACHINERY (NO METALWORKING MACHINERY),Machinery,
+3555,PRINTING TRADES MACHINERY & EQUIPMENT,Machinery,"Check: split evidence. Damodaran's US companies with this SIC: Machinery 75%, Furn/Home Furnishings 25% (n=4)."
+3559,"SPECIAL INDUSTRY MACHINERY, NEC",Semiconductor Equip,"Check: split evidence. Damodaran's US companies with this SIC: Semiconductor Equip 48%, Machinery 19%, Environmental & Waste Services 10% (n=21)."
+3560,GENERAL INDUSTRIAL MACHINERY & EQUIPMENT,Machinery,
+3561,PUMPS & PUMPING EQUIPMENT,Machinery,
+3562,BALL & ROLLER BEARINGS,Machinery,"Check: split evidence. Damodaran's US companies with this SIC: Machinery 75%, Office Equipment & Services 25% (n=4)."
+3564,INDUSTRIAL & COMMERCIAL FANS & BLOWERS & AIR PURIFING EQUIP,Machinery,
+3567,INDUSTRIAL PROCESS FURNACES & OVENS,Machinery,
+3569,"GENERAL INDUSTRIAL MACHINERY & EQUIPMENT, NEC",Machinery,
+3570,COMPUTER & OFFICE EQUIPMENT,Computers/Peripherals,
+3571,ELECTRONIC COMPUTERS,Computers/Peripherals,"Check: split evidence. Damodaran's US companies with this SIC: Computers/Peripherals 75%, Education 25% (n=4)."
+3572,COMPUTER STORAGE DEVICES,Computers/Peripherals,
+3575,COMPUTER TERMINALS,Computers/Peripherals,"Chose Computers/Peripherals from the description; Damodaran's global companies with this SIC: Aerospace/Defense 17%, Auto Parts 17%, Computer Services 17% (n=6)."
+3576,COMPUTER COMMUNICATIONS EQUIPMENT,Telecom. Equipment,
+3577,"COMPUTER PERIPHERAL EQUIPMENT, NEC",Computers/Peripherals,"Check: split evidence. Damodaran's US companies with this SIC: Computers/Peripherals 50%, Electronics (General) 25%, Healthcare Products 8% (n=12)."
+3578,CALCULATING & ACCOUNTING MACHINES (NO ELECTRONIC COMPUTERS),Electronics (General),"Check: split evidence. Damodaran's global companies with this SIC: Electronics (General) 53%, Computers/Peripherals 24%, Apparel 3% (n=34)."
+3579,"OFFICE MACHINES, NEC",Office Equipment & Services,"Chose Office Equipment & Services from the description; Damodaran's global companies with this SIC: Electronics (General) 55%, Office Equipment & Services 18%, Electronics (Consumer & Office) 9% (n=11)."
+3580,REFRIGERATION & SERVICE INDUSTRY MACHINERY,Machinery,"Check: split evidence. Damodaran's US companies with this SIC: Machinery 54%, Environmental & Waste Services 15%, Electronics (General) 8% (n=13)."
+3585,AIR-COND & WARM AIR HEATG EQUIP & COMM & INDL REFRIG EQUIP,Building Materials,HVAC equipment makers: Damodaran's US companies with this SIC are mostly Building Materials (62%).
+3590,MISC INDUSTRIAL & COMMERCIAL MACHINERY & EQUIPMENT,Machinery,"Check: split evidence. Damodaran's US companies with this SIC: Machinery 50%, Building Materials 25%, Financial Svcs. (Non-bank & Insurance) 25% (n=4)."
+3600,ELECTRONIC & OTHER ELECTRICAL EQUIPMENT (NO COMPUTER EQUIP),Electrical Equipment,"Check: split evidence. Damodaran's US companies with this SIC: Electrical Equipment 45%, Electronics (General) 27%, Aerospace/Defense 9% (n=11)."
+3612,"POWER, DISTRIBUTION & SPECIALTY TRANSFORMERS",Electrical Equipment,
+3613,SWITCHGEAR & SWITCHBOARD APPARATUS,Electrical Equipment,"Check: split evidence. Damodaran's US companies with this SIC: Electrical Equipment 67%, Electronics (General) 33% (n=3)."
+3620,ELECTRICAL INDUSTRIAL APPARATUS,Electrical Equipment,
+3621,MOTORS & GENERATORS,Electrical Equipment,
+3630,HOUSEHOLD APPLIANCES,Furn/Home Furnishings,"Check: split evidence. Damodaran's US companies with this SIC: Furn/Home Furnishings 57%, Building Materials 29%, Household Products 14% (n=7)."
+3634,ELECTRIC HOUSEWARES & FANS,Furn/Home Furnishings,"Check: split evidence. Damodaran's US companies with this SIC: Furn/Home Furnishings 50%, Engineering/Construction 25%, Household Products 25% (n=4)."
+3640,ELECTRIC LIGHTING & WIRING EQUIPMENT,Electrical Equipment,
+3651,HOUSEHOLD AUDIO & VIDEO EQUIPMENT,Electronics (Consumer & Office),
+3652,PHONOGRAPH RECORDS & PRERECORDED AUDIO TAPES & DISKS,Entertainment,
+3661,TELEPHONE & TELEGRAPH APPARATUS,Telecom. Equipment,
+3663,RADIO & TV BROADCASTING & COMMUNICATIONS EQUIPMENT,Telecom. Equipment,"Check: split evidence. Damodaran's US companies with this SIC: Telecom. Equipment 56%, Computers/Peripherals 16%, Electronics (General) 9% (n=32)."
+3669,"COMMUNICATIONS EQUIPMENT, NEC",Telecom. Equipment,"Chose Telecom. Equipment from the description; Damodaran's US companies with this SIC: Electronics (General) 55%, Telecom. Equipment 27%, Business & Consumer Services 9% (n=11)."
+3670,ELECTRONIC COMPONENTS & ACCESSORIES,Electronics (General),
+3672,PRINTED CIRCUIT BOARDS,Electronics (General),
+3674,SEMICONDUCTORS & RELATED DEVICES,Semiconductor,
+3677,"ELECTRONIC COILS, TRANSFORMERS & OTHER INDUCTORS",Electronics (General),
+3678,ELECTRONIC CONNECTORS,Electronics (General),
+3679,"ELECTRONIC COMPONENTS, NEC",Electronics (General),
+3690,"MISCELLANEOUS ELECTRICAL MACHINERY, EQUIPMENT & SUPPLIES",Electrical Equipment,
+3695,MAGNETIC & OPTICAL RECORDING MEDIA,Computers/Peripherals,"Check: split evidence. Damodaran's global companies with this SIC: Computers/Peripherals 43%, Electronics (General) 29%, Real Estate (Development) 14% (n=7)."
+3711,MOTOR VEHICLES & PASSENGER CAR BODIES,Auto & Truck,
+3713,TRUCK & BUS BODIES,Construction Supplies,"Description suggests Auto & Truck, but Damodaran's US companies with this SIC are mostly Construction Supplies (80% of 5)."
+3714,MOTOR VEHICLE PARTS & ACCESSORIES,Auto Parts,"Check: split evidence. Damodaran's US companies with this SIC: Auto Parts 59%, Construction Supplies 12%, Auto & Truck 6% (n=34)."
+3715,TRUCK TRAILERS,Construction Supplies,"Description suggests Auto & Truck, but Damodaran puts most companies with this SIC in Construction Supplies (86%, global)."
+3716,MOTOR HOMES,Auto & Truck,Only one company in Damodaran's list (Auto & Truck); RV makers might fit Recreation.
+3720,AIRCRAFT & PARTS,Aerospace/Defense,
+3721,AIRCRAFT,Aerospace/Defense,
+3724,AIRCRAFT ENGINES & ENGINE PARTS,Aerospace/Defense,
+3728,"AIRCRAFT PARTS & AUXILIARY EQUIPMENT, NEC",Aerospace/Defense,
+3730,SHIP & BOAT BUILDING & REPAIRING,Recreation,Damodaran's US companies with this SIC are mostly boat makers (Recreation 67%). Naval shipbuilders fit Aerospace/Defense or Shipbuilding & Marine better.
+3743,RAILROAD EQUIPMENT,Construction Supplies,"Description suggests Machinery, but Damodaran's US companies with this SIC are all Construction Supplies (4 of 4)."
+3751,"MOTORCYCLES, BICYCLES & PARTS",Auto & Truck,
+3760,GUIDED MISSILES & SPACE VEHICLES & PARTS,Aerospace/Defense,
+3790,MISCELLANEOUS TRANSPORTATION EQUIPMENT,Auto & Truck,"Check: split evidence. Damodaran's US companies with this SIC: Auto & Truck 50%, Construction Supplies 17%, Machinery 17% (n=6)."
+3812,"SEARCH, DETECTION, NAVAGATION, GUIDANCE, AERONAUTICAL SYS",Aerospace/Defense,"Check: split evidence. Damodaran's US companies with this SIC: Aerospace/Defense 38%, Electronics (General) 31%, Business & Consumer Services 8% (n=13)."
+3821,LABORATORY APPARATUS & FURNITURE,Healthcare Products,
+3822,AUTO CONTROLS FOR REGULATING RESIDENTIAL & COMML ENVIRONMENTS,Electronics (General),"Check: split evidence. Damodaran's global companies with this SIC: Electronics (General) 50%, Machinery 21%, Furn/Home Furnishings 14% (n=14)."
+3823,"INDUSTRIAL INSTRUMENTS FOR MEASUREMENT, DISPLAY, AND CONTROL",Electronics (General),"Check: split evidence. Damodaran's US companies with this SIC: Electronics (General) 36%, Electrical Equipment 27%, Semiconductor Equip 18% (n=11)."
+3824,TOTALIZING FLUID METERS & COUNTING DEVICES,Electronics (General),
+3825,INSTRUMENTS FOR MEAS & TESTING OF ELECTRICITY & ELEC SIGNALS,Electronics (General),"Chose Electronics (General) from the description; Damodaran's US companies with this SIC: Semiconductor Equip 56%, Electronics (General) 33%, Machinery 11% (n=9)."
+3826,LABORATORY ANALYTICAL INSTRUMENTS,Heathcare Information and Technology,Lab analytical instruments: Damodaran classes most (85% of 20) in 'Heathcare Information and Technology' (his spelling).
+3827,OPTICAL INSTRUMENTS & LENSES,Electronics (General),"Check: split evidence. Damodaran's US companies with this SIC: Electronics (General) 50%, Aerospace/Defense 17%, Healthcare Products 17% (n=6)."
+3829,"MEASURING & CONTROLLING DEVICES, NEC",Electronics (General),
+3841,SURGICAL & MEDICAL INSTRUMENTS & APPARATUS,Healthcare Products,
+3842,"ORTHOPEDIC, PROSTHETIC & SURGICAL APPLIANCES & SUPPLIES",Healthcare Products,
+3843,DENTAL EQUIPMENT & SUPPLIES,Healthcare Products,
+3844,X-RAY APPARATUS & TUBES & RELATED IRRADIATION APPARATUS,Healthcare Products,"Check: split evidence. Damodaran's US companies with this SIC: Healthcare Products 67%, Electronics (General) 33% (n=3)."
+3845,ELECTROMEDICAL & ELECTROTHERAPEUTIC APPARATUS,Healthcare Products,
+3851,OPHTHALMIC GOODS,Healthcare Products,
+3861,PHOTOGRAPHIC EQUIPMENT & SUPPLIES,Computers/Peripherals,"Check: split evidence. Damodaran's US companies with this SIC: Computers/Peripherals 40%, Electronics (Consumer & Office) 20%, Entertainment 20% (n=5)."
+3873,"WATCHES, CLOCKS, CLOCKWORK OPERATED DEVICES/PARTS",Apparel,
+3910,"JEWELRY, SILVERWARE & PLATED WARE",Apparel,
+3911,"JEWELRY, PRECIOUS METAL",Apparel,
+3931,MUSICAL INSTRUMENTS,Recreation,
+3942,DOLLS & STUFFED TOYS,Recreation,
+3944,"GAMES, TOYS & CHILDREN'S VEHICLES (NO DOLLS & BICYCLES)",Recreation,
+3949,"SPORTING & ATHLETIC GOODS, NEC",Recreation,
+3950,"PENS, PENCILS & OTHER ARTISTS' MATERIALS",Office Equipment & Services,
+3960,COSTUME JEWELRY & NOVELTIES,Apparel,"Check: split evidence. Damodaran's global companies with this SIC: Apparel 53%, Machinery 33%, Auto Parts 7% (n=15)."
+3990,MISCELLANEOUS MANUFACTURING INDUSTRIES,Diversified,"Chose Diversified from the description; Damodaran's US companies with this SIC: Electronics (General) 25%, Business & Consumer Services 12%, Furn/Home Furnishings 12% (n=8)."
+4011,"RAILROADS, LINE-HAUL OPERATING",Transportation (Railroads),"Check: split evidence. Damodaran's US companies with this SIC: Transportation (Railroads) 75%, Semiconductor Equip 25% (n=4)."
+4013,RAILROAD SWITCHING & TERMINAL ESTABLISHMENTS,Transportation (Railroads),No Damodaran companies with this SIC; matched by description only.
+4100,LOCAL & SUBURBAN TRANSIT & INTERURBAN HWY PASSENGER TRANS,Transportation,
+4210,TRUCKING & COURIER SERVICES (NO AIR),Trucking,
+4213,TRUCKING (NO LOCAL),Trucking,
+4220,PUBLIC WAREHOUSING & STORAGE,Transportation,"Chose Transportation from the description; Damodaran's global companies with this SIC: Business & Consumer Services 39%, Transportation 23%, Shipbuilding & Marine 16% (n=31)."
+4231,TERMINAL MAINTENANCE FACILITIES FOR MOTOR FREIGHT TRANSPORT,Trucking,No Damodaran companies with this SIC; matched by description only.
+4400,WATER TRANSPORTATION,Shipbuilding & Marine,"Check: split evidence. Damodaran's US companies with this SIC: Shipbuilding & Marine 36%, Business & Consumer Services 27%, Hotel/Gaming 27% (n=11)."
+4412,DEEP SEA FOREIGN TRANSPORTATION OF FREIGHT,Shipbuilding & Marine,"Chose Shipbuilding & Marine from the description; Damodaran's US companies with this SIC: Oil/Gas Distribution 40%, Shipbuilding & Marine 40%, Oilfield Svcs/Equip. 20% (n=5)."
+4512,"AIR TRANSPORTATION, SCHEDULED",Air Transport,
+4513,AIR COURIER SERVICES,Transportation,
+4522,"AIR TRANSPORTATION, NONSCHEDULED",Air Transport,
+4581,"AIRPORTS, FLYING FIELDS & AIRPORT TERMINAL SERVICES",Air Transport,"Chose Air Transport from the description; Damodaran's US companies with this SIC: Aerospace/Defense 50%, Air Transport 50% (n=4)."
+4610,PIPE LINES (NO NATURAL GAS),Oil/Gas Distribution,
+4700,TRANSPORTATION SERVICES,Hotel/Gaming,"Travel/transportation services: Damodaran's US companies with this SIC are mostly Hotel/Gaming (62%), e.g. online travel agencies."
+4731,ARRANGEMENT OF TRANSPORTATION OF FREIGHT & CARGO,Transportation,"Check: split evidence. Damodaran's US companies with this SIC: Transportation 50%, Trucking 25%, Shipbuilding & Marine 17% (n=12)."
+4812,RADIOTELEPHONE COMMUNICATIONS,Telecom (Wireless),
+4813,TELEPHONE COMMUNICATIONS (NO RADIOTELEPHONE),Telecom. Services,
+4822,TELEGRAPH & OTHER MESSAGE COMMUNICATIONS,Telecom. Services,No Damodaran companies with this SIC; matched by description only.
+4832,RADIO BROADCASTING STATIONS,Broadcasting,
+4833,TELEVISION BROADCASTING STATIONS,Broadcasting,
+4841,CABLE & OTHER PAY TELEVISION SERVICES,Cable TV,
+4899,"COMMUNICATIONS SERVICES, NEC",Telecom. Services,"Check: split evidence. Damodaran's US companies with this SIC: Telecom. Services 57%, Telecom. Equipment 17%, Cable TV 9% (n=23)."
+4900,"ELECTRIC, GAS & SANITARY SERVICES",Utility (General),"Chose Utility (General) from the description; Damodaran's global companies with this SIC: Utility (Water) 50%, Green & Renewable Energy 17%, Oilfield Svcs/Equip. 17% (n=6)."
+4911,ELECTRIC SERVICES,Power,"Electric utilities: Damodaran's US companies with this SIC are mostly Power (69%), the rest Green & Renewable Energy (25%). Utility (General) has a much lower beta (0.24 vs 0.48)."
+4922,NATURAL GAS TRANSMISSION,Oil/Gas Distribution,
+4923,NATURAL GAS TRANSMISISON & DISTRIBUTION,Oil/Gas Distribution,"Check: split evidence. Damodaran's US companies with this SIC: Oil/Gas Distribution 50%, Power 25%, Utility (General) 25% (n=8)."
+4924,NATURAL GAS DISTRIBUTION,Power,Gas distribution utilities: Damodaran puts most of them (88% of 8) in Power.
+4931,ELECTRIC & OTHER SERVICES COMBINED,Utility (General),"Tie among Damodaran's US companies with this SIC: Power 50%, Utility (General) 50% (n=18). Chose Utility (General) to match the 'combined' description. The betas differ a lot: 0.24 vs 0.48."
+4932,GAS & OTHER SERVICES COMBINED,Power,Thin evidence: Power 75% of 4. Combination gas utilities might fit Utility (General).
+4941,WATER SUPPLY,Utility (Water),
+4950,SANITARY SERVICES,Environmental & Waste Services,
+4953,REFUSE SYSTEMS,Environmental & Waste Services,
+4955,HAZARDOUS WASTE MANAGEMENT,Environmental & Waste Services,"Check: split evidence. Damodaran's US companies with this SIC: Environmental & Waste Services 57%, Computer Services 14%, Office Equipment & Services 14% (n=7)."
+4961,STEAM & AIR-CONDITIONING SUPPLY,Power,"Thin, split evidence: Power 40%, Utility (Water) 40% (n=5, global)."
+4991,COGENERATION SERVICES & SMALL POWER PRODUCERS,Power,"Check: split evidence. Damodaran's US companies with this SIC: Power 50%, Broadcasting 25%, Green & Renewable Energy 25% (n=4)."
+5000,WHOLESALE-DURABLE GOODS,Retail (Distributors),
+5010,WHOLESALE-MOTOR VEHICLES & MOTOR VEHICLE PARTS & SUPPLIES,Retail (Distributors),"Chose Retail (Distributors) from the description; Damodaran's US companies with this SIC: Business & Consumer Services 67%, Retail (Distributors) 33% (n=3)."
+5013,WHOLESALE-MOTOR VEHICLE SUPPLIES & NEW PARTS,Retail (Distributors),"Chose Retail (Distributors) from the description; Damodaran's US companies with this SIC: Auto Parts 33%, Investments & Asset Management 33%, Retail (Distributors) 33% (n=3)."
+5020,WHOLESALE-FURNITURE & HOME FURNISHINGS,Retail (Distributors),
+5030,WHOLESALE-LUMBER & OTHER CONSTRUCTION MATERIALS,Retail (Distributors),
+5031,"WHOLESALE-LUMBER, PLYWOOD, MILLWORK & WOOD PANELS",Retail (Distributors),"Check: split evidence. Damodaran's US companies with this SIC: Retail (Distributors) 50%, Building Materials 25%, Telecom. Equipment 25% (n=4)."
+5040,WHOLESALE-PROFESSIONAL & COMMERCIAL EQUIPMENT & SUPPLIES,Retail (Distributors),"Chose Retail (Distributors) from the description; Damodaran's global companies with this SIC: Computer Services 42%, Retail (Distributors) 35%, Office Equipment & Services 19% (n=31)."
+5045,WHOLESALE-COMPUTERS & PERIPHERAL EQUIPMENT & SOFTWARE,Computer Services,Damodaran puts technology distributors with this SIC in Computer Services (90% of 10).
+5047,"WHOLESALE-MEDICAL, DENTAL & HOSPITAL EQUIPMENT & SUPPLIES",Healthcare Support Services,
+5050,WHOLESALE-METALS & MINERALS (NO PETROLEUM),Retail (Distributors),
+5051,WHOLESALE-METALS SERVICE CENTERS & OFFICES,Steel,
+5063,"WHOLESALE-ELECTRICAL APPARATUS & EQUIPMENT, WIRING SUPPLIES",Retail (Distributors),
+5064,"WHOLESALE-ELECTRICAL APPLIANCES, TV & RADIO SETS",Retail (Distributors),
+5065,"WHOLESALE-ELECTRONIC PARTS & EQUIPMENT, NEC",Computer Services,Damodaran puts electronic-parts distributors with this SIC in Computer Services (67% of 12).
+5070,WHOLESALE-HARDWARE & PLUMBING & HEATING EQUIPMENT & SUPPLIES,Retail (Distributors),
+5072,WHOLESALE-HARDWARE,Retail (Distributors),
+5080,"WHOLESALE-MACHINERY, EQUIPMENT & SUPPLIES",Retail (Distributors),
+5082,WHOLESALE-CONSTRUCTION & MINING (NO PETRO) MACHINERY & EQUIP,Retail (Distributors),
+5084,WHOLESALE-INDUSTRIAL MACHINERY & EQUIPMENT,Retail (Distributors),"Check: split evidence. Damodaran's US companies with this SIC: Retail (Distributors) 75%, Drugs (Pharmaceutical) 25% (n=4)."
+5090,WHOLESALE-MISC DURABLE GOODS,Retail (Distributors),"Check: split evidence. Damodaran's US companies with this SIC: Retail (Distributors) 75%, Retail (Automotive) 25% (n=4)."
+5094,"WHOLESALE-JEWELRY, WATCHES, PRECIOUS STONES & METALS",Retail (Distributors),
+5099,"WHOLESALE-DURABLE GOODS, NEC",Retail (Distributors),
+5110,WHOLESALE-PAPER & PAPER PRODUCTS,Retail (Distributors),
+5122,"WHOLESALE-DRUGS, PROPRIETARIES & DRUGGISTS' SUNDRIES",Healthcare Support Services,"Drug wholesalers: Damodaran's US companies with this SIC are mostly Healthcare Support Services (54%), Household Products 23%."
+5130,"WHOLESALE-APPAREL, PIECE GOODS & NOTIONS",Retail (Distributors),
+5140,WHOLESALE-GROCERIES & RELATED PRODUCTS,Food Wholesalers,"Check: split evidence. Damodaran's US companies with this SIC: Food Wholesalers 47%, Food Processing 33%, Diversified 7% (n=15)."
+5141,"WHOLESALE-GROCERIES, GENERAL LINE",Food Wholesalers,
+5150,WHOLESALE-FARM PRODUCT RAW MATERIALS,Food Wholesalers,"Check: split evidence. Damodaran's global companies with this SIC: Food Wholesalers 42%, Farming/Agriculture 21%, Retail (Distributors) 12% (n=24)."
+5160,WHOLESALE-CHEMICALS & ALLIED PRODUCTS,Retail (Distributors),
+5171,WHOLESALE-PETROLEUM BULK STATIONS & TERMINALS,Oil/Gas Distribution,"Check: split evidence. Damodaran's global companies with this SIC: Oil/Gas Distribution 42%, Oilfield Svcs/Equip. 42%, Retail (Automotive) 6% (n=33)."
+5172,WHOLESALE-PETROLEUM & PETROLEUM PRODUCTS (NO BULK STATIONS),Oil/Gas Distribution,"Chose Oil/Gas Distribution from the description; Damodaran's US companies with this SIC: Oilfield Svcs/Equip. 50%, Coal & Related Energy 25%, Oil/Gas Distribution 25% (n=4)."
+5180,"WHOLESALE-BEER, WINE & DISTILLED ALCOHOLIC BEVERAGES",Food Wholesalers,"Chose Food Wholesalers from the description; Damodaran's US companies with this SIC: Beverage (Alcoholic) 33%, Food Wholesalers 33%, Retail (Distributors) 33% (n=3)."
+5190,WHOLESALE-MISCELLANEOUS NONDURABLE GOODS,Retail (Distributors),
+5200,"RETAIL-BUILDING MATERIALS, HARDWARE, GARDEN SUPPLY",Retail (Building Supply),"Check: split evidence. Damodaran's US companies with this SIC: Retail (Building Supply) 33%, Retail (Special Lines) 33%, Telecom. Services 33% (n=3)."
+5211,RETAIL-LUMBER & OTHER BUILDING MATERIALS DEALERS,Retail (Building Supply),"Check: split evidence. Damodaran's US companies with this SIC: Retail (Building Supply) 75%, Retail (Distributors) 25% (n=4)."
+5271,RETAIL-MOBILE HOME DEALERS,Retail (Special Lines),No Damodaran companies with this SIC; matched by description only.
+5311,RETAIL-DEPARTMENT STORES,Retail (General),
+5331,RETAIL-VARIETY STORES,Retail (General),
+5399,RETAIL-MISC GENERAL MERCHANDISE STORES,Retail (General),
+5400,RETAIL-FOOD STORES,Retail (Grocery and Food),
+5411,RETAIL-GROCERY STORES,Retail (Grocery and Food),
+5412,RETAIL-CONVENIENCE STORES,Retail (Grocery and Food),
+5500,RETAIL-AUTO DEALERS & GASOLINE STATIONS,Retail (Automotive),
+5531,RETAIL-AUTO & HOME SUPPLY STORES,Retail (Automotive),
+5600,RETAIL-APPAREL & ACCESSORY STORES,Retail (Special Lines),
+5621,RETAIL-WOMEN'S CLOTHING STORES,Retail (Special Lines),
+5651,RETAIL-FAMILY CLOTHING STORES,Retail (Special Lines),
+5661,RETAIL-SHOE STORES,Retail (Special Lines),
+5700,"RETAIL-HOME FURNITURE, FURNISHINGS & EQUIPMENT STORES",Retail (Building Supply),"Check: split evidence. Damodaran's US companies with this SIC: Retail (Building Supply) 67%, Furn/Home Furnishings 33% (n=3)."
+5712,RETAIL-FURNITURE STORES,Retail (Building Supply),"Check: split evidence. Damodaran's US companies with this SIC: Retail (Building Supply) 75%, Diversified 25% (n=4)."
+5731,"RETAIL-RADIO, TV & CONSUMER ELECTRONICS STORES",Retail (Special Lines),
+5734,RETAIL-COMPUTER & COMPUTER SOFTWARE STORES,Retail (Special Lines),
+5735,RETAIL-RECORD & PRERECORDED TAPE STORES,Retail (Special Lines),No Damodaran companies with this SIC; matched by description only.
+5810,RETAIL-EATING & DRINKING PLACES,Restaurant/Dining,
+5812,RETAIL-EATING PLACES,Restaurant/Dining,
+5900,RETAIL-MISCELLANEOUS RETAIL,Retail (Special Lines),"Chose Retail (Special Lines) from the description; Damodaran's US companies with this SIC: Oil/Gas Distribution 30%, Financial Svcs. (Non-bank & Insurance) 20%, Environmental & Waste Services 10% (n=10)."
+5912,RETAIL-DRUG STORES AND PROPRIETARY STORES,Retail (Special Lines),
+5940,RETAIL-MISCELLANEOUS SHOPPING GOODS STORES,Retail (Special Lines),
+5944,RETAIL-JEWELRY STORES,Retail (Special Lines),
+5945,"RETAIL-HOBBY, TOY & GAME SHOPS",Retail (Special Lines),
+5960,RETAIL-NONSTORE RETAILERS,Retail (Special Lines),"Chose Retail (Special Lines) from the description; Damodaran's US companies with this SIC: Retail (General) 25%, Retail (Special Lines) 25%, Retail (Distributors) 17% (n=12)."
+5961,RETAIL-CATALOG & MAIL-ORDER HOUSES,Retail (Special Lines),"Includes large e-commerce companies, which Damodaran may class as Retail (General). Companies with this SIC: Retail (Special Lines) 56%, Retail (General) 19% (n=32)."
+5990,"RETAIL-RETAIL STORES, NEC",Retail (Special Lines),
+6021,NATIONAL COMMERCIAL BANKS,Banks (Regional),"Money-center banks (e.g. JPMorgan, Bank of America, Citigroup, Wells Fargo) also use SIC 6021 but are Bank (Money Center) in Damodaran (beta 0.76 vs 0.40). The mapping is per SIC, so they get the regional-bank beta."
+6022,STATE COMMERCIAL BANKS,Banks (Regional),
+6029,"COMMERCIAL BANKS, NEC",Banks (Regional),"Check: split evidence. Damodaran's US companies with this SIC: Banks (Regional) 67%, Bank (Money Center) 33% (n=3)."
+6035,"SAVINGS INSTITUTION, FEDERALLY CHARTERED",Banks (Regional),
+6036,"SAVINGS INSTITUTIONS, NOT FEDERALLY CHARTERED",Banks (Regional),
+6099,"FUNCTIONS RELATED TO DEPOSITORY BANKING, NEC",Financial Svcs. (Non-bank & Insurance),
+6111,FEDERAL & FEDERALLY-SPONSORED CREDIT AGENCIES,Financial Svcs. (Non-bank & Insurance),
+6141,PERSONAL CREDIT INSTITUTIONS,Financial Svcs. (Non-bank & Insurance),
+6153,SHORT-TERM BUSINESS CREDIT INSTITUTIONS,Financial Svcs. (Non-bank & Insurance),
+6159,MISCELLANEOUS BUSINESS CREDIT INSTITUTION,Financial Svcs. (Non-bank & Insurance),
+6162,MORTGAGE BANKERS & LOAN CORRESPONDENTS,Financial Svcs. (Non-bank & Insurance),
+6163,LOAN BROKERS,Financial Svcs. (Non-bank & Insurance),"Check: split evidence. Damodaran's US companies with this SIC: Financial Svcs. (Non-bank & Insurance) 67%, Drugs (Pharmaceutical) 33% (n=3)."
+6172,FINANCE LESSORS,Financial Svcs. (Non-bank & Insurance),
+6189,ASSET-BACKED SECURITIES,,"Asset-backed securities issuers (trusts, not operating companies). Left unmapped, so beta 1.0."
+6199,FINANCE SERVICES,Financial Svcs. (Non-bank & Insurance),No Damodaran companies with this SIC; matched by description only.
+6200,"SECURITY & COMMODITY BROKERS, DEALERS, EXCHANGES & SERVICES",Financial Svcs. (Non-bank & Insurance),"Split: Financial Svcs. 52% (mostly exchanges), Investments & Asset Management 21% (n=33). Brokers would fit Brokerage & Investment Banking."
+6211,"SECURITY BROKERS, DEALERS & FLOTATION COMPANIES",Brokerage & Investment Banking,
+6221,COMMODITY CONTRACTS BROKERS & DEALERS,Brokerage & Investment Banking,
+6282,INVESTMENT ADVICE,Investments & Asset Management,
+6311,LIFE INSURANCE,Insurance (Life),
+6321,ACCIDENT & HEALTH INSURANCE,Insurance (Life),
+6324,HOSPITAL & MEDICAL SERVICE PLANS,Healthcare Support Services,Health insurers (managed care): Damodaran's US companies with this SIC are mostly Healthcare Support Services (82% of 11).
+6331,"FIRE, MARINE & CASUALTY INSURANCE",Insurance (Prop/Cas.),
+6351,SURETY INSURANCE,Insurance (Prop/Cas.),"Chose Insurance (Prop/Cas.) from the description; Damodaran's US companies with this SIC: Financial Svcs. (Non-bank & Insurance) 57%, Insurance (Prop/Cas.) 43% (n=7)."
+6361,TITLE INSURANCE,Insurance (Prop/Cas.),
+6399,"INSURANCE CARRIERS, NEC",Insurance (General),"Check: split evidence. Damodaran's global companies with this SIC: Insurance (General) 22%, Insurance (Life) 22%, Insurance (Prop/Cas.) 22% (n=9)."
+6411,"INSURANCE AGENTS, BROKERS & SERVICE",Insurance (General),
+6500,REAL ESTATE,Real Estate (General/Diversified),"Check: split evidence. Damodaran's US companies with this SIC: Real Estate (General/Diversified) 56%, Business & Consumer Services 11%, Financial Svcs. (Non-bank & Insurance) 11% (n=9)."
+6510,REAL ESTATE OPERATORS (NO DEVELOPERS) & LESSORS,Real Estate (Operations & Services),
+6512,OPERATORS OF NONRESIDENTIAL BUILDINGS,Real Estate (Operations & Services),
+6513,OPERATORS OF APARTMENT BUILDINGS,Real Estate (Operations & Services),
+6519,"LESSORS OF REAL PROPERTY, NEC",Real Estate (Operations & Services),"Check: split evidence. Damodaran's US companies with this SIC: Real Estate (Operations & Services) 75%, Environmental & Waste Services 25% (n=4)."
+6531,REAL ESTATE AGENTS & MANAGERS (FOR OTHERS),Real Estate (Operations & Services),
+6532,REAL ESTATE DEALERS (FOR THEIR OWN ACCOUNT),Real Estate (Development),"Check: split evidence. Damodaran's global companies with this SIC: Real Estate (Development) 50%, Hotel/Gaming 25%, Real Estate (Operations & Services) 25% (n=4)."
+6552,LAND SUBDIVIDERS & DEVELOPERS (NO CEMETERIES),Real Estate (Development),
+6770,BLANK CHECKS,,"Blank-check (SPAC) shells with no operating business. Left unmapped, so beta 1.0."
+6792,OIL ROYALTY TRADERS,Oil/Gas (Production and Exploration),
+6794,PATENT OWNERS & LESSORS,,"No single good match: patent owners/licensors span semiconductors, software, pharma and franchising. Left unmapped, so beta 1.0."
+6795,MINERAL ROYALTY TRADERS,Metals & Mining,"Check: split evidence. Damodaran's global companies with this SIC: Metals & Mining 38%, Precious Metals 38%, Steel 25% (n=8)."
+6798,REAL ESTATE INVESTMENT TRUSTS,R.E.I.T.,
+6799,"INVESTORS, NEC",Investments & Asset Management,
+7000,"HOTELS, ROOMING HOUSES, CAMPS & OTHER LODGING PLACES",Hotel/Gaming,"Check: split evidence. Damodaran's US companies with this SIC: Hotel/Gaming 67%, Recreation 33% (n=3)."
+7011,HOTELS & MOTELS,Hotel/Gaming,
+7200,SERVICES-PERSONAL SERVICES,Business & Consumer Services,
+7310,SERVICES-ADVERTISING,Advertising,
+7311,SERVICES-ADVERTISING AGENCIES,Advertising,
+7320,"SERVICES-CONSUMER CREDIT REPORTING, COLLECTION AGENCIES",Business & Consumer Services,
+7330,"SERVICES-MAILING, REPRODUCTION, COMMERCIAL ART & PHOTOGRAPHY",Business & Consumer Services,"Chose Business & Consumer Services from the description; Damodaran's global companies with this SIC: Advertising 50%, Business & Consumer Services 50% (n=4)."
+7331,SERVICES-DIRECT MAIL ADVERTISING SERVICES,Advertising,"Check: split evidence. Damodaran's global companies with this SIC: Advertising 67%, Publishing & Newspapers 33% (n=3)."
+7340,SERVICES-TO DWELLINGS & OTHER BUILDINGS,Environmental & Waste Services,
+7350,SERVICES-MISCELLANEOUS EQUIPMENT RENTAL & LEASING,Retail (Distributors),"Check: split evidence. Damodaran's US companies with this SIC: Retail (Distributors) 50%, Healthcare Support Services 25%, Retail (Special Lines) 25% (n=4)."
+7359,"SERVICES-EQUIPMENT RENTAL & LEASING, NEC",Retail (Distributors),"Check: split evidence. Damodaran's US companies with this SIC: Retail (Distributors) 55%, Oilfield Svcs/Equip. 18%, Construction Supplies 9% (n=11)."
+7361,SERVICES-EMPLOYMENT AGENCIES,Business & Consumer Services,
+7363,SERVICES-HELP SUPPLY SERVICES,Business & Consumer Services,
+7370,"SERVICES-COMPUTER PROGRAMMING, DATA PROCESSING, ETC.",Software (System & Application),"Broad code that includes internet platforms as well as software. Damodaran's US companies with this SIC: Software (System & Application) 42%, Software (Entertainment) 16% (n=348). Large internet companies may fit Software (Internet) or Software (Entertainment) better."
+7371,SERVICES-COMPUTER PROGRAMMING SERVICES,Computer Services,"Check: split evidence. Damodaran's US companies with this SIC: Computer Services 27%, Software (System & Application) 27%, Heathcare Information and Technology 18% (n=11)."
+7372,SERVICES-PREPACKAGED SOFTWARE,Software (System & Application),
+7373,SERVICES-COMPUTER INTEGRATED SYSTEMS DESIGN,Computer Services,"Split: Software (System & Application) 29%, Computer Services 21% (n=28). Chose Computer Services from the description (systems integration)."
+7374,SERVICES-COMPUTER PROCESSING & DATA PREPARATION,Computer Services,"Split: Financial Svcs. 39% (payment processors), Information Services 25% (n=36). Chose Computer Services from the description (data processing)."
+7377,SERVICES-COMPUTER RENTAL & LEASING,Computer Services,"Check: split evidence. Damodaran's global companies with this SIC: Computer Services 40%, Retail (Special Lines) 40%, Financial Svcs. (Non-bank & Insurance) 20% (n=5)."
+7380,SERVICES-MISCELLANEOUS BUSINESS SERVICES,Business & Consumer Services,
+7381,"SERVICES-DETECTIVE, GUARD & ARMORED CAR SERVICES",Business & Consumer Services,
+7384,SERVICES-PHOTOFINISHING LABORATORIES,Business & Consumer Services,
+7385,SERVICES-TELEPHONE INTERCONNECT SYSTEMS,Telecom. Services,Chose Telecom. Services from the description; Damodaran's global companies with this SIC: Computer Services 100% (n=1).
+7389,"SERVICES-BUSINESS SERVICES, NEC",Business & Consumer Services,"Broad code: payment networks use it, and Damodaran classes many of its companies as Financial Svcs. (45% of 49). Chose Business & Consumer Services from the description."
+7500,"SERVICES-AUTOMOTIVE REPAIR, SERVICES & PARKING",Business & Consumer Services,"Check: split evidence. Damodaran's US companies with this SIC: Business & Consumer Services 40%, Retail (Automotive) 40%, Electrical Equipment 20% (n=5)."
+7510,SERVICES-AUTO RENTAL & LEASING (NO DRIVERS),Transportation,
+7600,SERVICES-MISCELLANEOUS REPAIR SERVICES,Business & Consumer Services,
+7812,SERVICES-MOTION PICTURE & VIDEO TAPE PRODUCTION,Entertainment,
+7819,SERVICES-ALLIED TO MOTION PICTURE PRODUCTION,Entertainment,
+7822,SERVICES-MOTION PICTURE & VIDEO TAPE DISTRIBUTION,Entertainment,
+7829,SERVICES-ALLIED TO MOTION PICTURE DISTRIBUTION,Entertainment,
+7830,SERVICES-MOTION PICTURE THEATERS,Entertainment,
+7841,SERVICES-VIDEO TAPE RENTAL,Entertainment,"Check: split evidence. Damodaran's global companies with this SIC: Entertainment 50%, Retail (Special Lines) 25%, Software (System & Application) 25% (n=4)."
+7900,SERVICES-AMUSEMENT & RECREATION SERVICES,Entertainment,
+7948,"SERVICES-RACING, INCLUDING TRACK OPERATION",Entertainment,"Check: split evidence. Damodaran's global companies with this SIC: Entertainment 40%, Business & Consumer Services 20%, Hotel/Gaming 20% (n=5)."
+7990,SERVICES-MISCELLANEOUS AMUSEMENT & RECREATION,Hotel/Gaming,Casinos/gaming: Damodaran's US companies with this SIC are mostly Hotel/Gaming (66% of 41).
+7997,SERVICES-MEMBERSHIP SPORTS & RECREATION CLUBS,Recreation,
+8000,SERVICES-HEALTH SERVICES,Healthcare Support Services,"Check: split evidence. Damodaran's US companies with this SIC: Healthcare Support Services 50%, Heathcare Information and Technology 17%, Hospitals/Healthcare Facilities 17% (n=18)."
+8011,SERVICES-OFFICES & CLINICS OF DOCTORS OF MEDICINE,Healthcare Support Services,
+8050,SERVICES-NURSING & PERSONAL CARE FACILITIES,Hospitals/Healthcare Facilities,"Check: split evidence. Damodaran's US companies with this SIC: Hospitals/Healthcare Facilities 67%, Healthcare Support Services 33% (n=3)."
+8051,SERVICES-SKILLED NURSING CARE FACILITIES,Hospitals/Healthcare Facilities,
+8060,SERVICES-HOSPITALS,Hospitals/Healthcare Facilities,
+8062,"SERVICES-GENERAL MEDICAL & SURGICAL HOSPITALS, NEC",Hospitals/Healthcare Facilities,
+8071,SERVICES-MEDICAL LABORATORIES,Healthcare Support Services,
+8082,SERVICES-HOME HEALTH CARE SERVICES,Healthcare Support Services,
+8090,"SERVICES-MISC HEALTH & ALLIED SERVICES, NEC",Healthcare Support Services,
+8093,"SERVICES-SPECIALTY OUTPATIENT FACILITIES, NEC",Healthcare Support Services,"Check: split evidence. Damodaran's US companies with this SIC: Healthcare Support Services 67%, Hospitals/Healthcare Facilities 33% (n=3)."
+8111,SERVICES-LEGAL SERVICES,Business & Consumer Services,
+8200,SERVICES-EDUCATIONAL SERVICES,Education,
+8300,SERVICES-SOCIAL SERVICES,Hospitals/Healthcare Facilities,
+8351,SERVICES-CHILD DAY CARE SERVICES,Business & Consumer Services,
+8600,SERVICES-MEMBERSHIP ORGANIZATIONS,Business & Consumer Services,No Damodaran companies with this SIC; matched by description only.
+8700,"SERVICES-ENGINEERING, ACCOUNTING, RESEARCH, MANAGEMENT",Business & Consumer Services,
+8711,SERVICES-ENGINEERING SERVICES,Engineering/Construction,"Check: split evidence. Damodaran's US companies with this SIC: Engineering/Construction 38%, Electronics (General) 15%, Environmental & Waste Services 15% (n=13)."
+8731,SERVICES-COMMERCIAL PHYSICAL & BIOLOGICAL RESEARCH,Heathcare Information and Technology,Research services: Damodaran classes most (65% of 23) in 'Heathcare Information and Technology' (his spelling).
+8734,SERVICES-TESTING LABORATORIES,Business & Consumer Services,"Check: split evidence. Damodaran's US companies with this SIC: Business & Consumer Services 25%, Environmental & Waste Services 25%, Furn/Home Furnishings 12% (n=8)."
+8741,SERVICES-MANAGEMENT SERVICES,Business & Consumer Services,"Chose Business & Consumer Services from the description; Damodaran's US companies with this SIC: Aerospace/Defense 33%, Environmental & Waste Services 33%, Real Estate (General/Diversified) 33% (n=3)."
+8742,SERVICES-MANAGEMENT CONSULTING SERVICES,Business & Consumer Services,
+8744,SERVICES-FACILITIES SUPPORT MANAGEMENT SERVICES,Business & Consumer Services,"Check: split evidence. Damodaran's global companies with this SIC: Business & Consumer Services 59%, Environmental & Waste Services 18%, Engineering/Construction 12% (n=17)."
+8880,AMERICAN DEPOSITARY RECEIPTS,,"American Depositary Receipts, not an industry. Left unmapped, so beta 1.0."
+8888,FOREIGN GOVERNMENTS,,"Foreign governments, not a company. Left unmapped, so beta 1.0."
+8900,"SERVICES-SERVICES, NEC",Business & Consumer Services,"Chose Business & Consumer Services from the description; Damodaran's global companies with this SIC: Entertainment 44%, Business & Consumer Services 33%, Environmental & Waste Services 11% (n=9)."
+9721,INTERNATIONAL AFFAIRS,,"International affairs, not a company. Left unmapped, so beta 1.0."
+9995,NON-OPERATING ESTABLISHMENTS,Investments & Asset Management,Non-operating shells/SPACs; Damodaran classes most (80% of 212) as Investments & Asset Management.

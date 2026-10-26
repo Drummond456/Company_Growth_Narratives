@@ -1,0 +1,9 @@
+{
+  "_about": "Per-ticker settings for explain_run.py. sector_etf: the sector factor in the market model (the S&P 500 is always in).",
+  "COST": {
+    "sector_etf": "RSPS"
+  },
+  "META": {
+    "sector_etf": "RSPC"
+  }
+}

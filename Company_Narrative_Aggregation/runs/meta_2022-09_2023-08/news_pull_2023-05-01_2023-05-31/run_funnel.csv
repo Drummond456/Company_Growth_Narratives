@@ -1,0 +1,18 @@
+﻿stage,count
+articles in pull,54
+- full text fetched,52
+- headline only,2
+- no file (fetch produced nothing),0
+skipped before submitting,1
+sent to model,53
+- failed (no usable result),0
+- no fit (nothing matched the codebook),5
+- fit (1+ units),48
+units extracted,137
+"- moved to narrative_units_rejected.csv: tagged OTHER, PROMO, or only STOCK",35
+units in narrative_units.csv,102
+- statements,101
+- headlines,1
+articles with units in narrative_units.csv,45
+sources in pull,3
+sources in output,3

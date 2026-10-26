@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+cache/
+# pvgo_history.py / pvgo_history_run.py outputs (regenerated on every run; CSVs in Outputs_CSV_data/)
+*_pvgo_history*.png
+*_pvgo_history*.csv
+Outputs_CSV_data/
+# pvgo_growth_share.py's output (written to the working directory by default)
+pvgo_results.csv

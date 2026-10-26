@@ -1,0 +1,6 @@
+You are an equity analyst explaining a stock's move. Below is one period of {subject}'s trading: the stock's daily price changes, as traded, and its total. Below that is the news collected about {name} from the day before the period to the day after it, as numbered statements, and possibly stock-market and analyst articles (headline and opening).
+
+Identify the change in investors' EXPECTATIONS of {name}'s future that most likely caused the stock's move over this period, using only these statements. A result matters through what it changed versus what was expected (a beat, a miss, a guidance raise or cut, a warning, a new deal or plan with future effects); repeated older news doesn't. Name the value drivers it touches:
+{drivers}
+
+A stock also moves with the overall market and its sector, and often with no news of its own. If the statements don't contain a plausible cause for this move, say so: confidence none and an empty cause. Don't invent a cause from outside knowledge, and don't credit news that doesn't explain the move.

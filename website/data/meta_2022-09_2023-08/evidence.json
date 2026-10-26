@@ -1,0 +1,2852 @@
+{
+ "source": {
+  "explain_run": "Company_Narrative_Aggregation\\runs\\meta_2022-09_2023-08\\explain_20261026-1208",
+  "built": "2026-10-26"
+ },
+ "items": {
+  "2022-09/A0001-S01": {
+   "kind": "statement",
+   "text": "\"We're working with Qualcomm Technologies on customized virtual reality chipsets — powered by Snapdragon XR platforms and technology — for our future roadmap of Quest products,\" Mark Zuckerberg, CEO of Meta, said in a press release.",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2022-09/A0001"
+  },
+  "2022-09/A0001-S03": {
+   "kind": "statement",
+   "text": "It comes as Meta gears up to launch a new virtual reality headset in October, even as losses widened in its Reality Labs division, which includes its VR business, in the second quarter of the year.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2022-09/A0001"
+  },
+  "2022-09/A0004-S02": {
+   "kind": "statement",
+   "text": "Meta has spent as much as $10 billion a year on Zuckerberg's vision of creating the next major software platform, and the company has said one reason the technology hasn't taken off is that the hardware isn't good enough yet.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-09/A0004"
+  },
+  "2022-09/A0005": {
+   "kind": "article",
+   "article": "2022-09/A0005"
+  },
+  "2022-09/A0006-S01": {
+   "kind": "statement",
+   "text": "Meta is looking to cut costs by 10% in coming months, according to a report published Wednesday by The Wall Street Journal.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-09/A0006"
+  },
+  "2022-09/A0006-S02": {
+   "kind": "statement",
+   "text": "The company also reported its first-ever revenue decline from a year ago, and predicted during that earnings call that its sales would drop again in its third quarter.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2022-09/A0006"
+  },
+  "2022-09/A0007": {
+   "kind": "article",
+   "article": "2022-09/A0007"
+  },
+  "2022-09/A0008-S02": {
+   "kind": "statement",
+   "text": "Apple's iOS privacy update made it more difficult for the company to target ads and the increased popularity of social media rival TikTok has drawn users and advertisers away from the app.",
+   "verbatim": true,
+   "topics": "Market share",
+   "article": "2022-09/A0008"
+  },
+  "2022-09/A0008-S03": {
+   "kind": "statement",
+   "text": "In July, Meta said it was expecting a second straight period of declining sales as it reported second-quarter earnings that missed on the top and bottom lines.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2022-09/A0008"
+  },
+  "2022-09/A0013-S03": {
+   "kind": "statement",
+   "text": "Meta is pouring money into its attempts to own the metaverse, plowing $10 billion into the project in 2021 alone.",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2022-09/A0013"
+  },
+  "2022-09/A0016-S02": {
+   "kind": "statement",
+   "text": "The DPC fine was given to Instagram for failing to protect children's privacy on its platform.",
+   "verbatim": true,
+   "topics": "Catastrophic event threatening the business model",
+   "article": "2022-09/A0016"
+  },
+  "2022-09/A0024-S02": {
+   "kind": "statement",
+   "text": "Meta also did not specify legally required details that consumers must know and did not obtain users' consent as the company gathered and used their behavior information for personalized advertisements when users signed up, according to a spokesperson at the Personal Information Protection Commission (PIPC).",
+   "verbatim": true,
+   "topics": "Catastrophic event threatening the business model",
+   "article": "2022-09/A0024"
+  },
+  "2022-09/A0033-S02": {
+   "kind": "statement",
+   "text": "The jury ordered Meta to pay Voxer $174.5 million in damages, and struck down attempts by Meta to have Voxer's patents invalidated.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-09/A0033"
+  },
+  "2022-09/A0060-S01": {
+   "kind": "statement",
+   "text": "In what would be the first major budget cut since the founding of Facebook in 2004, Zuckerberg said the company will freeze hiring and restructure some teams to trim expenses and realign priorities.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-09/A0060"
+  },
+  "2022-09/A0060-S02": {
+   "kind": "statement",
+   "text": "The further cost cuts and hiring freeze are Meta's starkest admission that advertising revenue growth is slowing amid mounting competition for users' attention.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2022-09/A0060"
+  },
+  "2022-09/A0061-H": {
+   "kind": "headline",
+   "text": "Meta reportedly suspends all hiring, warns staff of possible layoffs",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-09/A0061"
+  },
+  "2022-09/A0062-S01": {
+   "kind": "statement",
+   "text": "Bloomberg reports that Meta CEO Mark Zuckerberg announced plans to freeze hiring and restructure some groups within the company Thursday in an internal all-hands call.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-09/A0062"
+  },
+  "2022-09/A0062-S02": {
+   "kind": "statement",
+   "text": "According to Bloomberg, Meta plans to shrink budgets widely within the company, including to teams that it was recently investing in.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-09/A0062"
+  },
+  "2022-09/A0063-S03": {
+   "kind": "statement",
+   "text": "\"We're facing headwinds including slower revenue growth than anticipated at the start of the year,\" CFO David Wehner wrote in a memo to employees, which Insider obtained.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2022-09/A0063"
+  },
+  "2022-09/A0070-S01": {
+   "kind": "statement",
+   "text": "Meta Platforms Inc., the owner of Facebook and Instagram, said it will freeze hiring and restructure some teams in an effort to cut costs and shift priorities.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-09/A0070"
+  },
+  "2022-09/A0070-S02": {
+   "kind": "statement",
+   "text": "Meta’s further cost cuts and hiring freeze are its starkest admission that advertising revenue growth is slowing, amid mounting competition for users’ attention.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2022-09/A0070"
+  },
+  "2022-10/A0001-S01": {
+   "kind": "statement",
+   "text": "\"Alphabet and Meta have increased total expenses by over $50 billion from 2020, and we think there is a lot of room to cut costs (on top of positive FX impact on expenses),\" they wrote.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-10/A0001"
+  },
+  "2022-10/A0002": {
+   "kind": "article",
+   "article": "2022-10/A0002"
+  },
+  "2022-10/A0003-S01": {
+   "kind": "statement",
+   "text": "The Citi view The research showed that so-called ad loads have been on the rise for Meta's Reels on Instagram, which saw 14% ad loads in September, up from 10% in August and 8% in July.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2022-10/A0003"
+  },
+  "2022-10/A0004-S02": {
+   "kind": "statement",
+   "text": "But given high decremental margins and greater challenges reducing costs than anticipated, we see an ongoing downside risk to earnings.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-10/A0004"
+  },
+  "2022-10/A0005-S01": {
+   "kind": "statement",
+   "text": "Meta CEO Mark Zuckerberg said on Tuesday that his company's newest virtual reality headset, dubbed the Meta Quest Pro, will cost $1,500 and start shipping on Oct. 25.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2022-10/A0005"
+  },
+  "2022-10/A0008-S01": {
+   "kind": "statement",
+   "text": "Meta, the owner of Facebook, admitted defeat Tuesday after U.K. competition regulators issued a final verdict ordering the company to sell its animated image making unit Giphy.",
+   "verbatim": true,
+   "topics": "Catastrophic event threatening the business model",
+   "article": "2022-10/A0008"
+  },
+  "2022-10/A0011-S02": {
+   "kind": "statement",
+   "text": "But Meta and Alphabet are more immune from weaker digital ad spend than a company like Snap, as their dominant ecosystems allow them to consistently provide value to customers.",
+   "verbatim": true,
+   "topics": "Total accessible market",
+   "article": "2022-10/A0011"
+  },
+  "2022-10/A0012-S01": {
+   "kind": "statement",
+   "text": "Altimeter Capital Chair and CEO Brad Gerstner said in an open letter to the company and CEO Mark Zuckerberg on Monday that Meta has too many employees and is moving too slowly to retain the confidence of investors. The Meta investor recommended a plan to get the company's \"mojo back,\" including reducing headcount expenses by 20% and limiting the company's pricey investments in \"metaverse\" technology — VR software and hardware — to no more than $5 billion per year.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-10/A0012"
+  },
+  "2022-10/A0015-S01": {
+   "kind": "statement",
+   "text": "The company said revenue for the fourth quarter will be $30 billion to $32.5 billion.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2022-10/A0015"
+  },
+  "2022-10/A0015-S02": {
+   "kind": "statement",
+   "text": "While revenue fell 4% in the third quarter, Meta's costs and expenses rose 19% year over year to $22.1 billion.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-10/A0015"
+  },
+  "2022-10/A0015-S03": {
+   "kind": "statement",
+   "text": "\"We do anticipate that Reality Labs operating losses in 2023 will grow significantly year-over-year,\" Meta said.",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2022-10/A0015"
+  },
+  "2022-10/A0017-S01": {
+   "kind": "statement",
+   "text": "However, even when Google Search, the greatest advertising platform in the world, is feeling the pain of macro pressures then you have to prepare for similar commentary from Meta.",
+   "verbatim": true,
+   "topics": "Total accessible market",
+   "article": "2022-10/A0017"
+  },
+  "2022-10/A0017-S02": {
+   "kind": "statement",
+   "text": "Whereas Alphabet guided for slower headcount additions in the current quarter and 2023, Meta has already begun looking at areas to reduce headcount and cut costs in general.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-10/A0017"
+  },
+  "2022-10/A0018-S02": {
+   "kind": "statement",
+   "text": "Analysts were expecting an increase of about 3% in YouTube ad revenue, but it slid around 2% to $7.07 billion from $7.21 billion a year ago.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2022-10/A0018"
+  },
+  "2022-10/A0022-S02": {
+   "kind": "statement",
+   "text": "Cowen's John Blackledge also downgraded Meta to market perform from outperform, and lowered his price target to $135 from $205 prior, citing the higher trajectory of operating and capital expenses.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-10/A0022"
+  },
+  "2022-10/A0024": {
+   "kind": "article",
+   "article": "2022-10/A0024"
+  },
+  "2022-10/A0035-S01": {
+   "kind": "statement",
+   "text": "These additional ad units serve to boost the company's ability to pull in revenue at a time when Meta has been seeing declining ad sales.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2022-10/A0035"
+  },
+  "2022-10/A0035-S02": {
+   "kind": "statement",
+   "text": "Amid a slew of product updates for advertisers, including a music catalog for advertisers and a new ad format for Facebook Reels, the company said it will now allow advertisers to run ads on the Explore home page and in profile feeds.",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2022-10/A0035"
+  },
+  "2022-10/A0042-S01": {
+   "kind": "statement",
+   "text": "Insider's Kali Hays reported that Meta was conducting \"quiet layoffs\" and telling some employees to find other jobs, which could impact as much as 15% of the company's workforce.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-10/A0042"
+  },
+  "2022-10/A0046-S01": {
+   "kind": "statement",
+   "text": "Russia has added Meta to its list of extremist and terrorist organizations, per Interfax.",
+   "verbatim": true,
+   "topics": "Catastrophic event threatening the business model",
+   "article": "2022-10/A0046"
+  },
+  "2022-10/A0057-S01": {
+   "kind": "statement",
+   "text": "Today, Meta filed a request in the Northern District of California court to move forward with the deal despite the FTC's complaint.",
+   "verbatim": true,
+   "topics": "Catastrophic event threatening the business model",
+   "article": "2022-10/A0057"
+  },
+  "2022-10/A0058-S01": {
+   "kind": "statement",
+   "text": "Meta has sunk more than $15 billion into its metaverse project since the start of last year.",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2022-10/A0058"
+  },
+  "2022-10/A0058-S03": {
+   "kind": "statement",
+   "text": "Mark Zgutowicz, an analyst at Benchmark, said though he doesn't know for sure, he estimates that at least 60% of operating expenses for Reality Labs are due to the massive research and development costs that go into building an entirely new world.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-10/A0058"
+  },
+  "2022-10/A0073-S03": {
+   "kind": "statement",
+   "text": "The company announced in August it would lay off 20% of all employees and discontinue projects such as gaming and a flying camera drone, in order to cut costs and steel itself against a deteriorating economy.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-10/A0073"
+  },
+  "2022-10/A0077-S01": {
+   "kind": "statement",
+   "text": "Gerstner's letter included a list of suggested remedies to Meta's so-called lack of focus, including reducing the company's headcount by at least 20%, cutting annual capital spending by at least $5 billion, and limiting the company's investment in Reality Labs to no more than $5 billion a year - a massive cut based on the company's spending so far this year.",
+   "verbatim": true,
+   "topics": "Cost efficiencies;Investment needed to deliver growth",
+   "article": "2022-10/A0077"
+  },
+  "2022-10/A0082-S01": {
+   "kind": "statement",
+   "text": "The disappointing results are a \"bad omen\" for digital advertising companies at large, including Meta.",
+   "verbatim": true,
+   "topics": "Total accessible market",
+   "article": "2022-10/A0082"
+  },
+  "2022-10/A0082-S02": {
+   "kind": "statement",
+   "text": "In a recent note, Mark Mahaney, an analyst at Evercore, wrote that he expects Meta's third-quarter ad revenue to decline 5% compared to last year when it reports earnings on Wednesday.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2022-10/A0082"
+  },
+  "2022-10/A0083-S01": {
+   "kind": "statement",
+   "text": "Meta Q4 revenue guidance came in between $30 billion and $32.5 billion while the Street was expecting $32.2 billion.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2022-10/A0083"
+  },
+  "2022-10/A0083-S03": {
+   "kind": "statement",
+   "text": "Reality Labs operating loss: $3.67 billion versus $3.09 billion expected",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-10/A0083"
+  },
+  "2022-10/A0092-H": {
+   "kind": "headline",
+   "text": "Morgan Stanley Downgrades Meta for First Time as Costs Soar",
+   "verbatim": true,
+   "topics": "Cost efficiencies;Share price & analyst views",
+   "article": "2022-10/A0092"
+  },
+  "2022-10/A0104-S02": {
+   "kind": "statement",
+   "text": "The build out contributed to a 1,600 basis point plunge in Meta's third quarter operating profit margins.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-10/A0104"
+  },
+  "2022-10/A0104-S03": {
+   "kind": "statement",
+   "text": "Meta's fourth quarter revenue guidance came in between $30 billion and $32.5 billion while Wall Street was expecting $32.2 billion.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2022-10/A0104"
+  },
+  "2022-10/A0105-S01": {
+   "kind": "statement",
+   "text": "The social media platform outlined about 13% year-over-year expense growth for fiscal year 2023, well above the Street's forecast of 7%.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-10/A0105"
+  },
+  "2022-10/A0105-S03": {
+   "kind": "statement",
+   "text": "Perhaps just as importantly, growing Reality Labs (RL) expenses appear to be one source of the elevated expense guide as RL operating losses are expected to grow significantly year over year in 2023.\"",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2022-10/A0105"
+  },
+  "2022-10/A0107-S01": {
+   "kind": "statement",
+   "text": "South, in Manhattan, Bloomberg reported citing people familiar with the matter.",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2022-10/A0107"
+  },
+  "2022-10/A0107-S02": {
+   "kind": "statement",
+   "text": "The company is cutting budgets including slowing hiring and reducing headcount while also planning to reorganize some of its business units.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-10/A0107"
+  },
+  "2022-10/A0110-S02": {
+   "kind": "statement",
+   "text": "Meta bought seven of the most successful virtual-reality development studios, and now has one of the largest virtual-reality content catalogs in the world, the FTC says.",
+   "verbatim": true,
+   "topics": "Market share",
+   "article": "2022-10/A0110"
+  },
+  "2022-10/A0113": {
+   "kind": "article",
+   "article": "2022-10/A0113"
+  },
+  "2022-10/A0114-S02": {
+   "kind": "statement",
+   "text": "First, reduce headcount expenses by at least 20%.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-10/A0114"
+  },
+  "2022-10/A0114-S03": {
+   "kind": "statement",
+   "text": "Next, Gerstner suggests the company should reduce its annual capex, its annual capital expenditures used to acquire, upgrade, and maintain physical assets, by at least $5 billion.",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2022-10/A0114"
+  },
+  "2022-10/A0122-S01": {
+   "kind": "statement",
+   "text": "The biggest weight on the stock: Meta is spending billions of dollars to develop the metaverse, an immersive virtual world that the chief executive officer has long believed represents the future of computing.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-10/A0122"
+  },
+  "2022-11/A0002-S02": {
+   "kind": "statement",
+   "text": "In October, for instance, Meta reported its second straight quarterly sales drop and issued weak fourth-quarter guidance that was below analyst's expectations.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2022-11/A0002"
+  },
+  "2022-11/A0002-S03": {
+   "kind": "statement",
+   "text": "But building the metaverse doesn't come cheap with Meta's Reality Labs business unit, which is overseeing its VR and AR initiatives, losing $9.4 billion thus far in 2022.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-11/A0002"
+  },
+  "2022-11/A0003-S01": {
+   "kind": "statement",
+   "text": "The layoffs are expected to impact thousands of employees, the report said, and the move would mark the first major headcount reduction in Meta's history.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-11/A0003"
+  },
+  "2022-11/A0005-S01": {
+   "kind": "statement",
+   "text": "In the first major reduction in headcount in the company's history, the layoffs could impact thousands of employees, according to the Journal.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-11/A0005"
+  },
+  "2022-11/A0006": {
+   "kind": "article",
+   "article": "2022-11/A0006"
+  },
+  "2022-11/A0007-S01": {
+   "kind": "statement",
+   "text": "The news: Meta Platforms moved more than 4.5% higher on news that management may finally be ready to take its medicine and make the difficult decision to start laying off workers in an effort to address costs as a recession appears almost inevitable in the near--to-mid-term given the Federal Reserve's fight against inflation.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-11/A0007"
+  },
+  "2022-11/A0007-S02": {
+   "kind": "statement",
+   "text": "The other of course being the rate of overall expense growth as management appears intent on sinking tens of billions of dollars into metaverse-oriented investments without the ability to tell investors what the payoff will be or when, if ever, it will come.",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2022-11/A0007"
+  },
+  "2022-11/A0010-S01": {
+   "kind": "statement",
+   "text": "Shares of Meta closed up 5% Wednesday after the company announced it will lay off more than 11,000 employees.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-11/A0010"
+  },
+  "2022-11/A0010-S02": {
+   "kind": "statement",
+   "text": "Analysts at UBS were encouraged by Meta's announcement Wednesday and said they believe the layoffs are a clear sign that the company \"gets it.\" The analysts reiterated their buy rating on Meta shares and said they liked Zuckerberg's comment about becoming \"more capital efficient\" in his employee memo.",
+   "verbatim": true,
+   "topics": "Cost efficiencies;Share price & analyst views",
+   "article": "2022-11/A0010"
+  },
+  "2022-11/A0010-S03": {
+   "kind": "statement",
+   "text": "Analysts at JPMorgan said they viewed Meta's headcount reductions favorably and that the layoffs could theoretically remove around $8 billion of costs for the company on an annual basis.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-11/A0010"
+  },
+  "2022-11/A0013": {
+   "kind": "article",
+   "article": "2022-11/A0013"
+  },
+  "2022-11/A0019-S02": {
+   "kind": "statement",
+   "text": "We are also taking a number of additional steps to become a leaner and more efficient company by cutting discretionary spending and extending our hiring freeze through Q1.\"",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-11/A0019"
+  },
+  "2022-11/A0022-S01": {
+   "kind": "statement",
+   "text": "The company said Wednesday it is subleasing a \"small portion\" of its facilities at 50 Hudson Yards, one of New York's largest commercial towers.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-11/A0022"
+  },
+  "2022-11/A0022-S02": {
+   "kind": "statement",
+   "text": "Meta said earlier this month that it was laying off over 11,000 workers, which represents 13% of its overall workforce.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-11/A0022"
+  },
+  "2022-11/A0024-S01": {
+   "kind": "statement",
+   "text": "\"They're spending $15 billion a year on the metaverse and they can't give us any mile-markers,\" he said.",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2022-11/A0024"
+  },
+  "2022-11/A0031-S02": {
+   "kind": "statement",
+   "text": "\"Meta may seek at least $3 billion to $4 billion in opex reductions through layoffs and fixed-cost cuts to bring its view closer to the lower end of its expense guidance of $96 billion to $101 billion,\" Bloomberg Intelligence Analyst Mandeep Singh wrote in a note on Monday.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-11/A0031"
+  },
+  "2022-11/A0040-S03": {
+   "kind": "statement",
+   "text": "Zuckerberg said Meta also would put in place other cost-cutting measures, including shrinking the company's real estate footprint and maintaining a hiring freeze through the first quarter of 2023.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-11/A0040"
+  },
+  "2022-11/A0044-S02": {
+   "kind": "statement",
+   "text": "Layoffs aside, Meta also said that it's reviewing its infrastructure spending to optimize its capacity efficiency, while it's looking to \"shrink its real estate footprint,\" which will involve more desk-sharing for those who only visit an office occasionally.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-11/A0044"
+  },
+  "2022-11/A0049-S01": {
+   "kind": "statement",
+   "text": "In an 8-K filing today, the company confirmed that reduced hiring next year will shave between $1 billion and $2 billion off its 2023 total expenses range.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-11/A0049"
+  },
+  "2022-11/A0049-S02": {
+   "kind": "statement",
+   "text": "Meta also noted in the 8-K that it is narrowing capital expenditures for 2023 by $2 billion at the top end.",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2022-11/A0049"
+  },
+  "2022-11/A0053-S02": {
+   "kind": "statement",
+   "text": "The company lowered its 2023 expense guidance by $2 billion, a change that came after only two weeks of issuing the previous higher forecast. It also reined in the high-end of its capital expenditure plans, loping off another $2 billion there.",
+   "verbatim": false,
+   "topics": "Cost efficiencies",
+   "article": "2022-11/A0053"
+  },
+  "2022-11/A0054-S01": {
+   "kind": "statement",
+   "text": "\"We believe Meta's decision to lower the midpoint of FY23 total expense and capex guides by $1.5 billion and $1 billion, respectively, should provide a minimum 8% boost to FY23 EPS [earnings per share],\" Jefferies Tech Analyst Brent Thill wrote in a note to clients.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-11/A0054"
+  },
+  "2022-11/A0073-S01": {
+   "kind": "statement",
+   "text": "Zuckerberg said 80% of investments still go toward Meta's core social media business.",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2022-11/A0073"
+  },
+  "2022-12/A0003": {
+   "kind": "article",
+   "article": "2022-12/A0003"
+  },
+  "2022-12/A0004": {
+   "kind": "article",
+   "article": "2022-12/A0004"
+  },
+  "2022-12/A0005-S01": {
+   "kind": "statement",
+   "text": "The European Commission, the EU's executive arm, said that it found Meta breached EU antitrust rules by distorting competition in the markets for online classified ads.",
+   "verbatim": true,
+   "topics": "Catastrophic event threatening the business model",
+   "article": "2022-12/A0005"
+  },
+  "2022-12/A0005-S03": {
+   "kind": "statement",
+   "text": "Tim Lamb, head of EMEA competition at Meta, said: \"The claims made by the European Commission are without foundation.\"",
+   "verbatim": true,
+   "topics": "Catastrophic event threatening the business model",
+   "article": "2022-12/A0005"
+  },
+  "2022-12/A0006-S01": {
+   "kind": "statement",
+   "text": "Facebook parent Meta has agreed to pay $725 million to settle a class action lawsuit that claimed the social media giant gave third parties access to user data without their consent.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-12/A0006"
+  },
+  "2022-12/A0006-S03": {
+   "kind": "statement",
+   "text": "But Facebook has seen a slowdown in growth due to a slowing in the advertising market, changes to Apple's iOS privacy rules and rising competition from TikTok.",
+   "verbatim": true,
+   "topics": "Total accessible market",
+   "article": "2022-12/A0006"
+  },
+  "2022-12/A0008-S01": {
+   "kind": "statement",
+   "text": "The social media giant is not renewing its leases at 30 and 55 Hudson Yards, the company confirmed to Insider.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-12/A0008"
+  },
+  "2022-12/A0008-S02": {
+   "kind": "statement",
+   "text": "During a third-quarter earnings call in October, David Wehner, Meta's chief financial officer, said that it had a $413 impairment loss for some operating leases, Insider reported. Wehner added that Meta will spend $2 billion on consolidating its office workspace next year.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-12/A0008"
+  },
+  "2022-12/A0013-S01": {
+   "kind": "statement",
+   "text": "The statement said that if Congress passed the \"ill-considered journalism bill,\" Meta \"will be forced to consider removing news from our platform altogether.\"",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2022-12/A0013"
+  },
+  "2022-12/A0013-S02": {
+   "kind": "statement",
+   "text": "Meta, Facebook's parent company, issued a public warning Monday that it could remove all news from its US platform if Congress passed its media-competition bill, which would force Meta and other platforms to compensate publishers and broadcasters.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2022-12/A0013"
+  },
+  "2022-12/A0022-S01": {
+   "kind": "statement",
+   "text": "(Bloomberg) -- Meta Platforms Inc. has been accused of amplifying hate speech and inciting violence on Facebook in Africa, in a lawsuit filed in Kenya's high court that's calling for about $2 billion in restitution.",
+   "verbatim": true,
+   "topics": "Catastrophic event threatening the business model",
+   "article": "2022-12/A0022"
+  },
+  "2022-12/A0022-S03": {
+   "kind": "statement",
+   "text": "They also call on Meta to provide better pay and working conditions to content moderators focused on those regions and set up a restitution fund of 250 billion Kenyan shillings (about $2 billion) for victims of hate and violence incited on Facebook.",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2022-12/A0022"
+  },
+  "2022-12/A0023-S02": {
+   "kind": "statement",
+   "text": "1) Better cost controls by management on both total expenses and capital expenditures.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-12/A0023"
+  },
+  "2022-12/A0024-S01": {
+   "kind": "statement",
+   "text": "(Bloomberg) -- Meta Platforms Inc. has halted construction of two new data centers in Denmark, canceling a 2.4 billion kroner ($342 million) contract it signed in August with contractor Per Aarsleff Holding A/S.",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2022-12/A0024"
+  },
+  "2022-12/A0024-S02": {
+   "kind": "statement",
+   "text": "Münster said the move was part of a number of steps recently announced to create \"a more streamlined organization\" and that the company is re-examining development plans to ensure it is building a \"new generation\" of data centers designed to handle AI workloads.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-12/A0024"
+  },
+  "2022-12/A0026-S02": {
+   "kind": "statement",
+   "text": "The Federal Trade Commission claims Meta's plan to buy the competitor will give it an unfair advantage in the burgeoning VR market.",
+   "verbatim": true,
+   "topics": "Market share",
+   "article": "2022-12/A0026"
+  },
+  "2022-12/A0031-S01": {
+   "kind": "statement",
+   "text": "According to Insider Intelligence, this will be the first year since 2014 that these two corporations won't hold the majority share of the market as their share of revenues are expected to drop to 48.4 percent in what will be their fifth annual decline.",
+   "verbatim": true,
+   "topics": "Market share",
+   "article": "2022-12/A0031"
+  },
+  "2022-12/A0031-S02": {
+   "kind": "statement",
+   "text": "Meta's CEO Mark Zuckerberg is blaming Apple's privacy changes for the drop as they make it harder to track users and target advertising.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-12/A0031"
+  },
+  "2022-12/A0031-S03": {
+   "kind": "statement",
+   "text": "There's also the fact that new comers are growing in popularity, with ByeDance-owned TikTok being the choice of today's youth.",
+   "verbatim": true,
+   "topics": "Market share",
+   "article": "2022-12/A0031"
+  },
+  "2022-12/A0036-S01": {
+   "kind": "statement",
+   "text": "The board also criticized Meta for failing to police rule-breaking originating from cross-check accounts on Facebook and Instagram, enacting a double standard under which misleading or harmful posts could stay online indefinitely if they were created by the privileged users.",
+   "verbatim": true,
+   "topics": "Catastrophic event threatening the business model",
+   "article": "2022-12/A0036"
+  },
+  "2022-12/A0036-S02": {
+   "kind": "statement",
+   "text": "The investigation uncovered “several shortcomings” in the way cross-check was used, chief among which was how the program was “structured to satisfy business interests” rather than enforce Meta’s commitment to human rights, as the company had claimed.",
+   "verbatim": true,
+   "topics": "Catastrophic event threatening the business model",
+   "article": "2022-12/A0036"
+  },
+  "2022-12/A0036-S03": {
+   "kind": "statement",
+   "text": "Meta’s oversight board made a total of 32 recommendations to the company on how to overhaul the program, including more transparency and a larger focus on equality among users.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-12/A0036"
+  },
+  "2022-12/A0038-S03": {
+   "kind": "statement",
+   "text": "The petitioners want Meta to invest more heavily in content moderation focused on Africa, Latin America and the Middle East, particularly in countries that are “vulnerable to war, conflict, ethnic cleansing and genocide,” the court filings state.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2022-12/A0038"
+  },
+  "2023-01/A0005-S01": {
+   "kind": "statement",
+   "text": "\"I think you'll see Meta come back extremely strongly this year, on the back of reels and business messenger, to deal with the competition from TikTok and other short form video competitors,\" Sorrell told CNBC on the sidelines of the World Economic Forum in Davos, Switzerland.",
+   "verbatim": true,
+   "topics": "Total accessible market",
+   "article": "2023-01/A0005"
+  },
+  "2023-01/A0005-S02": {
+   "kind": "statement",
+   "text": "He also suggested that the reopening of the Chinese economy would be \"huge\" for big tech firms, noting that outbound Chinese business, or Chinese companies expanding their businesses abroad, were historically the second-largest profit centers for the likes of Meta, Amazon and Google parent Alphabet.",
+   "verbatim": true,
+   "topics": "Total accessible market",
+   "article": "2023-01/A0005"
+  },
+  "2023-01/A0007": {
+   "kind": "article",
+   "article": "2023-01/A0007"
+  },
+  "2023-02/A0001-S01": {
+   "kind": "statement",
+   "text": "Revenue: $32.17 billion vs $31.53 billion expected, according to Refinitiv",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-02/A0001"
+  },
+  "2023-02/A0003-S01": {
+   "kind": "statement",
+   "text": "Facebook-owner Meta will be permitted to buy Within Unlimited, the maker of virtual reality fitness app Supernatural, Bloomberg, The Wall Street Journal and The New York Times reported, citing people familiar with the matter as the California district court judge's decision remained sealed as of Wednesday.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-02/A0003"
+  },
+  "2023-02/A0003-S02": {
+   "kind": "statement",
+   "text": "The reported decision would be a significant defeat for the Federal Trade Commission, which under progressive Chair Lina Khan has promised to take on more risky cases and seek to be forward-thinking in the enforcement of mergers with companies that the agency believes could evolve into significant competitive threats.",
+   "verbatim": true,
+   "topics": "Total accessible market",
+   "article": "2023-02/A0003"
+  },
+  "2023-02/A0006": {
+   "kind": "article",
+   "article": "2023-02/A0006"
+  },
+  "2023-02/A0007-S02": {
+   "kind": "statement",
+   "text": "He cited \"materially reduced expense projections\" and a larger-than-anticipated share buyback, upping his price target to $275 and reiterating an outperform rating.",
+   "verbatim": true,
+   "topics": "Share price & analyst views;Cost efficiencies",
+   "article": "2023-02/A0007"
+  },
+  "2023-02/A0007-S03": {
+   "kind": "statement",
+   "text": "\"Our management theme for 2023 is the 'Year of Efficiency' and we're focused on becoming a stronger and more nimble organization,\" he said in a statement Wednesday.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-02/A0007"
+  },
+  "2023-02/A0009": {
+   "kind": "article",
+   "article": "2023-02/A0009"
+  },
+  "2023-02/A0014": {
+   "kind": "article",
+   "article": "2023-02/A0014"
+  },
+  "2023-02/A0018-S01": {
+   "kind": "statement",
+   "text": "Meta will create a new product group inside the company focused on generative AI, a new set of machine learning techniques that allow computers to generate text, draw pictures, and create other media that resemble human output.",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2023-02/A0018"
+  },
+  "2023-02/A0018-S03": {
+   "kind": "statement",
+   "text": "But the announcement was also a sign that Meta, which does a significant amount of research into artificial intelligence, was not going to let competitors pass it by in the AI race.",
+   "verbatim": true,
+   "topics": "Market share",
+   "article": "2023-02/A0018"
+  },
+  "2023-02/A0020-S02": {
+   "kind": "statement",
+   "text": "Investments in AI technology will likely help Meta become more efficient, aid in monetizing previously unmonetized platforms such as WhatsApp and Messenger, all while fending off Chinese competitor TikTok.",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2023-02/A0020"
+  },
+  "2023-02/A0021-S01": {
+   "kind": "statement",
+   "text": "Q4 Revenue – $32.17 billion actual versus $31.65 billion expected",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-02/A0021"
+  },
+  "2023-02/A0021-S03": {
+   "kind": "statement",
+   "text": "\"We anticipate our full-year 2023 total expenses will be in the range of $89-95 billion, lowered from our prior outlook of $94-$100 billion due to slower anticipated growth in payroll expenses and cost of revenue,\" Meta CFO Susan Li said in a statement.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-02/A0021"
+  },
+  "2023-02/A0024-S03": {
+   "kind": "statement",
+   "text": "Facebook's daily active users of 2 billion beat analyst estimates of 1.98 billion.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-02/A0024"
+  },
+  "2023-02/A0028-S02": {
+   "kind": "statement",
+   "text": "The company then went onto slash its expense and capex guidance for the year by $5 billion and $4 billion, respectively.",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth;Cost efficiencies",
+   "article": "2023-02/A0028"
+  },
+  "2023-02/A0029-S02": {
+   "kind": "statement",
+   "text": "The company is cutting at least $1 billion out of its planned capital expenses for the year, too, saying $30 to $33 billion would be spent, down from a prior range of $34 to $37 billion.",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2023-02/A0029"
+  },
+  "2023-02/A0031-S01": {
+   "kind": "statement",
+   "text": "(Bloomberg) -- Meta Platforms Inc. is asking many of its managers and directors to transition to individual contributor jobs or leave the company as it tries to become more efficient, according to people familiar with the matter.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-02/A0031"
+  },
+  "2023-02/A0031-S02": {
+   "kind": "statement",
+   "text": "He called 2023 the \"Year of Efficiency\" and vowed to cut middle-managers and underperforming projects.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-02/A0031"
+  },
+  "2023-02/A0034-S01": {
+   "kind": "statement",
+   "text": "The tech giant — which laid off 11,000 people in November and promised that 2023 is to be a \"year of efficiency\" — is gearing up for a new round of layoffs that might be wreaking havoc with some of the teams' productivity, the Financial Times reported on Saturday, citing two employees familiar with the situation.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-02/A0034"
+  },
+  "2023-02/A0034-S03": {
+   "kind": "statement",
+   "text": "\"We're working on flattening our org structure and removing some layers of middle management to make decisions faster, as well as deploying AI tools to help our engineers be more productive,\" Zuckerberg had said in Meta's fourth-quarter earnings call with analysts on February 1.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-02/A0034"
+  },
+  "2023-02/A0048-S01": {
+   "kind": "statement",
+   "text": "\"We're creating a new top-level product group at Meta focused on generative AI to turbocharge our work in this area,\" Meta Chief Executive Officer Zuckerberg said Monday in a post on Instagram. \"We have a lot of foundational work to do before getting to the really futuristic experiences, but I'm excited about all the new things we'll build along the way.\"",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2023-02/A0048"
+  },
+  "2023-02/A0050-S03": {
+   "kind": "statement",
+   "text": "“Meta’s cultural change focused on efficiency” is leading to lower costs while investments are driving faster revenue growth, Nowak wrote in a note.",
+   "verbatim": true,
+   "topics": "Cost efficiencies;Revenue & volume (not attributed)",
+   "article": "2023-02/A0050"
+  },
+  "2023-02/A0052-S01": {
+   "kind": "statement",
+   "text": "Meta Platforms Inc. is asking many of its managers and directors to transition to individual contributor jobs or leave the company as it tries to become more efficient, according to people familiar with the matter.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-02/A0052"
+  },
+  "2023-02/A0052-S02": {
+   "kind": "statement",
+   "text": "He called 2023 the “Year of Efficiency” and vowed to cut middle-managers and underperforming projects.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-02/A0052"
+  },
+  "2023-03/A0001-S01": {
+   "kind": "statement",
+   "text": "She said Snap, Meta's Facebook and Google's YouTube could be \"huge beneficiaries\" if the ban ultimately takes place.",
+   "verbatim": true,
+   "topics": "Market share",
+   "article": "2023-03/A0001"
+  },
+  "2023-03/A0002-S01": {
+   "kind": "statement",
+   "text": "Zuckerberg said Meta is experimenting with how generative AI can be applied to its text-focused applications like WhatsApp and Messenger, as well as image-based platforms like Instagram, with the aim of developing automated and curated content for ads.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-03/A0002"
+  },
+  "2023-03/A0003-S01": {
+   "kind": "statement",
+   "text": "Meta will slash the prices of its Quest 2 and high-end Quest Pro headsets, the company announced Friday.",
+   "verbatim": true,
+   "topics": "Pricing power",
+   "article": "2023-03/A0003"
+  },
+  "2023-03/A0004-S01": {
+   "kind": "statement",
+   "text": "Moreover, this \"AI Effect\" could create a $780 billion online advertising opportunity, with \"GOOGL and META as the largest beneficiaries,\" according to Morgan Stanley.",
+   "verbatim": true,
+   "topics": "Total accessible market",
+   "article": "2023-03/A0004"
+  },
+  "2023-03/A0005": {
+   "kind": "article",
+   "article": "2023-03/A0005"
+  },
+  "2023-03/A0010-S01": {
+   "kind": "statement",
+   "text": "Meta will lay off 10,000 more workers and incur restructuring costs ranging from $3 billion to $5 billion, the company announced Tuesday, with CEO Mark Zuckerberg warning economic instability could continue for \"many years.\"",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-03/A0010"
+  },
+  "2023-03/A0010-S02": {
+   "kind": "statement",
+   "text": "He added that the Facebook parent plans to close 5,000 additional open roles that it hasn't yet filled.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-03/A0010"
+  },
+  "2023-03/A0011-S01": {
+   "kind": "statement",
+   "text": "In a memo on Meta's website , Zuckerberg said the company will be reducing its workforce by another 10,000 people while deciding not to hire 5,000 open roles.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-03/A0011"
+  },
+  "2023-03/A0011-S02": {
+   "kind": "statement",
+   "text": "Additionally, he said the company will also undergo a restructuring to flatten its organization while, in his words, \"canceling lower priority projects.\"",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-03/A0011"
+  },
+  "2023-03/A0013": {
+   "kind": "article",
+   "article": "2023-03/A0013"
+  },
+  "2023-03/A0015-S02": {
+   "kind": "statement",
+   "text": "Meta on Tuesday announced it's laying off an additional 10,000 employees , sending a message to investors the social media giant is serious about its \"year of efficiency.\"",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-03/A0015"
+  },
+  "2023-03/A0025-S01": {
+   "kind": "statement",
+   "text": "Based on reports, the analyst estimates total savings of $1.1 billion for FY23E could come from headcount reduction.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-03/A0025"
+  },
+  "2023-03/A0025-S02": {
+   "kind": "statement",
+   "text": "Reportedly, the focus of the restructuring is wearable-device units within the Metaverse division. At the same time, the company is reportedly shutting down its New Product Experiment Group, created in 2019.",
+   "verbatim": false,
+   "topics": "Cost efficiencies",
+   "article": "2023-03/A0025"
+  },
+  "2023-03/A0027-S01": {
+   "kind": "statement",
+   "text": "(Bloomberg) -- Meta Platforms Inc. plans to lay off around 10,000 employees and close about 5,000 additional open roles in its second major round of job cuts in the past six months.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-03/A0027"
+  },
+  "2023-03/A0027-S02": {
+   "kind": "statement",
+   "text": "The Facebook parent company lowered its outlook for 2023 expenses to $86 billion to $92 billion, accounting for the job reductions and other cost-cutting measures.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-03/A0027"
+  },
+  "2023-03/A0041-S01": {
+   "kind": "statement",
+   "text": "Employees of the social media giant, who get a rating of \"met most expectations\" in their 2023 year-end reviews, will receive a smaller percentage of bonus and restricted stock award due in March 2024, the WSJ report said.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-03/A0041"
+  },
+  "2023-03/A0041-S02": {
+   "kind": "statement",
+   "text": "The bonus multiplier for that grade has been cut to 65% from 85% earlier, WSJ said, adding that the company will also restart assessing staff performance twice a year.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-03/A0041"
+  },
+  "2023-03/A0041-S03": {
+   "kind": "statement",
+   "text": "On March 14, the company announced that it would cut 10,000 jobs this year in a second round of layoffs, as part of restructuring that will see it scrap hiring plans for 5,000 openings, kill off lower-priority projects and \"flatten\" layers of middle management, as the industry braces for a deep economic downturn.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-03/A0041"
+  },
+  "2023-03/A0044-S02": {
+   "kind": "statement",
+   "text": "Meta CEO Mark Zuckerberg has talked about the need to get \"leaner\" and flatter.\"",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-03/A0044"
+  },
+  "2023-03/A0050-S01": {
+   "kind": "statement",
+   "text": "🚨 Meta will no longer support NFTs on its platform.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-03/A0050"
+  },
+  "2023-03/A0053-S01": {
+   "kind": "statement",
+   "text": "The bonus multiplier for people who earn that rating has been cut from 85% to 65%.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-03/A0053"
+  },
+  "2023-03/A0053-S02": {
+   "kind": "statement",
+   "text": "A new midyear review process will begin at the company in June.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-03/A0053"
+  },
+  "2023-03/A0053-S03": {
+   "kind": "statement",
+   "text": "Earlier this month, the company announced 10,000 more jobs would be cut and 5,000 open positions would not be filled.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-03/A0053"
+  },
+  "2023-03/A0056-S01": {
+   "kind": "statement",
+   "text": "Two insiders at the company formerly known as Facebook (and even more formerly known as The Facebook, if you take *The Social Network’*s word for it), told Business Insider that Meta hiring managers are no longer allowed to label jobs as “remote.”",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-03/A0056"
+  },
+  "2023-03/A0056-S02": {
+   "kind": "statement",
+   "text": "In Meta’s Year of Efficiency memo for 2023, Zuckerberg announced they’d be restructuring so as to flatten the company, reduce hiring, and stop working on low priority projects.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-03/A0056"
+  },
+  "2023-04/A0002-S01": {
+   "kind": "statement",
+   "text": "Meta's top executives including CEO Mark Zuckerberg, chief product officer Chris Cox and chief technology officer Andrew Bosworth are spending most of their time working on artificial intelligence, according to an interview Bosworth gave to Nikkei Asia Wednesday.",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2023-04/A0002"
+  },
+  "2023-04/A0002-S02": {
+   "kind": "statement",
+   "text": "Bosworth told Nikkei that he expects the company will debut some commercial applications using AI this year, and it could help the company's profit-driving ad business.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-04/A0002"
+  },
+  "2023-04/A0005-S01": {
+   "kind": "statement",
+   "text": "Zuckerberg's Meta has gone through two rounds of steep job reductions — 10,000 in March (plus not hiring 5,000 open roles) and 11,000 back in November .",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-04/A0005"
+  },
+  "2023-04/A0005-S02": {
+   "kind": "statement",
+   "text": "The company has also sharply cut capital and operational expenses after a period of overspending.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-04/A0005"
+  },
+  "2023-04/A0010-S01": {
+   "kind": "statement",
+   "text": "Meta's first-quarter sales rose 3% from $27.91 billion a year earlier, after three straight periods in which revenue declined.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-04/A0010"
+  },
+  "2023-04/A0011-S01": {
+   "kind": "statement",
+   "text": "Meta reported first-quarter earnings per share of $2.20, beating the consensus estimate of $2.03, and revenue of $28.65 billion versus the $27.65 billion expected by analysts.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-04/A0011"
+  },
+  "2023-04/A0011-S02": {
+   "kind": "statement",
+   "text": "The company expects second-quarter revenue to land between $29.5 billion and $32 billion.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-04/A0011"
+  },
+  "2023-04/A0023-S01": {
+   "kind": "statement",
+   "text": "Facebook and Instagram parent company Meta intends to use its proprietary generative AI to create ads for companies by the end of this year.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-04/A0023"
+  },
+  "2023-04/A0029-S01": {
+   "kind": "statement",
+   "text": "Meta's (META) cost-cutting measures are working and should have a positive effect on the company's bottom-line, Argus Research Senior Securities Analyst Joseph Bonner told Yahoo Finance Live (video above).",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-04/A0029"
+  },
+  "2023-04/A0046-S01": {
+   "kind": "statement",
+   "text": "Big gains in the stock have been fueled by the company's pledge to become a more efficient operation involving thousands of job cuts.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-04/A0046"
+  },
+  "2023-04/A0046-S02": {
+   "kind": "statement",
+   "text": "For the first quarter, revenue is expected to decline 0.9%, according to estimates compiled by Bloomberg.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-04/A0046"
+  },
+  "2023-04/A0048-S01": {
+   "kind": "statement",
+   "text": "Analysts who follow the company are expecting it to report a profit of $5.2 billion for its first quarter, a roughly 30% drop compared to the $7.5 billion it recorded during the same period a year ago.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-04/A0048"
+  },
+  "2023-04/A0050-S01": {
+   "kind": "statement",
+   "text": "Revenue: $28.65 billion actual versus $27.67 billion estimated",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-04/A0050"
+  },
+  "2023-04/A0050-S02": {
+   "kind": "statement",
+   "text": "In Wednesday's release, the company said it now sees expenses for this year coming in between $86 billion to $90 billion, including restructuring costs.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-04/A0050"
+  },
+  "2023-04/A0055-S01": {
+   "kind": "statement",
+   "text": "The social media giant reported a 3pc increase in quarterly revenues to $28.6bn (£23bn), shrugging off Wall Street projections that it would post a fourth straight drop in revenue.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-04/A0055"
+  },
+  "2023-04/A0057-S02": {
+   "kind": "statement",
+   "text": "The print blew away expectations while Meta also raised its forecast for the current quarter and lowered its expense forecast.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed);Cost efficiencies",
+   "article": "2023-04/A0057"
+  },
+  "2023-04/A0062-S01": {
+   "kind": "statement",
+   "text": "Shares in Meta closed up 13.9% after touching their highest level in more than a year after the company forecast quarterly revenue above estimates, and CEO Mark Zuckerberg said AI was increasing traffic to its services and boosting ad sales.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-04/A0062"
+  },
+  "2023-04/A0064-S01": {
+   "kind": "statement",
+   "text": "Meta topped analyst expectations for revenue and earnings per share while also guiding for second-quarter revenue in a range of $29.5 billion to $32 billion.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-04/A0064"
+  },
+  "2023-04/A0067-S02": {
+   "kind": "statement",
+   "text": "He added that he plans to slow hiring in 2023 to control costs.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-04/A0067"
+  },
+  "2023-04/A0073-S01": {
+   "kind": "statement",
+   "text": "In a memo from September, a senior executive at Facebook parent Meta reportedly noted that the company still lagged behind in A.I.",
+   "verbatim": true,
+   "topics": "Market share",
+   "article": "2023-04/A0073"
+  },
+  "2023-04/A0073-S02": {
+   "kind": "statement",
+   "text": "Meta has been increasing its capital expenditures, or money invested on the company’s fixed assets like equipment or land, through 2022, according to Reuters.",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2023-04/A0073"
+  },
+  "2023-04/A0073-S03": {
+   "kind": "statement",
+   "text": "“We have a significant gap in our tooling, workflows, and processes when it comes to developing for A.I. We need to invest heavily here,” Santosh Janardhan, the head of infrastructure at Meta, wrote on an internal message board in September, Reuters reported Tuesday.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-04/A0073"
+  },
+  "2023-05/A0001-S01": {
+   "kind": "statement",
+   "text": "The proposed terms include a blanket ban on monetizing data from users under 18.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-05/A0001"
+  },
+  "2023-05/A0001-S02": {
+   "kind": "statement",
+   "text": "The Federal Trade Commission proposed on Wednesday barring Facebook parent company Meta from monetizing kids' data after it says the company violated a 2020 privacy order.",
+   "verbatim": true,
+   "topics": "Catastrophic event threatening the business model",
+   "article": "2023-05/A0001"
+  },
+  "2023-05/A0002-S01": {
+   "kind": "statement",
+   "text": "At an event in New York, Meta unveiled the AI Sandbox, which it called a \"testing playground\" for advertisers to use as they try out new generative AI-powered ad tools.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-05/A0002"
+  },
+  "2023-05/A0002-S03": {
+   "kind": "statement",
+   "text": "The company also announced several AI-powered updates to Meta Advantage, its portfolio of automated tools and products that advertisers can use to enhance their campaigns.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-05/A0002"
+  },
+  "2023-05/A0003-S02": {
+   "kind": "statement",
+   "text": "CEO Mark Zuckerberg has described 2023 as the company's \"year of efficiency\" and plans to lay off roughly 21,000 workers by early summer.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-05/A0003"
+  },
+  "2023-05/A0004-S01": {
+   "kind": "statement",
+   "text": "Meta has built custom computer chips to help with its artificial intelligence and video-processing tasks and is talking about them in public for the first time.",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2023-05/A0004"
+  },
+  "2023-05/A0017-S01": {
+   "kind": "statement",
+   "text": "The FTC's proposed changes include barring Facebook from making money off data collected on users under age 18, including in its virtual reality business.",
+   "verbatim": true,
+   "topics": "Pricing power",
+   "article": "2023-05/A0017"
+  },
+  "2023-05/A0018-S01": {
+   "kind": "statement",
+   "text": "The Federal Trade Commission said Meta violated a 2020 privacy order by misleading parents and failing to protect children using Facebook's Messenger Kids app.",
+   "verbatim": true,
+   "topics": "Catastrophic event threatening the business model",
+   "article": "2023-05/A0018"
+  },
+  "2023-05/A0018-S02": {
+   "kind": "statement",
+   "text": "The proposed changes would slow Meta's ability to release new products until they are confirmed to meet the privacy requirements, while also limiting the company's future ability to use facial recognition technology.",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2023-05/A0018"
+  },
+  "2023-05/A0022-S01": {
+   "kind": "statement",
+   "text": "NEW YORK (Reuters) - Social media giant Meta Platforms Inc joined the generative AI product race on Thursday, saying it would begin testing artificial intelligence-powered ad tools that can create content like image backgrounds and variations of written text.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-05/A0022"
+  },
+  "2023-05/A0023-S02": {
+   "kind": "statement",
+   "text": "Meta, which runs Facebook and Instagram, also introduced a new AI-based model that can help businesses predict the performance of ads using a bigger data set than previously.",
+   "verbatim": true,
+   "topics": "Total accessible market",
+   "article": "2023-05/A0023"
+  },
+  "2023-05/A0028-S01": {
+   "kind": "statement",
+   "text": "Meta Platforms Inc., formerly known as Facebook, has agreed to sell Kustomer, a business-software startup it acquired for $1 billion last year, to Redpoint Ventures, Battery Ventures and Boldstart Ventures.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-05/A0028"
+  },
+  "2023-05/A0030-S01": {
+   "kind": "statement",
+   "text": "NEW YORK (Reuters) -Meta Platforms on Thursday shared new details on its data center projects to better support artificial intelligence work, including a custom chip \"family\" being developed in-house.",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2023-05/A0030"
+  },
+  "2023-05/A0030-S03": {
+   "kind": "statement",
+   "text": "Meta also provided an update on plans to redesign its data centers around more modern AI-oriented networking and cooling systems, saying it would break ground on its first such facility this year.",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2023-05/A0030"
+  },
+  "2023-05/A0031-S01": {
+   "kind": "statement",
+   "text": "Facebook parent Meta is up 102% year-to-date, powered higher by investors' enthusiasm around CEO Mark Zuckerberg's \"year of efficiency\" cost cuts, which have involved laying off tens of thousands of employees in a bid to boost profits.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-05/A0031"
+  },
+  "2023-05/A0032-S02": {
+   "kind": "statement",
+   "text": "Meta shut critics with a first-quarter beat and updates on improved Reels and AI monetization, commitment towards metaverse, and substantial completion of layoffs followed by analyst price target boosts.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed);Cost efficiencies",
+   "article": "2023-05/A0032"
+  },
+  "2023-06/A0001-S01": {
+   "kind": "statement",
+   "text": "Meta CEO Mark Zuckerberg teased his company's latest virtual reality headset, the Quest 3, on Thursday.",
+   "verbatim": true,
+   "topics": "Total accessible market",
+   "article": "2023-06/A0001"
+  },
+  "2023-06/A0001-S02": {
+   "kind": "statement",
+   "text": "It said Thursday it will lower the price of that headset back down to $299 beginning June 4.",
+   "verbatim": true,
+   "topics": "Pricing power",
+   "article": "2023-06/A0001"
+  },
+  "2023-06/A0002-S01": {
+   "kind": "statement",
+   "text": "Meta employees will need to work from the company's offices three days a week beginning in September.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-06/A0002"
+  },
+  "2023-06/A0005-S01": {
+   "kind": "statement",
+   "text": "\"In the last year, we've seen some really incredible breakthroughs — qualitative breakthroughs — on generative AI and that gives us the opportunity to now go take that technology, push it forward, and build it into every single one of our products,\" Zuckerberg said, according to a statement shared with CNBC.",
+   "verbatim": true,
+   "topics": "Total accessible market",
+   "article": "2023-06/A0005"
+  },
+  "2023-06/A0005-S02": {
+   "kind": "statement",
+   "text": "The company also plans to debut a service for Instagram users that will let them modify photos via text prompts and share them in the app's Stories feature. Additionally, Meta plans for its Messenger and WhatsApp services to eventually include the ability for users to engage with more sophisticated AI-powered chatbots as a form of entertainment.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-06/A0005"
+  },
+  "2023-06/A0006-S01": {
+   "kind": "statement",
+   "text": "Meta plans to debut a new broadcasting feature dubbed Channels for its WhatsApp messaging service.",
+   "verbatim": true,
+   "topics": "Total accessible market",
+   "article": "2023-06/A0006"
+  },
+  "2023-06/A0006-S02": {
+   "kind": "statement",
+   "text": "Indeed, Meta said in the blog post that the company thinks \"there is an opportunity to support admins with a way for them to build a business around their channel using our expanding payment services as well as the ability to promote certain channels in the directory to help increase awareness.\"",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2023-06/A0006"
+  },
+  "2023-06/A0015-S01": {
+   "kind": "statement",
+   "text": "Meta has announced that employees must come into the office three days a week starting September 5, marking a sharp turn in the pro-remote work culture the company championed during the height of the pandemic.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-06/A0015"
+  },
+  "2023-06/A0018-S03": {
+   "kind": "statement",
+   "text": "Meta held its Gaming Showcase on Thursday, unveiling a deluge of new titles for the Quest, tying its new offerings to a wave of high-value intellectual property, including \"Assassin's Creed Nexus VR,\" \"Stranger Things VR,\" and \"Ghostbusters: Rise of the Ghost Lord.\"",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-06/A0018"
+  },
+  "2023-06/A0029-S01": {
+   "kind": "statement",
+   "text": "The company confirmed a New York Times report that employees were given a sneak peek of new products it has been building, including ChatGPT-like chatbots planned for Messenger and WhatsApp that could converse using different personas.",
+   "verbatim": true,
+   "topics": "Total accessible market",
+   "article": "2023-06/A0029"
+  },
+  "2023-06/A0040-S01": {
+   "kind": "statement",
+   "text": "NEW YORK (Reuters) - Meta Platforms said on Tuesday that it would provide researchers with access to components of a new \"human-like\" artificial intelligence model that it said can analyze and complete unfinished images more accurately than existing models.",
+   "verbatim": true,
+   "topics": "Total accessible market",
+   "article": "2023-06/A0040"
+  },
+  "2023-06/A0040-S03": {
+   "kind": "statement",
+   "text": "Meta is also starting to incorporate generative AI features into its consumer products, like ad tools that can create image backgrounds and an Instagram product that can modify user photos, both based on text prompts.",
+   "verbatim": true,
+   "topics": "Total accessible market",
+   "article": "2023-06/A0040"
+  },
+  "2023-06/A0042-S01": {
+   "kind": "statement",
+   "text": "Meta is exploring the next version of its open-source large-language model that can power chatbots like ChatGPT available for commercial use.",
+   "verbatim": true,
+   "topics": "Total accessible market",
+   "article": "2023-06/A0042"
+  },
+  "2023-06/A0042-S02": {
+   "kind": "statement",
+   "text": "The move could trigger a frenzy among AI developers seeking alternatives to proprietary software sold by rivals Alphabet Inc (NASDAQ: GOOG) (NASDAQ: GOOGL) Google, and Microsoft Corp (NASDAQ: MSFT).",
+   "verbatim": true,
+   "topics": "Market share",
+   "article": "2023-06/A0042"
+  },
+  "2023-06/A0055-S01": {
+   "kind": "statement",
+   "text": "The new Meta Quest 3 will cost $500 and ship in the fall, the company said in a blog post Thursday.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-06/A0055"
+  },
+  "2023-06/A0055-S02": {
+   "kind": "statement",
+   "text": "Meta currently dominates the market for VR headsets, which it sees as key to its vision of the metaverse — interlocking online worlds where people live, work and play.",
+   "verbatim": true,
+   "topics": "Market share",
+   "article": "2023-06/A0055"
+  },
+  "2023-06/A0057-S03": {
+   "kind": "statement",
+   "text": "Meta announced a few generative A.I. tools in its all-hands meeting on Thursday, including chatbots for WhatsApp and Messenger, and photo-editing tools for Instagram, according to Bloomberg.",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2023-06/A0057"
+  },
+  "2023-07/A0001": {
+   "kind": "article",
+   "article": "2023-07/A0001"
+  },
+  "2023-07/A0002-S01": {
+   "kind": "statement",
+   "text": "Meta's latest social networking app, Threads, went live Wednesday evening.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-07/A0002"
+  },
+  "2023-07/A0003-S02": {
+   "kind": "statement",
+   "text": "Zuckerberg said Threads had crossed 5 million sign ups within the first four hours.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-07/A0003"
+  },
+  "2023-07/A0004": {
+   "kind": "article",
+   "article": "2023-07/A0004"
+  },
+  "2023-07/A0011-S01": {
+   "kind": "statement",
+   "text": "Qualcomm and Meta will enable the social networking company's new large language model, Llama 2, to run on Qualcomm chips on phones and PCs starting in 2024, the companies announced today.",
+   "verbatim": true,
+   "topics": "Total accessible market",
+   "article": "2023-07/A0011"
+  },
+  "2023-07/A0012-S01": {
+   "kind": "statement",
+   "text": "Threads was an instant hit for Meta, which reported a record 100 million sign-ups in just five days, eliciting defensive responses from Twitter founder Elon Musk and new CEO Linda Yaccarino.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-07/A0012"
+  },
+  "2023-07/A0014-S01": {
+   "kind": "statement",
+   "text": "Revenue: $32 billion vs. $31.12 billion expected by Refinitiv.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-07/A0014"
+  },
+  "2023-07/A0014-S02": {
+   "kind": "statement",
+   "text": "The Facebook parent company forecast third-quarter revenue of $32 billion to $34.5 billion.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-07/A0014"
+  },
+  "2023-07/A0014-S03": {
+   "kind": "statement",
+   "text": "Zuckerberg has been pushing for Meta to become more efficient, instituting a cost-savings plan that resulted in about 21,000 job cuts. The plan appears to be working.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-07/A0014"
+  },
+  "2023-07/A0018-S01": {
+   "kind": "statement",
+   "text": "Revenue jumped 11% year over year to $32 billion, surpassing the $31.12 billion average analyst estimate, according to Refinitiv.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-07/A0018"
+  },
+  "2023-07/A0018-S02": {
+   "kind": "statement",
+   "text": "The results reflect a rebound in online advertising, as well as signs that Meta CEO Mark Zuckerberg's \"year of efficiency,\" or focus on cutting costs and improving profitability, is paying off.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-07/A0018"
+  },
+  "2023-07/A0018-S03": {
+   "kind": "statement",
+   "text": "The division posted an operating loss of $3.7 billion during the second quarter, and Meta warned that it expects Reality Labs' operating losses to continue this year and \"increase meaningfully\" in 2024.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-07/A0018"
+  },
+  "2023-07/A0019": {
+   "kind": "article",
+   "article": "2023-07/A0019"
+  },
+  "2023-07/A0020-S01": {
+   "kind": "statement",
+   "text": "\"We recommend investors invest elsewhere until Metaverse, Reels, Threads, Quest and Generative AI investments become accretive (if ever) to META's [return on invested capital], rather than dilutive,\" Needham's Laura Martin wrote in a note.",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2023-07/A0020"
+  },
+  "2023-07/A0031-S01": {
+   "kind": "statement",
+   "text": "He said the app logged 10 million sign-ups in seven hours.",
+   "verbatim": true,
+   "topics": "Total accessible market;Revenue & volume (not attributed)",
+   "article": "2023-07/A0031"
+  },
+  "2023-07/A0031-S02": {
+   "kind": "statement",
+   "text": "NEW YORK (Reuters) -Meta Platforms on Wednesday launched a direct challenge to Twitter with Threads, garnering millions of users in hours as it sought to take advantage of its rival's much-weakened state after a series of chaotic decisions from owner Elon Musk.",
+   "verbatim": true,
+   "topics": "Market share;Total accessible market",
+   "article": "2023-07/A0031"
+  },
+  "2023-07/A0041-S01": {
+   "kind": "statement",
+   "text": "Evercore ISI analysts, led by Mark Mahaney, estimate that Meta Platforms Inc's (NASDAQ: META) Threads app will generate approximately $8 billion in annual revenue over the next two years from nearly 200 million daily active users.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-07/A0041"
+  },
+  "2023-07/A0041-S02": {
+   "kind": "statement",
+   "text": "Threads, designed as a direct rival to Twitter Inc, quickly gained traction, with 100 million users signing up within days of its launch by Meta.",
+   "verbatim": true,
+   "topics": "Total accessible market",
+   "article": "2023-07/A0041"
+  },
+  "2023-07/A0050-S01": {
+   "kind": "statement",
+   "text": "NEW YORK (Reuters) -Meta is releasing a commercial version of its open-source artificial intelligence model Llama, the company said on Tuesday, giving start-ups and other businesses a powerful free-of-charge alternative to pricey proprietary models sold by OpenAI and Google.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-07/A0050"
+  },
+  "2023-07/A0050-S02": {
+   "kind": "statement",
+   "text": "The new version of the model, called Llama 2, will be distributed by Microsoft through its Azure cloud service and will run on the Windows operating system, Meta said in a blog post, referring to Microsoft as \"our preferred partner\" for the release.",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2023-07/A0050"
+  },
+  "2023-07/A0051-S01": {
+   "kind": "statement",
+   "text": "Meta CEO Mark Zuckerberg said Tuesday that the company is partnering with Microsoft to introduce the next generation of its AI large language model and making the technology, known as Llama 2, free for research and commercial use.",
+   "verbatim": true,
+   "topics": "Total accessible market",
+   "article": "2023-07/A0051"
+  },
+  "2023-07/A0052-S01": {
+   "kind": "statement",
+   "text": "(Bloomberg) -- Meta Platforms Inc. is making its artificial intelligence large language model, Llama 2, available for commercial use through partnerships with major cloud providers including Microsoft Corp.",
+   "verbatim": true,
+   "topics": "Total accessible market",
+   "article": "2023-07/A0052"
+  },
+  "2023-07/A0053-S01": {
+   "kind": "statement",
+   "text": "On Tuesday, during its annual Inspire event, tech giant Microsoft announced that it had inked a deal with Mark Zuckerberg's Meta to integrate the social media giant's AI model, LLama 2, into the Microsoft Azure cloud-computing platform.",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth",
+   "article": "2023-07/A0053"
+  },
+  "2023-07/A0053-S02": {
+   "kind": "statement",
+   "text": "LLama 2 will be made available to developers using Microsoft's Azure platform at no additional cost.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-07/A0053"
+  },
+  "2023-07/A0071-S01": {
+   "kind": "statement",
+   "text": "Meta reported second-quarter revenue rose 11% to $32 billion, compared with analysts' average projections for $31.1 billion.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-07/A0071"
+  },
+  "2023-07/A0076-S01": {
+   "kind": "statement",
+   "text": "But Meta Platforms stole the show overnight, with its stock soaring 7% after the digital giant reported a strong rise in advertising revenue - while topping Wall Street financial targets and third-quarter revenue guidance.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-07/A0076"
+  },
+  "2023-07/A0079-S02": {
+   "kind": "statement",
+   "text": "The firm cites accelerating tailwinds and \"de-risked\" 2024 guidance for the upgrade following the company's Q2 results. [Read more]",
+   "verbatim": true,
+   "topics": "Total accessible market",
+   "article": "2023-07/A0079"
+  },
+  "2023-07/A0081-S01": {
+   "kind": "statement",
+   "text": "On Wednesday after the bell, Meta Platforms (NASDAQ: META) reported double-digit revenue growth for the first time 2021's fourth quarter while also guiding for better than expected third quarter guidance.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-07/A0081"
+  },
+  "2023-07/A0081-S03": {
+   "kind": "statement",
+   "text": "As a result of these efforts, 2023 full year capital expenditures are now expected in the range between $27 billion and $30 billion, down from the prior range of $30 billion to $33 billion.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-07/A0081"
+  },
+  "2023-07/A0084-S03": {
+   "kind": "statement",
+   "text": "Meanwhile, from a cost-efficiency perspective, Meta lowered its full-year capital expenditures guidance to a range of $27 billion to $30 billion from a previous forecast of $30 billion to $33 billion.",
+   "verbatim": true,
+   "topics": "Cost efficiencies",
+   "article": "2023-07/A0084"
+  },
+  "2023-07/A0086-S02": {
+   "kind": "statement",
+   "text": "The executives' comments came a day after Meta wowed investors with a rosy revenue growth forecast, a sign of a comeback for a company that faced deep skepticism over its hefty spending on the metaverse last year as ad sales plummeted.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed);Share price & analyst views",
+   "article": "2023-07/A0086"
+  },
+  "2023-08/A0006-S01": {
+   "kind": "statement",
+   "text": "(Reuters) - Meta Platforms is preparing to launch a range of artificial intelligence (AI) powered chatbots that exhibit different personalities as soon as September, the Financial Times reported on Tuesday.",
+   "verbatim": true,
+   "topics": "Total accessible market",
+   "article": "2023-08/A0006"
+  },
+  "2023-08/A0006-S02": {
+   "kind": "statement",
+   "text": "The report comes as Meta executives are focusing on boosting retention on its new text-based app Threads, after the app lost more than half of its users in the weeks following its launch on July 5.",
+   "verbatim": true,
+   "topics": "Revenue & volume (not attributed)",
+   "article": "2023-08/A0006"
+  },
+  "2023-08/A0009-S01": {
+   "kind": "statement",
+   "text": "Facebook parent Meta is charging full speed ahead into artificial intelligence in hopes of reviving user counts and revenue growth.",
+   "verbatim": true,
+   "topics": "Total accessible market;Revenue & volume (not attributed)",
+   "article": "2023-08/A0009"
+  },
+  "2023-08/A0009-S02": {
+   "kind": "statement",
+   "text": "According to the *Financial Times*, Meta plans to introduce AI chatbots on Facebook and Instagram as early as September.",
+   "verbatim": true,
+   "topics": "Investment needed to deliver growth;Revenue & volume (not attributed)",
+   "article": "2023-08/A0009"
+  },
+  "2023-08/A0011-S01": {
+   "kind": "statement",
+   "text": "The two tech stocks have surged this year thanks to investor excitement around artificial intelligence, strong second-quarter earnings reports, and the optimism about their next-generation products, including \"Apple GPT\" and Meta's Twitter rival, Threads.",
+   "verbatim": true,
+   "topics": "Total accessible market;Revenue & volume (not attributed)",
+   "article": "2023-08/A0011"
+  },
+  "R2021-10-25": {
+   "kind": "filing",
+   "form": "8-K",
+   "accession": "0001326801-21-000062",
+   "release_date": "2021-10-25",
+   "quarter_end": "2021-09-30",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680121000062/0001326801-21-000062-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680121000062/fb-09302021xexhibit991.htm",
+   "doc_name": "EX-99.1",
+   "search_url": "",
+   "lines": [
+    "\"I'm excited about our roadmap, especially around creators, commerce, and helping to build the metaverse.\" Third Quarter 2021 Financial Highlights ____________________________________ (1) Our third quarter 2020 effective tax rate was 4%, which reflects a one-time income tax benefit of $913 million related to the effects of a tax election to capitalize and amortize certain research and development expenses for U.S.",
+    "4 5 6 7 8 ____________________________________ (1) Free cash flow in the nine months ended September 30, 2020 reflects the $5.0 billion FTC settlement that was paid in April 2020."
+   ],
+   "reconciliation": "",
+   "note": "no adjusted-EPS reconciliation table in the EX-99 exhibits; items named in the text (in dollars only)"
+  },
+  "R2022-02-02": {
+   "kind": "filing",
+   "form": "8-K",
+   "accession": "0001326801-22-000015",
+   "release_date": "2022-02-02",
+   "quarter_end": "2021-12-31",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680122000015/0001326801-22-000015-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680122000015/fb-12312021xexhibit991.htm",
+   "doc_name": "EX-99.1",
+   "search_url": "",
+   "lines": [
+    "7 8 9 10 11 ____________________________________ (1) Free cash flow in the year ended December 31, 2020 reflects the $5.0 billion FTC settlement that was paid in April 2020."
+   ],
+   "reconciliation": "",
+   "note": "no adjusted-EPS reconciliation table in the EX-99 exhibits; items named in the text (in dollars only)"
+  },
+  "R2022-10-26": {
+   "kind": "filing",
+   "form": "8-K",
+   "accession": "0001326801-22-000105",
+   "release_date": "2022-10-26",
+   "quarter_end": "2022-09-30",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680122000105/0001326801-22-000105-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680122000105/meta09302022-exhibit991.htm",
+   "doc_name": "EX-99.1",
+   "search_url": "",
+   "lines": [
+    "This includes an impairment loss of $413 million for certain operating leases as part of our ongoing work to align our office facilities footprint with our anticipated operating needs."
+   ],
+   "reconciliation": "",
+   "note": "no adjusted-EPS reconciliation table in the EX-99 exhibits; items named in the text (in dollars only)"
+  },
+  "R2023-02-01": {
+   "kind": "filing",
+   "form": "8-K",
+   "accession": "0001326801-23-000008",
+   "release_date": "2023-02-01",
+   "quarter_end": "2022-12-31",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000008/0001326801-23-000008-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000008/meta-12312022xexhibit991.htm",
+   "doc_name": "EX-99.1",
+   "search_url": "",
+   "lines": [
+    "This includes charges related to our restructuring efforts of $4.20 billion and $4.61 billion in the fourth quarter and full year 2022, respectively.",
+    "A summary of our restructuring charges during the three months ended December 31, 2022 by major activity type is as follows (in millions): Total restructuring charges recorded under our FoA segment were $3.76 billion and RL segment were $440 million during the fourth quarter of 2022."
+   ],
+   "reconciliation": "",
+   "note": "no adjusted-EPS reconciliation table in the EX-99 exhibits; items named in the text (in dollars only)"
+  },
+  "R2023-04-26": {
+   "kind": "filing",
+   "form": "8-K",
+   "accession": "0001326801-23-000063",
+   "release_date": "2023-04-26",
+   "quarter_end": "2023-03-31",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000063/0001326801-23-000063-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000063/meta03312023-exhibit991.htm",
+   "doc_name": "EX-99.1",
+   "search_url": "",
+   "lines": [
+    "This includes charges related to our restructuring efforts of $1.14 billion in the first quarter of 2023.",
+    "We incurred additional pre-tax restructuring charges of $621 million in the first quarter of 2023.",
+    "Total restructuring charges recorded under our FoA segment were $934 million and RL segment were $210 million during the first quarter of 2023."
+   ],
+   "reconciliation": "",
+   "note": "no adjusted-EPS reconciliation table in the EX-99 exhibits; items named in the text (in dollars only)"
+  },
+  "R2023-07-26": {
+   "kind": "filing",
+   "form": "8-K",
+   "accession": "0001326801-23-000089",
+   "release_date": "2023-07-26",
+   "quarter_end": "2023-06-30",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000089/0001326801-23-000089-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000089/meta06302023-exhibit991.htm",
+   "doc_name": "EX-99.1",
+   "search_url": "",
+   "lines": [
+    "This includes accrued legal expenses of $1.87 billion and restructuring charges of $780 million in the second quarter of 2023.",
+    "A summary of our restructuring charges, including subsequent adjustments, for the three and six months ended June 30, 2023 by major activity type is as follows (in millions): During the three and six months ended June 30, 2023, we recorded total restructuring charges of $705 million and $1.64 billion under our FoA segment, respectively, and $75 million and $286 million under our RL segment, respectively."
+   ],
+   "reconciliation": "",
+   "note": "no adjusted-EPS reconciliation table in the EX-99 exhibits; items named in the text (in dollars only)"
+  }
+ },
+ "articles": {
+  "2022-09/A0001": {
+   "title": "Meta and Qualcomm strike deal to make custom virtual reality chips for metaverse applications",
+   "url": "https://www.cnbc.com/2022/09/02/meta-and-qualcomm-strike-deal-to-make-custom-virtual-reality-chips.html",
+   "source": "cnbc.com",
+   "published": "2022-09-02"
+  },
+  "2022-09/A0004": {
+   "title": "Zuckerberg announces event for Oct. 11 where new Meta headset expected",
+   "url": "https://www.cnbc.com/2022/09/06/meta-to-hold-metaverse-event-on-oct-11-where-new-headset-expected.html",
+   "source": "cnbc.com",
+   "published": "2022-09-06"
+  },
+  "2022-09/A0005": {
+   "title": "Stocks making the biggest moves midday: Rent the Runway, Meta, Oatly, Adobe & more",
+   "url": "https://www.cnbc.com/2022/09/13/stocks-making-the-biggest-moves-midday-meta-rent-the-runway-oatly-and-adobe.html",
+   "source": "cnbc.com",
+   "published": "2022-09-13"
+  },
+  "2022-09/A0006": {
+   "title": "Meta looks to cut costs by 10% or more over next few months, says report",
+   "url": "https://www.cnbc.com/2022/09/21/meta-looks-to-cut-costs-by-10percent-or-more-over-next-few-months-report.html",
+   "source": "cnbc.com",
+   "published": "2022-09-21"
+  },
+  "2022-09/A0007": {
+   "title": "Meta is a buy as the social media giant embarks on plan to slash costs",
+   "url": "https://www.cnbc.com/investingclub/2022/09/22/meta-is-a-buy-as-the-social-media-giant-embarks-on-plan-to-slash-costs.html",
+   "source": "cnbc.com",
+   "published": "2022-09-22"
+  },
+  "2022-09/A0008": {
+   "title": "Meta shares plunged 14% this week, falling close to their pandemic low",
+   "url": "https://www.cnbc.com/2022/09/16/meta-shares-plunged-14percent-this-week-falling-close-to-their-pandemic-low.html",
+   "source": "cnbc.com",
+   "published": "2022-09-16"
+  },
+  "2022-09/A0013": {
+   "title": "Qualcomm and Meta teaming to build future VR headsets",
+   "url": "https://finance.yahoo.com/news/qualcomm-and-meta-teaming-to-build-future-vr-headsets-080047238.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-09-02"
+  },
+  "2022-09/A0016": {
+   "title": "Meta got fined $400 million for failing to protect kids' privacy on Instagram",
+   "url": "https://finance.yahoo.com/news/meta-got-fined-400-million-095713656.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-09-06"
+  },
+  "2022-09/A0024": {
+   "title": "Google, Meta fined $71.8M for violating privacy law in South Korea",
+   "url": "https://finance.yahoo.com/news/google-meta-fined-71-8m-091011564.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-09-14"
+  },
+  "2022-09/A0033": {
+   "title": "Meta has to pay walkie-talkie app $174 million for infringing on its patents, jury says",
+   "url": "https://finance.yahoo.com/news/meta-pay-walkie-talkie-app-095040116.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-09-22"
+  },
+  "2022-09/A0060": {
+   "title": "Meta to Cut Headcount for First Time, Slash Budgets Across Teams",
+   "url": "https://finance.yahoo.com/news/meta-announces-hiring-freeze-warns-183143714.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-09-29"
+  },
+  "2022-09/A0061": {
+   "title": "Meta reportedly suspends all hiring, warns staff of possible layoffs",
+   "url": "https://finance.yahoo.com/news/meta-hiring-freeze-restructuring-layoffs-184811966.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-09-29"
+  },
+  "2022-09/A0062": {
+   "title": "Mark Zuckerberg says Meta will freeze hiring and cut costs",
+   "url": "https://finance.yahoo.com/news/mark-zuckerberg-tells-meta-company-192631065.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-09-29"
+  },
+  "2022-09/A0063": {
+   "title": "Meta reportedly announced a hiring freeze and warned employees of restructuring",
+   "url": "https://finance.yahoo.com/news/meta-reportedly-announced-hiring-freeze-185814073.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-09-29"
+  },
+  "2022-09/A0070": {
+   "title": "Meta announces it will freeze hiring and warns employees of restructuring",
+   "url": "https://fortune.com/2022/09/29/meta-hiring-freeze-restructuring-employees-mark-zuckerberg/",
+   "source": "fortune.com",
+   "published": "2022-09-29"
+  },
+  "2022-10/A0001": {
+   "title": "BofA says Meta and Alphabet's cost-cutting measures will boost earnings. Here's why we agree",
+   "url": "https://www.cnbc.com/investingclub/2022/10/04/bofa-says-meta-alphabets-cost-cuts-will-aid-earnings-and-we-agree.html",
+   "source": "cnbc.com",
+   "published": "2022-10-04"
+  },
+  "2022-10/A0002": {
+   "title": "What Cramer is watching Friday — jobs data no help for Fed, AMD mixed reviews, Meta 'compelling'",
+   "url": "https://www.cnbc.com/investingclub/2022/10/07/what-cramer-is-watching-friday-jobs-data-no-help-for-fed-amd-mixed-reviews-meta-compelling.html",
+   "source": "cnbc.com",
+   "published": "2022-10-07"
+  },
+  "2022-10/A0003": {
+   "title": "Citi makes the case for buying Meta, as Reels monetization improves",
+   "url": "https://www.cnbc.com/investingclub/2022/10/07/citi-makes-the-case-for-buying-meta-as-reels-monetization-improves.html",
+   "source": "cnbc.com",
+   "published": "2022-10-07"
+  },
+  "2022-10/A0004": {
+   "title": "3 takeaways from our daily meeting: Defensive stocks, trimming semis, Meta downgrade",
+   "url": "https://www.cnbc.com/investingclub/2022/10/11/takeaways-from-our-meeting-defensives-trimming-semis-meta-downgrade.html",
+   "source": "cnbc.com",
+   "published": "2022-10-11"
+  },
+  "2022-10/A0005": {
+   "title": "Meta CEO Mark Zuckerberg debuts Meta Quest Pro VR headset that will cost $1,500",
+   "url": "https://www.cnbc.com/2022/10/11/mark-zuckerberg-debuts-meta-quest-pro-vr-headset-that-will-cost-1500.html",
+   "source": "cnbc.com",
+   "published": "2022-10-11"
+  },
+  "2022-10/A0008": {
+   "title": "Facebook parent Meta admits defeat after Giphy deal is blocked by UK regulators",
+   "url": "https://www.cnbc.com/2022/10/18/facebook-parent-meta-ordered-to-sell-giphy-by-uk-competition-regulator.html",
+   "source": "cnbc.com",
+   "published": "2022-10-18"
+  },
+  "2022-10/A0011": {
+   "title": "Snap’s revenue miss is a false read through to Club holdings Meta, Alphabet",
+   "url": "https://www.cnbc.com/investingclub/2022/10/21/snaps-revenue-miss-is-a-false-read-through-to-meta-alphabet-.html",
+   "source": "cnbc.com",
+   "published": "2022-10-21"
+  },
+  "2022-10/A0012": {
+   "title": "Meta shareholder writes critical open letter saying company needs to slash headcount and stop spending so much money on 'metaverse'",
+   "url": "https://www.cnbc.com/2022/10/24/altimeter-capitals-brad-gerstner-calls-on-meta-to-slash-headcount.html",
+   "source": "cnbc.com",
+   "published": "2022-10-24"
+  },
+  "2022-10/A0015": {
+   "title": "Meta shares plummet on weak fourth-quarter forecast and earnings miss",
+   "url": "https://www.cnbc.com/2022/10/26/facebook-parent-meta-earnings-q3-2022.html",
+   "source": "cnbc.com",
+   "published": "2022-10-26"
+  },
+  "2022-10/A0017": {
+   "title": "How to use reported earnings results to get early reads on Meta, Ford, Honeywell",
+   "url": "https://www.cnbc.com/investingclub/2022/10/26/how-to-use-reported-earnings-results-to-get-early-reads-on-meta-ford-honeywell.html",
+   "source": "cnbc.com",
+   "published": "2022-10-26"
+  },
+  "2022-10/A0018": {
+   "title": "Alphabet just had its worst day since March 2020, when Covid shutdowns started in the U.S.",
+   "url": "https://www.cnbc.com/2022/10/26/alphabet-stock-falls-after-disappointing-earnings-report.html",
+   "source": "cnbc.com",
+   "published": "2022-10-26"
+  },
+  "2022-10/A0022": {
+   "title": "Meta shares plunge 24% to the lowest price since 2016",
+   "url": "https://www.cnbc.com/2022/10/27/meta-stock-falls-23percent-on-earnings-miss-analyst-downgrades.html",
+   "source": "cnbc.com",
+   "published": "2022-10-27"
+  },
+  "2022-10/A0024": {
+   "title": "Stocks making the biggest moves midday: Meta Platforms, ServiceNow, Teladoc, Credit Suisse & more",
+   "url": "https://www.cnbc.com/2022/10/27/stocks-making-the-biggest-moves-midday-meta-platforms-teladoc-credit-suisse.html",
+   "source": "cnbc.com",
+   "published": "2022-10-27"
+  },
+  "2022-10/A0035": {
+   "title": "Instagram to increase ad load as Meta fights revenue decline",
+   "url": "https://finance.yahoo.com/news/instagram-increase-ad-load-meta-160628443.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-10-04"
+  },
+  "2022-10/A0042": {
+   "title": "Some Meta employees call key metaverse projects 'make Mark happy' as a nod to Mark Zuckerberg's changing priorities, report says",
+   "url": "https://finance.yahoo.com/news/meta-employees-call-key-metaverse-101842821.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-10-10"
+  },
+  "2022-10/A0046": {
+   "title": "Russia has added Meta to a list of 'extremist' and 'terrorist' organizations, a report says",
+   "url": "https://finance.yahoo.com/news/russia-added-meta-list-extremist-123314579.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-10-11"
+  },
+  "2022-10/A0057": {
+   "title": "Meta files to dismiss FTC complaint over acquisition of VR fitness company Within",
+   "url": "https://finance.yahoo.com/news/meta-files-dismiss-ftc-complaint-214649693.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-10-13"
+  },
+  "2022-10/A0058": {
+   "title": "Meta has burned $15 billion trying to build the metaverse — and nobody's saying exactly where the money went",
+   "url": "https://finance.yahoo.com/news/meta-burned-15-billion-trying-232929998.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-10-13"
+  },
+  "2022-10/A0073": {
+   "title": "Meta, Alphabet, Pinterest shares shudder on Snap warning",
+   "url": "https://finance.yahoo.com/news/meta-alphabet-pinterest-shares-shudder-220408363.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-10-20"
+  },
+  "2022-10/A0077": {
+   "title": "At least one big investor is calling for Mark Zuckerberg to throw in the towel on the metaverse, saying Meta 'lost the confidence of investors'",
+   "url": "https://finance.yahoo.com/news/least-one-big-investor-calling-184008313.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-10-24"
+  },
+  "2022-10/A0082": {
+   "title": "Alphabet's earnings report confirmed a big ad spending slowdown, and that bodes poorly for Meta",
+   "url": "https://finance.yahoo.com/news/alphabets-earnings-report-confirmed-big-233954771.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-10-25"
+  },
+  "2022-10/A0083": {
+   "title": "Meta stock tanks after earnings miss on revenue, lighter-than-expected Q4 guidance",
+   "url": "https://finance.yahoo.com/news/meta-thid-quarter-earnings-130316557.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-10-26"
+  },
+  "2022-10/A0092": {
+   "title": "Morgan Stanley Downgrades Meta for First Time as Costs Soar",
+   "url": "https://finance.yahoo.com/news/morgan-stanley-downgrades-meta-first-113159696.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-10-27"
+  },
+  "2022-10/A0104": {
+   "title": "Why the metaverse is good — even if Meta stock says otherwise: Analyst",
+   "url": "https://finance.yahoo.com/news/why-the-metaverse-is-good-even-if-meta-stock-says-otherwise-analyst-170056863.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-10-27"
+  },
+  "2022-10/A0105": {
+   "title": "Why is Meta stock tanking? 'The wrong number at the wrong time,' analyst explains",
+   "url": "https://finance.yahoo.com/news/meta-stock-is-getting-pounded-mostly-because-of-one-number-112231149.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-10-27"
+  },
+  "2022-10/A0107": {
+   "title": "Meta is backing out of a major New York office deal as it prepares to cut budgets across the company",
+   "url": "https://fortune.com/2022/10/04/meta-facebook-new-york-office-budget-cuts/",
+   "source": "fortune.com",
+   "published": "2022-10-04"
+  },
+  "2022-10/A0110": {
+   "title": "Meta hits back against U.S. regulators who say it’s creating a VR monopoly",
+   "url": "https://fortune.com/2022/10/14/meta-hits-back-against-us-regulators-creating-vr-monopoly-within-unlimited-supernatural/",
+   "source": "fortune.com",
+   "published": "2022-10-14"
+  },
+  "2022-10/A0113": {
+   "title": "Bank of America downgrades Meta, cuts price target",
+   "url": "https://fortune.com/crypto/2022/10/24/meta-stock-downgraded-neutral-bank-of-america-stock/",
+   "source": "fortune.com",
+   "published": "2022-10-24"
+  },
+  "2022-10/A0114": {
+   "title": "Less metaverse and more layoffs: A Meta investor just wrote a scathing open letter to the company telling it to get its ‘mojo back’",
+   "url": "https://fortune.com/2022/10/24/meta-investor-open-letter-critical-metaverse-mojo-back-mark-zuckerberg/",
+   "source": "fortune.com",
+   "published": "2022-10-24"
+  },
+  "2022-10/A0122": {
+   "title": "Tech investors think they know what will turn around Meta after a 72% implosion this year: Less Mark Zuckerberg",
+   "url": "https://fortune.com/2022/10/31/mark-zuckerberg-meta-72-percent-stock-decline-management-change-investors-markets/",
+   "source": "fortune.com",
+   "published": "2022-10-31"
+  },
+  "2022-11/A0002": {
+   "title": "Facebook parent company Meta is now the worst performer in the S&P 500 this year",
+   "url": "https://www.cnbc.com/2022/11/03/-facebook-owner-meta-worst-performer-in-the-sp-500-this-year.html",
+   "source": "cnbc.com",
+   "published": "2022-11-03"
+  },
+  "2022-11/A0003": {
+   "title": "Meta could begin large-scale layoffs this week, report says",
+   "url": "https://www.cnbc.com/2022/11/06/meta-could-begin-large-scale-layoffs-this-week-report-says.html",
+   "source": "cnbc.com",
+   "published": "2022-11-06"
+  },
+  "2022-11/A0005": {
+   "title": "Meta shares up on report it's set to begin mass layoffs",
+   "url": "https://www.cnbc.com/2022/11/07/meta-shares-up-on-report-its-set-to-begin-mass-layoffs.html",
+   "source": "cnbc.com",
+   "published": "2022-11-07"
+  },
+  "2022-11/A0006": {
+   "title": "Stocks making the biggest moves midday: Carvana, Meta, Palantir, Viatris, Walgreens and more",
+   "url": "https://www.cnbc.com/2022/11/07/stocks-making-the-biggest-moves-midday-carvana-meta-palantir-viatris-walgreens-and-more.html",
+   "source": "cnbc.com",
+   "published": "2022-11-07"
+  },
+  "2022-11/A0007": {
+   "title": "Apple, Meta and Wells Fargo are in the news. Here's what we think of the developments",
+   "url": "https://www.cnbc.com/investingclub/2022/11/07/apple-meta-and-wells-fargo-are-in-the-news-what-the-club-thinks.html",
+   "source": "cnbc.com",
+   "published": "2022-11-07"
+  },
+  "2022-11/A0010": {
+   "title": "Meta shares pop 5% as Wall Street rallies around layoffs",
+   "url": "https://www.cnbc.com/2022/11/09/meta-stock-up-as-wall-street-rallies-around-layoffs.html",
+   "source": "cnbc.com",
+   "published": "2022-11-09"
+  },
+  "2022-11/A0013": {
+   "title": "Cramer: Meta layoffs show Mark Zuckerberg 'got religion' on costs, but he must cut more",
+   "url": "https://www.cnbc.com/investingclub/2022/11/09/cramer-meta-layoffs-show-mark-zuckerberg-got-religion-on-costs-but-he-must-cut-more.html",
+   "source": "cnbc.com",
+   "published": "2022-11-09"
+  },
+  "2022-11/A0019": {
+   "title": "Meta laying off more than 11,000 employees: Read Zuckerberg's letter announcing the cuts",
+   "url": "https://www.cnbc.com/2022/11/09/meta-to-lay-off-more-than-11000-thousand-employees.html",
+   "source": "cnbc.com",
+   "published": "2022-11-09"
+  },
+  "2022-11/A0022": {
+   "title": "Meta is downsizing at New York location it opened in 2019",
+   "url": "https://www.cnbc.com/2022/11/30/meta-is-downsizing-at-new-york-location-it-opened-in-2019.html",
+   "source": "cnbc.com",
+   "published": "2022-11-30"
+  },
+  "2022-11/A0024": {
+   "title": "Meta investors reportedly 'got more disgusted' with Mark Zuckerberg's metaverse plans after he doubled down in the company's earnings",
+   "url": "https://finance.yahoo.com/news/meta-investors-reportedly-got-more-145518794.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-11-02"
+  },
+  "2022-11/A0031": {
+   "title": "Meta to Lay Off Thousands of Staff From This Week, WSJ Says",
+   "url": "https://finance.yahoo.com/news/meta-lay-off-thousands-staff-092243517.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-11-07"
+  },
+  "2022-11/A0040": {
+   "title": "Facebook parent company Meta to lay off more than 11,000 employees",
+   "url": "https://finance.yahoo.com/news/facebook-parent-company-meta-lay-115745966.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-11-09"
+  },
+  "2022-11/A0044": {
+   "title": "Meta confirms 11,000 layoffs, amounting to 13% of its workforce",
+   "url": "https://finance.yahoo.com/news/meta-confirms-11-000-layoffs-112635009.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-11-09"
+  },
+  "2022-11/A0049": {
+   "title": "Filing: Meta slashes expenses on reduced hiring and capex investments",
+   "url": "https://finance.yahoo.com/news/filing-meta-slashes-expenses-reduced-132703963.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-11-09"
+  },
+  "2022-11/A0053": {
+   "title": "Mark Zuckerberg's giant middle finger to Wall Street backfired for Meta. Welcome to the 'biggest two week pivot' analysts have ever seen.",
+   "url": "https://finance.yahoo.com/news/mark-zuckerbergs-giant-middle-finger-195534674.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-11-09"
+  },
+  "2022-11/A0054": {
+   "title": "Meta stock should get a 'boost' from layoffs, analyst says",
+   "url": "https://finance.yahoo.com/news/meta-stock-boost-from-layoffs-192331851.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-11-09"
+  },
+  "2022-11/A0073": {
+   "title": "Meta CEO Mark Zuckerberg says the metaverse is 'not the majority of what we're doing'",
+   "url": "https://finance.yahoo.com/news/meta-ceo-mark-zuckerberg-says-205718572.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-11-30"
+  },
+  "2022-12/A0003": {
+   "title": "Jim Cramer's top 10 things to watch in the market Friday: More selling, Estee Lauder, Meta Platforms",
+   "url": "https://www.cnbc.com/investingclub/2022/12/16/jim-cramers-top-10-things-friday-more-selling-estee-lauder-meta.html",
+   "source": "cnbc.com",
+   "published": "2022-12-16"
+  },
+  "2022-12/A0004": {
+   "title": "Stocks making the biggest moves midday: Meta, Maxar Technologies, Ford, Goldman Sachs and more",
+   "url": "https://www.cnbc.com/2022/12/16/stocks-making-the-biggest-moves-midday-meta-maxar-technologies-ford-goldman-sachs-and-more-.html",
+   "source": "cnbc.com",
+   "published": "2022-12-16"
+  },
+  "2022-12/A0005": {
+   "title": "Meta could face $11.8 billion fine as EU charges tech giant with breaching antitrust rules",
+   "url": "https://www.cnbc.com/2022/12/19/meta-could-face-11point8-billion-fine-as-eu-charges-it-with-antitrust-breach.html",
+   "source": "cnbc.com",
+   "published": "2022-12-19"
+  },
+  "2022-12/A0006": {
+   "title": "Facebook parent Meta agrees to pay $725 million to settle privacy lawsuit",
+   "url": "https://www.cnbc.com/2022/12/23/facebook-parent-meta-agrees-to-pay-725-million-to-settle-privacy-lawsuit-prompted-by-cambridge-analytica-scandal.html",
+   "source": "cnbc.com",
+   "published": "2022-12-23"
+  },
+  "2022-12/A0008": {
+   "title": "Meta is moving out of two of its fancy New York offices as Mark Zuckerberg's cost-cutting measures continue",
+   "url": "https://finance.yahoo.com/news/meta-moving-two-fancy-york-170402621.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-12-01"
+  },
+  "2022-12/A0013": {
+   "title": "Meta has threatened to pull all news from Facebook in the US if an 'ill-considered' bill that would compel it to pay publishers passes",
+   "url": "https://finance.yahoo.com/news/meta-threatened-pull-news-facebook-121052265.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-12-06"
+  },
+  "2022-12/A0022": {
+   "title": "Meta Accused in Lawsuit of Amplifying Hate Speech in Africa",
+   "url": "https://finance.yahoo.com/news/meta-accused-lawsuit-amplifying-hate-000100340.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-12-14"
+  },
+  "2022-12/A0023": {
+   "title": "5 reasons why Meta stock just caught a rare upgrade",
+   "url": "https://finance.yahoo.com/news/5-reasons-why-meta-stock-just-caught-a-rare-upgrade-111438556.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-12-16"
+  },
+  "2022-12/A0024": {
+   "title": "Meta Stops Planned $342 Million Data Center Expansion in Denmark",
+   "url": "https://finance.yahoo.com/news/meta-stops-planned-342-million-111558757.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-12-15"
+  },
+  "2022-12/A0026": {
+   "title": "Zuckerberg Takes Stand in FTC Case Against Meta VR Acquisition",
+   "url": "https://finance.yahoo.com/news/zuckerberg-takes-stand-ftc-case-170750809.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-12-20"
+  },
+  "2022-12/A0031": {
+   "title": "Meta and Alphabet Are Losing Their Advertising Throne",
+   "url": "https://finance.yahoo.com/news/meta-alphabet-losing-advertising-throne-182430061.html",
+   "source": "finance.yahoo.com",
+   "published": "2022-12-27"
+  },
+  "2022-12/A0036": {
+   "title": "Meta had a system to protect celebrity Facebook and Instagram accounts from moderation",
+   "url": "https://fortune.com/2022/12/06/meta-cross-check-program-high-profile-instagram-facebook-users-moderation-oversight-board-report/",
+   "source": "fortune.com",
+   "published": "2022-12-06"
+  },
+  "2022-12/A0038": {
+   "title": "Facebook parent Meta sued for amplifying hate speech and incitement to violence in Ethiopia's civil war",
+   "url": "https://fortune.com/2022/12/14/facebook-parent-meta-sued-amplifying-hate-speech-incitement-violence-ethiopia-civil-war/",
+   "source": "fortune.com",
+   "published": "2022-12-14"
+  },
+  "2023-01/A0005": {
+   "title": "Ad mogul sees Meta rebounding 'extremely strongly,' Amazon ad revenue hitting $100 billion",
+   "url": "https://www.cnbc.com/2023/01/19/ad-mogul-sees-meta-rebounding-extremely-strongly-amazon-ad-revenue-hitting-100bn.html",
+   "source": "cnbc.com",
+   "published": "2023-01-19"
+  },
+  "2023-01/A0007": {
+   "title": "Stocks making the biggest moves midday: Wayfair, Meta, Apple, Spotify, Qualcomm and more",
+   "url": "https://www.cnbc.com/2023/01/23/stocks-making-the-biggest-moves-midday-wayfair-meta-apple-and-more.html",
+   "source": "cnbc.com",
+   "published": "2023-01-23"
+  },
+  "2023-02/A0001": {
+   "title": "Meta shares soar almost 20% on fourth-quarter revenue beat",
+   "url": "https://www.cnbc.com/2023/02/01/facebook-parent-meta-earnings-q4-2022.html",
+   "source": "cnbc.com",
+   "published": "2023-02-01"
+  },
+  "2023-02/A0003": {
+   "title": "Meta acquisition of Within reportedly approved by court in loss for FTC",
+   "url": "https://www.cnbc.com/2023/02/01/ftc-loses-attempt-to-block-meta-acquisition-of-within.html",
+   "source": "cnbc.com",
+   "published": "2023-02-01"
+  },
+  "2023-02/A0006": {
+   "title": "Stocks making the biggest moves premarket: Meta, Align Technology, FedEx, Honeywell and more",
+   "url": "https://www.cnbc.com/2023/02/02/stocks-moving-big-premarket-meta-algn-fdx-hon.html",
+   "source": "cnbc.com",
+   "published": "2023-02-02"
+  },
+  "2023-02/A0007": {
+   "title": "Meta shares rocket 23%, one of the best days in over a decade",
+   "url": "https://www.cnbc.com/2023/02/02/meta-stock-rockets-20percent-on-solid-earnings-analyst-reactions.html",
+   "source": "cnbc.com",
+   "published": "2023-02-02"
+  },
+  "2023-02/A0009": {
+   "title": "Stocks making the biggest moves midday: Meta, Align Technology, Coinbase, Eli Lilly and more",
+   "url": "https://www.cnbc.com/2023/02/02/stocks-moving-big-midday-meta-algn-coin.html",
+   "source": "cnbc.com",
+   "published": "2023-02-02"
+  },
+  "2023-02/A0014": {
+   "title": "Stocks making the biggest moves midday: Zillow, Microsoft, Meta, Fidelity National and more",
+   "url": "https://www.cnbc.com/2023/02/13/stocks-moving-big-midday-z-msft-meta-fis-fsly.html",
+   "source": "cnbc.com",
+   "published": "2023-02-13"
+  },
+  "2023-02/A0018": {
+   "title": "Mark Zuckerberg announces new team at Meta working on A.I. products for Instagram, WhatsApp",
+   "url": "https://www.cnbc.com/2023/02/27/mark-zuckerberg-announces-new-team-at-meta-working-on-ai-products.html",
+   "source": "cnbc.com",
+   "published": "2023-02-27"
+  },
+  "2023-02/A0020": {
+   "title": "Here's why 7 Club stocks, including Nvidia and Meta, beat the market in January and February, defying this year's seesaw start",
+   "url": "https://www.cnbc.com/investingclub/2023/02/28/why-6-club-stocks-including-meta-were-able-to-beat-the-market-.html",
+   "source": "cnbc.com",
+   "published": "2023-02-28"
+  },
+  "2023-02/A0021": {
+   "title": "Meta earnings: Stock spikes after better-than-expected revenue, buyback announcement",
+   "url": "https://finance.yahoo.com/news/meta-earnings-stock-spikes-after-better-than-expected-revenue-buyback-announcement-211912404.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-02-01"
+  },
+  "2023-02/A0024": {
+   "title": "Stocks moving in after-hours: Meta, ELF, Align",
+   "url": "https://finance.yahoo.com/news/stocks-moving-in-after-hours-meta-elf-align-221253569.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-02-01"
+  },
+  "2023-02/A0028": {
+   "title": "2 reasons Meta stock is exploding 20% after a whopper earnings miss",
+   "url": "https://finance.yahoo.com/news/why-meta-stock-is-jumping-earnings-results-miss-111907549.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-02-02"
+  },
+  "2023-02/A0029": {
+   "title": "Meta CEO Mark Zuckerberg makes a U-turn on metaverse spending as Reality Labs is hit with a new 'efficiency' mantra",
+   "url": "https://finance.yahoo.com/news/meta-ceo-mark-zuckerberg-makes-002641756.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-02-02"
+  },
+  "2023-02/A0031": {
+   "title": "Meta Asks Many Managers to Get Back to Making Things or Leave",
+   "url": "https://finance.yahoo.com/news/meta-ask-many-managers-become-180614709.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-02-07"
+  },
+  "2023-02/A0034": {
+   "title": "Some Meta employees are getting paid to do 'zero work' as the company embarks on a 'year of efficiency': Financial Times",
+   "url": "https://finance.yahoo.com/news/meta-employees-getting-paid-zero-060252947.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-02-13"
+  },
+  "2023-02/A0048": {
+   "title": "Meta to Form AI Product Team to Keep Up With Chatbot Competition",
+   "url": "https://finance.yahoo.com/news/meta-form-ai-product-team-223024877.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-02-27"
+  },
+  "2023-02/A0050": {
+   "title": "Mark Zuckerberg is living a stock market fairytale as Meta adds $260 billion in value after he hinted at more layoffs",
+   "url": "https://fortune.com/2023/02/02/mark-zuckerberg-meta-stock-soars-after-pledge-keep-company-lean/",
+   "source": "fortune.com",
+   "published": "2023-02-02"
+  },
+  "2023-02/A0052": {
+   "title": "Meta is 'flattening' its workforce and telling high-level managers to transition to a new role get out as Mark Zuckerberg leans in to his 'Year of Efficiency'",
+   "url": "https://fortune.com/2023/02/07/meta-mark-zuckerberg-flattening-managers-transition-new-roles-efficiency/",
+   "source": "fortune.com",
+   "published": "2023-02-07"
+  },
+  "2023-03/A0001": {
+   "title": "TikTok's potential ban in U.S. could be boon for Meta and Snap",
+   "url": "https://www.cnbc.com/2023/03/01/tiktoks-potential-ban-in-us-could-be-boon-for-meta-and-snap.html",
+   "source": "cnbc.com",
+   "published": "2023-03-01"
+  },
+  "2023-03/A0002": {
+   "title": "Club holding Meta is likely to be a winner in the nascent generative AI battle",
+   "url": "https://www.cnbc.com/investingclub/2023/03/01/club-holding-meta-likely-to-be-a-winner-in-the-generative-ai-battle-.html",
+   "source": "cnbc.com",
+   "published": "2023-03-01"
+  },
+  "2023-03/A0003": {
+   "title": "Meta announces big price cuts for its VR headsets",
+   "url": "https://www.cnbc.com/2023/03/03/meta-quest-pro-vr-headset-gets-price-cut.html",
+   "source": "cnbc.com",
+   "published": "2023-03-03"
+  },
+  "2023-03/A0004": {
+   "title": "Wall Street roundup: We unpack bullish calls on 6 Club stocks, including Alphabet, Meta and Microsoft",
+   "url": "https://www.cnbc.com/investingclub/2023/03/03/wall-street-roundup-we-unpack-bullish-calls-on-7-club-stocks.html",
+   "source": "cnbc.com",
+   "published": "2023-03-03"
+  },
+  "2023-03/A0005": {
+   "title": "Stocks making the biggest moves midday: Apple, Meta, Costco, Marvell, C3.ai and more",
+   "url": "https://www.cnbc.com/2023/03/03/stocks-making-the-biggest-moves-midday-apple-meta-costco-marvell-c3ai-and-more.html",
+   "source": "cnbc.com",
+   "published": "2023-03-03"
+  },
+  "2023-03/A0010": {
+   "title": "Meta to lay off 10,000 more workers after initial cuts in November",
+   "url": "https://www.cnbc.com/2023/03/14/meta-layoffs-10000-more-workers-to-be-cut-in-restructuring.html",
+   "source": "cnbc.com",
+   "published": "2023-03-14"
+  },
+  "2023-03/A0011": {
+   "title": "Meta CEO Mark Zuckerberg's additional jobs cuts will lead to more sustainable growth, reinforcing why we're shareholders",
+   "url": "https://www.cnbc.com/investingclub/2023/03/14/meta-ceo-mark-zuckerbergs-additional-jobs-cuts-will-lead-to-more-sustainable-growth-reinforcing-why-were-shareholders.html",
+   "source": "cnbc.com",
+   "published": "2023-03-14"
+  },
+  "2023-03/A0013": {
+   "title": "Stocks making the biggest moves midday: BuzzFeed, First Republic, Meta and more",
+   "url": "https://www.cnbc.com/2023/03/14/stocks-making-biggest-midday-moves-buzzfeed-first-republic-meta.html",
+   "source": "cnbc.com",
+   "published": "2023-03-14"
+  },
+  "2023-03/A0015": {
+   "title": "The rock-solid balance sheets of Big Tech firms like Meta make them a safe investment in a volatile market",
+   "url": "https://www.cnbc.com/investingclub/2023/03/16/the-solid-balance-sheets-of-big-tech-firms-like-meta-make-them-safe.html",
+   "source": "cnbc.com",
+   "published": "2023-03-16"
+  },
+  "2023-03/A0025": {
+   "title": "Meta Analyst Estimates Potential Cost Savings From Fresh Round Of Layoffs, Mostly from Metaverse",
+   "url": "https://finance.yahoo.com/news/meta-analyst-estimates-potential-cost-200751812.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-03-13"
+  },
+  "2023-03/A0027": {
+   "title": "Meta to Cut 10,000 Jobs, 5,000 Open Roles in Efficiency Push",
+   "url": "https://finance.yahoo.com/news/meta-cut-10-000-jobs-131615466.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-03-14"
+  },
+  "2023-03/A0041": {
+   "title": "Facebook owner Meta planning lower bonus payouts for some employees- WSJ",
+   "url": "https://finance.yahoo.com/news/facebook-owner-meta-planning-lower-064157604.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-03-28"
+  },
+  "2023-03/A0044": {
+   "title": "CHARTS: We analyzed revenue per employee to show why Amazon, Meta, and others are axing workers with brutality and speed",
+   "url": "https://finance.yahoo.com/news/charts-analyzed-revenue-per-employee-123331596.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-03-31"
+  },
+  "2023-03/A0050": {
+   "title": "Facebook and Instagram NFTs dropped 6 months after U.S. debut as more Meta layoffs loom",
+   "url": "https://fortune.com/crypto/2023/03/13/facebook-and-instagram-nfts-dropped-6-months-after-u-s-debut-as-more-meta-layoffs-loom/",
+   "source": "fortune.com",
+   "published": "2023-03-13"
+  },
+  "2023-03/A0053": {
+   "title": "Meta lowers bonuses and increases the number of annual reviews as its 'Year of Efficiency' rolls forward",
+   "url": "https://fortune.com/2023/03/28/meta-more-frequent-reviews-lower-bonuses/",
+   "source": "fortune.com",
+   "published": "2023-03-28"
+  },
+  "2023-03/A0056": {
+   "title": "Meta pauses posting remote jobs as it braces for more layoffs",
+   "url": "https://fortune.com/2023/03/31/meta-pauses-remote-jobs-prepares-second-layoff-round/",
+   "source": "fortune.com",
+   "published": "2023-03-31"
+  },
+  "2023-04/A0002": {
+   "title": "Mark Zuckerberg is spending most of his time on A.I., says Meta CTO",
+   "url": "https://www.cnbc.com/2023/04/05/meta-cto-boz-says-he-and-zuckerberg-spend-most-of-their-time-on-ai.html",
+   "source": "cnbc.com",
+   "published": "2023-04-05"
+  },
+  "2023-04/A0005": {
+   "title": "Amazon CEO Andy Jassy needs to take a page out of Mark Zuckerberg's cost-cutting playbook at Meta",
+   "url": "https://www.cnbc.com/2023/04/13/amazon-ceo-andy-jassy-needs-to-take-a-page-out-of-mark-zuckerbergs-cost-cutting-playbook-at-meta.html",
+   "source": "cnbc.com",
+   "published": "2023-04-13"
+  },
+  "2023-04/A0010": {
+   "title": "Meta shares pop 12% after company reports first sales increase in four quarters, issues optimistic guidance",
+   "url": "https://www.cnbc.com/2023/04/26/facebook-meta-q1-earnings-report.html",
+   "source": "cnbc.com",
+   "published": "2023-04-26"
+  },
+  "2023-04/A0011": {
+   "title": "Meta shares pop 14%, reaching a 52-week high on guidance, sales increase",
+   "url": "https://www.cnbc.com/2023/04/27/meta-stock-pops-14percent-on-guidance-sales-increase.html",
+   "source": "cnbc.com",
+   "published": "2023-04-27"
+  },
+  "2023-04/A0023": {
+   "title": "Meta Reveals AI Tool to Help Brands Target Facebook, Instagram Users",
+   "url": "https://finance.yahoo.com/news/meta-reveals-ai-tool-help-182804350.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-04-05"
+  },
+  "2023-04/A0029": {
+   "title": "Meta is ‘giving the market what it wants,’ analyst says",
+   "url": "https://finance.yahoo.com/news/meta-is-giving-the-market-what-it-wants-analyst-says-191031349.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-04-11"
+  },
+  "2023-04/A0046": {
+   "title": "Meta Needs a New Catalyst After Stock’s 77% Rally",
+   "url": "https://finance.yahoo.com/news/meta-needs-catalyst-stock-77-134026787.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-04-25"
+  },
+  "2023-04/A0048": {
+   "title": "Meta Profits Set to Drop as Zuckerberg Pivots to AI, Analysts Say",
+   "url": "https://finance.yahoo.com/news/meta-profits-set-drop-zuckerberg-205402472.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-04-25"
+  },
+  "2023-04/A0050": {
+   "title": "Meta Platforms stock hits 15-month high after earnings crush estimates, expenses drop",
+   "url": "https://finance.yahoo.com/news/meta-platforms-stock-hits-15-month-high-after-earnings-crush-estimates-expenses-drop-152708907.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-04-26"
+  },
+  "2023-04/A0055": {
+   "title": "Boost for Mark Zuckerberg as Facebook-owner Meta breaks year-long slump",
+   "url": "https://finance.yahoo.com/news/boost-mark-zuckerberg-facebook-owner-204848618.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-04-26"
+  },
+  "2023-04/A0057": {
+   "title": "Stocks moving in after-hours: Meta, Roku, eBay, Teledoc",
+   "url": "https://finance.yahoo.com/news/stocks-moving-in-after-hours-meta-roku-ebay-teledoc-214129793.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-04-26"
+  },
+  "2023-04/A0062": {
+   "title": "Wall St rallies as earnings season boost offsets economy worries",
+   "url": "https://finance.yahoo.com/news/futures-rise-meta-forecast-ahead-103258721.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-04-27"
+  },
+  "2023-04/A0064": {
+   "title": "Stocks rally after Meta earnings add to tech strength: Stock market news today",
+   "url": "https://finance.yahoo.com/news/stock-futures-rise-on-back-of-meta-earnings-beat-stock-market-news-today-115516539.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-04-27"
+  },
+  "2023-04/A0067": {
+   "title": "Meta stock jumps 15% on earnings beat as Mark Zuckerberg touts AI and vows to keep costs down",
+   "url": "https://finance.yahoo.com/news/meta-stock-jumps-11-earnings-174304068.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-04-27"
+  },
+  "2023-04/A0073": {
+   "title": "Mark Zuckerberg has spent billions on A.I. but one of his top execs said Meta is still a laggard and 'we need to invest heavily'",
+   "url": "https://fortune.com/2023/04/25/top-meta-executive-lagging-behind-on-a-i-developments-reports/",
+   "source": "fortune.com",
+   "published": "2023-04-25"
+  },
+  "2023-05/A0001": {
+   "title": "FTC proposes barring Meta from monetizing kids' data",
+   "url": "https://www.cnbc.com/2023/05/03/ftc-proposes-barring-meta-from-monetizing-kids-data.html",
+   "source": "cnbc.com",
+   "published": "2023-05-03"
+  },
+  "2023-05/A0002": {
+   "title": "Meta unveils A.I. 'testing playground' to help advertisers build campaigns",
+   "url": "https://www.cnbc.com/2023/05/11/meta-announces-ai-sandbox-and-updates-to-meta-advantage.html",
+   "source": "cnbc.com",
+   "published": "2023-05-11"
+  },
+  "2023-05/A0003": {
+   "title": "Meta spins out customer service startup Kustomer amid 'year of efficiency'",
+   "url": "https://www.cnbc.com/2023/05/16/meta-spins-out-customer-service-startup-kustomer-amid-cost-and-efficiency-push.html",
+   "source": "cnbc.com",
+   "published": "2023-05-16"
+  },
+  "2023-05/A0004": {
+   "title": "Meta pulls the curtain back on its A.I. chips for the first time",
+   "url": "https://www.cnbc.com/2023/05/18/meta-pulls-the-curtain-back-on-its-ai-chips-for-the-first-time.html",
+   "source": "cnbc.com",
+   "published": "2023-05-18"
+  },
+  "2023-05/A0017": {
+   "title": "FTC proposes ban on Meta profiting from minors' data",
+   "url": "https://finance.yahoo.com/news/ftc-proposes-tightening-2020-privacy-170549340.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-05-03"
+  },
+  "2023-05/A0018": {
+   "title": "FTC says Meta misled parents and failed to protect children using Facebook's Messenger Kids app",
+   "url": "https://finance.yahoo.com/news/ftc-says-meta-misled-parents-145734320.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-05-04"
+  },
+  "2023-05/A0022": {
+   "title": "Facebook owner Meta announces tests of generative AI ads tool",
+   "url": "https://finance.yahoo.com/news/facebook-owner-meta-announces-tests-210233061.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-05-11"
+  },
+  "2023-05/A0023": {
+   "title": "Meta Introduces AI Tools to Create Ads and Predict Performance",
+   "url": "https://finance.yahoo.com/news/meta-introduces-ai-tools-create-210000431.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-05-11"
+  },
+  "2023-05/A0028": {
+   "title": "Meta Platforms Sells Kustomer For $250M In A Rare Divestiture Deal With Venture Firms Taking Over",
+   "url": "https://finance.yahoo.com/news/meta-platforms-sells-kustomer-250m-171546175.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-05-17"
+  },
+  "2023-05/A0030": {
+   "title": "Meta announces AI training and inference chip project",
+   "url": "https://finance.yahoo.com/news/meta-announces-ai-training-inference-160243910.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-05-18"
+  },
+  "2023-05/A0031": {
+   "title": "Facebook parent Meta and Nvidia have both seen their stock prices double within the first 5 months of 2023",
+   "url": "https://finance.yahoo.com/news/facebook-parent-meta-nvidia-both-172153507.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-05-18"
+  },
+  "2023-05/A0032": {
+   "title": "Megacap Tech Stocks Nvidia And Meta Have Doubled This Year Alone - Why That Matters?",
+   "url": "https://finance.yahoo.com/news/megacap-tech-stocks-nvidia-meta-174158051.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-05-18"
+  },
+  "2023-06/A0001": {
+   "title": "Zuckerberg unveils Meta Quest 3 VR headset days before Apple reveals its own",
+   "url": "https://www.cnbc.com/2023/06/01/meta-quest-3-unveiled-ahead-of-apples-planned-vr-headset-debut.html",
+   "source": "cnbc.com",
+   "published": "2023-06-01"
+  },
+  "2023-06/A0002": {
+   "title": "Meta will require employees to return to the office three days a week starting in September",
+   "url": "https://www.cnbc.com/2023/06/01/meta-will-require-employees-to-return-to-the-office-three-days-a-week-starting-in-september.html",
+   "source": "cnbc.com",
+   "published": "2023-06-01"
+  },
+  "2023-06/A0005": {
+   "title": "Meta CEO Mark Zuckerberg touts to employees 'incredible breakthroughs' the company has seen in A.I.",
+   "url": "https://www.cnbc.com/2023/06/08/meta-ceo-mark-zuckerberg-talks-companys-ai-efforts-to-employees.html",
+   "source": "cnbc.com",
+   "published": "2023-06-08"
+  },
+  "2023-06/A0006": {
+   "title": "Meta to debut new Channels broadcasting tool for WhatsApp",
+   "url": "https://www.cnbc.com/2023/06/08/meta-to-debut-new-channels-broadcasting-tool-for-whatsapp.html",
+   "source": "cnbc.com",
+   "published": "2023-06-08"
+  },
+  "2023-06/A0015": {
+   "title": "Meta is requiring employees to come into the office 3 days a week, marking a sharp turn from the company's pro-remote work culture",
+   "url": "https://finance.yahoo.com/news/meta-requiring-employees-come-office-230122954.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-06-01"
+  },
+  "2023-06/A0018": {
+   "title": "Meta vs. Apple: Why VR still needs its 'hero' app",
+   "url": "https://finance.yahoo.com/news/meta-vs-apple-why-vr-still-needs-its-hero-app-200501830.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-06-02"
+  },
+  "2023-06/A0029": {
+   "title": "Struggling Meta showcases new AI tools at company meeting",
+   "url": "https://finance.yahoo.com/news/struggling-meta-showcases-ai-tools-011030327.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-06-09"
+  },
+  "2023-06/A0040": {
+   "title": "Meta releases 'human-like' AI image creation model",
+   "url": "https://finance.yahoo.com/news/meta-releases-human-ai-image-171319516.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-06-13"
+  },
+  "2023-06/A0042": {
+   "title": "Meta Opens New AI Software for Commercial Use, a Bold Move Set to Rival Google and Microsoft",
+   "url": "https://finance.yahoo.com/news/meta-opens-ai-software-commercial-144017441.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-06-16"
+  },
+  "2023-06/A0055": {
+   "title": "Meta is launching a $500 headset days before Apple is set to unveil its $3,000 offering as the battle for VR heats up",
+   "url": "https://fortune.com/2023/06/01/meta-headset-quest-3-announced/",
+   "source": "fortune.com",
+   "published": "2023-06-01"
+  },
+  "2023-06/A0057": {
+   "title": "Meta CEO disses Apple’s VR demo as ‘a person sitting on a couch by themself’",
+   "url": "https://fortune.com/2023/06/09/meta-ceo-mark-zuckerberg-vr-vision-pro-apple-meta-quest-3/",
+   "source": "fortune.com",
+   "published": "2023-06-09"
+  },
+  "2023-07/A0001": {
+   "title": "Stocks making the biggest moves midday: Meta Platforms, Coinbase, UPS, General Motors & more",
+   "url": "https://www.cnbc.com/2023/07/05/stocks-making-the-biggest-moves-midday-meta-platforms-coinbase-ups-general-motors-more.html",
+   "source": "cnbc.com",
+   "published": "2023-07-05"
+  },
+  "2023-07/A0002": {
+   "title": "Mark Zuckerberg goes after Elon Musk’s Twitter. Here's what it could mean for Meta",
+   "url": "https://www.cnbc.com/investingclub/2023/07/05/as-zuckerberg-takes-on-musk-heres-what-it-means-for-club-name-meta-.html",
+   "source": "cnbc.com",
+   "published": "2023-07-05"
+  },
+  "2023-07/A0003": {
+   "title": "Meta launches Instagram Threads in a direct challenge to Twitter",
+   "url": "https://www.cnbc.com/2023/07/05/meta-launches-instagram-threads-messaging-app-challenging-twitter.html",
+   "source": "cnbc.com",
+   "published": "2023-07-05"
+  },
+  "2023-07/A0004": {
+   "title": "Stocks making the biggest moves premarket: JetBlue Airways, Meta, Sweetgreen and more",
+   "url": "https://www.cnbc.com/2023/07/06/stocks-making-the-biggest-moves-premarket-jetblue-airways-meta-sweetgreen-and-more.html",
+   "source": "cnbc.com",
+   "published": "2023-07-06"
+  },
+  "2023-07/A0011": {
+   "title": "Meta and Qualcomm team up to run big A.I. models on phones",
+   "url": "https://www.cnbc.com/2023/07/18/meta-and-qualcomm-team-up-to-run-big-ai-models-on-phones.html",
+   "source": "cnbc.com",
+   "published": "2023-07-18"
+  },
+  "2023-07/A0012": {
+   "title": "Meta rolls out first feature update to Threads since launch earlier this month",
+   "url": "https://www.cnbc.com/2023/07/18/meta-updates-threads-with-new-features-including-a-follows-tab.html",
+   "source": "cnbc.com",
+   "published": "2023-07-18"
+  },
+  "2023-07/A0014": {
+   "title": "Meta reports better-than-expected results and issues optimistic guidance for third quarter",
+   "url": "https://www.cnbc.com/2023/07/26/meta-to-report-second-quarter-earnings-after-the-bell.html",
+   "source": "cnbc.com",
+   "published": "2023-07-26"
+  },
+  "2023-07/A0018": {
+   "title": "Meta stock surges after earnings as 'year of efficiency' pays off",
+   "url": "https://www.cnbc.com/2023/07/27/meta-stock-up-after-earnings-year-of-efficiency-paying-off.html",
+   "source": "cnbc.com",
+   "published": "2023-07-27"
+  },
+  "2023-07/A0019": {
+   "title": "Stocks making the biggest moves midday: Meta Platforms, Chipotle, Royal Caribbean and more",
+   "url": "https://www.cnbc.com/2023/07/27/stocks-making-the-biggest-moves-midday-meta-platforms-chipotle-royal-caribbean-and-more.html",
+   "source": "cnbc.com",
+   "published": "2023-07-27"
+  },
+  "2023-07/A0020": {
+   "title": "Google, Microsoft, and Meta can't stop talking about A.I. — here's why Apple rarely mentions it",
+   "url": "https://www.cnbc.com/2023/07/28/why-apple-doesnt-talk-about-ai-as-much-as-google-meta-and-microsoft.html",
+   "source": "cnbc.com",
+   "published": "2023-07-28"
+  },
+  "2023-07/A0031": {
+   "title": "Meta takes aim at Twitter with Threads app, millions join",
+   "url": "https://finance.yahoo.com/news/zuckerberg-musk-fight-meta-launches-222916421.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-07-05"
+  },
+  "2023-07/A0041": {
+   "title": "Amazon Analysts Estimate Deeper Discounts On Prime Day, Meta Platforms Threads App Can Generate Annual Sales Of $8B In 2 years, Uber's CFO Departs: Today's Top Stories",
+   "url": "https://finance.yahoo.com/news/amazon-analysts-estimate-deeper-discounts-152720118.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-07-11"
+  },
+  "2023-07/A0050": {
+   "title": "Meta opens AI model to commercial use, throwing nascent market into flux",
+   "url": "https://finance.yahoo.com/news/meta-opens-ai-model-commercial-155458494.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-07-18"
+  },
+  "2023-07/A0051": {
+   "title": "Facebook parent Meta makes public its ChatGPT rival Llama",
+   "url": "https://finance.yahoo.com/news/facebook-parent-meta-makes-public-171427924.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-07-18"
+  },
+  "2023-07/A0052": {
+   "title": "Meta Opens AI Chatbot Tech for Commercial Use via Microsoft",
+   "url": "https://finance.yahoo.com/news/meta-opens-ai-chatbot-tech-155000404.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-07-18"
+  },
+  "2023-07/A0053": {
+   "title": "Microsoft Broadens AI Bets Beyond OpenAI With Meta Alliance",
+   "url": "https://finance.yahoo.com/news/microsoft-broadens-ai-bets-beyond-205030916.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-07-18"
+  },
+  "2023-07/A0071": {
+   "title": "Meta Claws Back to Pre-Crash Levels on Strong Results",
+   "url": "https://finance.yahoo.com/news/meta-shares-climb-revenue-forecast-203108487.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-07-26"
+  },
+  "2023-07/A0076": {
+   "title": "Marketmind: ECB to follow Fed hike, Meta surges",
+   "url": "https://finance.yahoo.com/news/marketmind-ecb-fed-hike-meta-100311114.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-07-27"
+  },
+  "2023-07/A0079": {
+   "title": "Meta Platforms upgraded, Estee Lauder downgraded: Wall Street's top analyst call",
+   "url": "https://finance.yahoo.com/news/meta-platforms-upgraded-estee-lauder-135633937.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-07-27"
+  },
+  "2023-07/A0081": {
+   "title": "Meta Has Rebounded But The Metaverse Is Still Far From Reality",
+   "url": "https://finance.yahoo.com/news/meta-rebounded-metaverse-still-far-154838606.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-07-27"
+  },
+  "2023-07/A0084": {
+   "title": "Meta adds $69 billion in market value after Mark Zuckerberg sees advertising rebound and talks up Threads potential",
+   "url": "https://finance.yahoo.com/news/meta-adds-69-billion-market-215621125.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-07-27"
+  },
+  "2023-07/A0086": {
+   "title": "Meta plans retention 'hooks' for Threads as more than half of users leave app",
+   "url": "https://finance.yahoo.com/news/meta-plans-retention-hooks-threads-013409871.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-07-28"
+  },
+  "2023-08/A0006": {
+   "title": "Meta prepares AI-powered chatbots in attempt to retain users - FT",
+   "url": "https://finance.yahoo.com/news/meta-prepares-ai-powered-chatbots-044339618.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-08-01"
+  },
+  "2023-08/A0009": {
+   "title": "Meta Bets Big on AI to Revive Facebook and Instagram",
+   "url": "https://finance.yahoo.com/news/meta-bets-big-ai-revive-185719756.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-08-01"
+  },
+  "2023-08/A0011": {
+   "title": "Apple and Meta powered the Nasdaq's sizzling rally in July, helping the tech-heavy index wrap up a 5-month winning streak",
+   "url": "https://finance.yahoo.com/news/apple-meta-powered-nasdaqs-sizzling-232436479.html",
+   "source": "finance.yahoo.com",
+   "published": "2023-08-01"
+  }
+ }
+}

@@ -1,0 +1,17 @@
+# Workspace-wide safety net. Each folder's own .gitignore adds its specifics
+# (fetched article text, caches, generated outputs).
+
+# Credentials - several folders keep API keys in .env
+.env
+
+# Python (one environment for the project: .venv/ at the root)
+__pycache__/
+*.pyc
+.venv/
+venv*/
+
+
+
+# The project's history (what changed, what was tried, the tests behind each choice) is kept
+# locally and not published; the METHODOLOGY files describe the current state only.
+CHANGELOG.md
