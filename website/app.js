@@ -677,7 +677,7 @@ async function main() {
     container.innerHTML = "";
     const p = document.createElement("p");
     p.className = "error";
-    p.textContent = `Could not load the data (${err.message}). If you opened index.html directly, ` +
+    p.textContent = `Could not load the data (${err.message}). If you opened the page directly, ` +
       "serve the folder instead: python -m http.server 8000 -d website";
     container.appendChild(p);
     console.error(err);

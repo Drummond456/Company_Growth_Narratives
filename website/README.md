@@ -27,9 +27,9 @@ press release, its one-time item lines and the filing. The same ID again closes 
 (`data/cost/`, `data/meta_2022-09_2023-08/`). Re-running any folder, or `main.py`, leaves the
 site unchanged until you copy new outputs in by hand.
 
-**The Design Overview tab** (`design.html`) is the content of `docs/pitch_flowchart.html` (the
-flowchart, the two models, the Costco proof of concept, the trust notes and the data upgrade
-path), restyled in the site's look, without the pitch's per-model costs (the Costco section
+**The Design Overview tab** (`index.html`, the site's landing page) is the content of
+`docs/pitch_flowchart.html` (the flowchart, the two models, the Costco proof of concept, the
+trust notes and the data upgrade path), restyled in the site's look, without the pitch's per-model costs (the Costco section
 gives the year's total); its styles are the "design overview" section of
 `style.css`, and the flowchart's SVG classes carry an `fc-` prefix. A change to the pitch is
 copied over by hand: the text as is, and the SVG with `fc-` added to each class.
@@ -122,23 +122,22 @@ METHODOLOGY §7). Copy a page's history right after the history run for its own 
 
 ## Preview locally
 
-The page fetches its data, so it needs a server; opening `index.html` as a file won't work.
+The page fetches its data, so it needs a server; opening a page as a file won't work.
 
 ```
 python -m http.server 8000 -d website
 ```
 
 Then open http://localhost:8000. A month can be linked directly, e.g.
-http://localhost:8000/#2024-07 or http://localhost:8000/meta.html#2022-11.
+http://localhost:8000/costco.html#2024-07 or http://localhost:8000/meta.html#2022-11.
 
 ## How it's built
 
 There is no build step: the pages, `style.css` and `app.js`; `update_data.py` (standard
 library only) prepares the data. The site has three pages, and a tab bar at the top of each
-links them, in this order: **Design Overview** (`design.html`), **Example Output – Meta
-Platforms (META)** (`meta.html`) and **Example Output – Costco (COST)** (`index.html`, the
-site's landing page). The two example
-pages are the same HTML and share `app.js`; each one's `<body data-company="cost">` picks its
+links them, in this order: **Design Overview** (`index.html`, the site's landing page),
+**Example Output – Meta Platforms (META)** (`meta.html`) and **Example Output – Costco (COST)**
+(`costco.html`). The two example pages are the same HTML and share `app.js`; each one's `<body data-company="cost">` picks its
 `COMPANIES` entry and its data folder. **The market model's sector ETF** is read from the
 run's settings line in `explanations.md` ("market model: S&P 500 + RSPS"), so it always
 matches the data: the legend shows it ("Market's part (S&P 500 + RSPS), cumulative"), and the

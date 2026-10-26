@@ -507,7 +507,7 @@ a:hover { text-decoration-color: var(--accent); }
 .ev-recon summary { cursor: pointer; }
 .ev-recon pre { max-height: 220px; overflow: auto; margin: 4px 0 0; font: 0.66rem/1.5 var(--mono); white-space: pre; color: var(--ink-2); }
 
-/* The design overview (design.html): the flowchart and the pitch's sections as panels in the same
+/* The design overview (index.html): the flowchart and the pitch's sections as panels in the same
    hull. The flowchart keeps square corners, like the chart; the sections are cut like the month
    panels. Its two lanes: the words in brass (--news), the growth share's green for the core and the
    output. */
